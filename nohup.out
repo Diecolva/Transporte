@@ -1368,3 +1368,7 @@ Quit the server with CONTROL-C.
 [05/Jun/2023 03:39:10] "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.0" 304 0
 [05/Jun/2023 03:39:12] "GET /admin/logout/ HTTP/1.0" 200 2194
 [05/Jun/2023 03:53:46] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
+[05/Jun/2023 04:01:05] "GET / HTTP/1.0" 200 1094
+[05/Jun/2023 04:02:40] "GET / HTTP/1.0" 200 1094
+[05/Jun/2023 04:02:42] "GET /admin/ HTTP/1.0" 302 0
+[05/Jun/2023 04:02:42] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
