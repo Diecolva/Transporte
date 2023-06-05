@@ -1606,3 +1606,6 @@ Quit the server with CONTROL-C.
 [05/Jun/2023 17:31:11] "GET /static/img/image-tda.png HTTP/1.0" 304 0
 [05/Jun/2023 17:31:11] "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.0" 304 0
 [05/Jun/2023 17:45:51] "GET /.git/config HTTP/1.0" 404 179
+[05/Jun/2023 17:50:47] "POST / HTTP/1.0" 403 1444
+[05/Jun/2023 17:50:47] "GET /.env HTTP/1.0" 404 179
+[05/Jun/2023 18:01:59] "GET / HTTP/1.0" 200 1094
