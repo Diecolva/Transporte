@@ -1609,3 +1609,4 @@ Quit the server with CONTROL-C.
 [05/Jun/2023 17:50:47] "POST / HTTP/1.0" 403 1444
 [05/Jun/2023 17:50:47] "GET /.env HTTP/1.0" 404 179
 [05/Jun/2023 18:01:59] "GET / HTTP/1.0" 200 1094
+[05/Jun/2023 18:07:28] "POST /boaform/admin/formLogin HTTP/1.0" 404 179
