@@ -1,0 +1,1361 @@
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 04, 2023 - 05:00:18
+Django version 4.2.1, using settings 'proyecto.settings'
+Starting development server at http://147.182.184.6:8000/
+Quit the server with CONTROL-C.
+
+[04/Jun/2023 05:01:29] "GET / HTTP/1.0" 200 1094
+[04/Jun/2023 05:01:32] "GET /admin/ HTTP/1.0" 302 0
+[04/Jun/2023 05:01:32] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
+[04/Jun/2023 05:01:32] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 304 0
+[04/Jun/2023 05:01:32] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.0" 304 0
+[04/Jun/2023 05:01:32] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.0" 304 0
+[04/Jun/2023 05:01:32] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 304 0
+[04/Jun/2023 05:01:32] "GET /static/jazzmin/css/main.css HTTP/1.0" 304 0
+[04/Jun/2023 05:01:32] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.0" 304 0
+[04/Jun/2023 05:01:32] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[04/Jun/2023 05:01:32] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.0" 304 0
+[04/Jun/2023 05:01:32] "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.0" 304 0
+Forbidden (CSRF cookie not set.): /
+[04/Jun/2023 05:01:38] "POST / HTTP/1.0" 403 2922
+Not Found: /.env
+[04/Jun/2023 05:01:38] "GET /.env HTTP/1.0" 404 2190
+[04/Jun/2023 05:01:50] "GET / HTTP/1.0" 200 1094
+[04/Jun/2023 05:01:53] "GET /admin/ HTTP/1.0" 302 0
+[04/Jun/2023 05:01:53] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
+Not Found: /human.aspx
+[04/Jun/2023 05:22:23] "GET /human.aspx HTTP/1.0" 404 2208
+Not Found: /human2.aspx
+[04/Jun/2023 05:22:39] "GET /human2.aspx HTTP/1.0" 404 2211
+Not Found: /Eetie0ph.aspx
+[04/Jun/2023 05:22:55] "GET /Eetie0ph.aspx HTTP/1.0" 404 2217
+[04/Jun/2023 05:32:09] "GET / HTTP/1.0" 200 1094
+Not Found: /.env
+[04/Jun/2023 05:39:44] "GET /.env HTTP/1.0" 404 2190
+[04/Jun/2023 06:24:50] "GET / HTTP/1.0" 200 1094
+Not Found: /.env
+[04/Jun/2023 06:28:13] "GET /.env HTTP/1.0" 404 2190
+Forbidden (CSRF cookie not set.): /
+[04/Jun/2023 06:28:14] "POST / HTTP/1.0" 403 2922
+Not Found: /.git/config
+[04/Jun/2023 06:33:11] "GET /.git/config HTTP/1.0" 404 2211
+Not Found: /.git/config
+[04/Jun/2023 06:33:12] "GET /.git/config HTTP/1.0" 404 2211
+Not Found: /.git/config
+[04/Jun/2023 06:33:15] "GET /.git/config HTTP/1.0" 404 2211
+Not Found: /.git/config
+[04/Jun/2023 06:33:15] "GET /.git/config HTTP/1.0" 404 2211
+Forbidden (CSRF cookie not set.): /
+[04/Jun/2023 06:42:51] "POST / HTTP/1.0" 403 2922
+Not Found: /.env
+[04/Jun/2023 06:42:51] "GET /.env HTTP/1.0" 404 2190
+[04/Jun/2023 06:50:04] "GET / HTTP/1.0" 200 1094
+[04/Jun/2023 06:50:24] "GET / HTTP/1.0" 200 1094
+Not Found: /solr/
+[04/Jun/2023 06:50:27] "GET /solr/ HTTP/1.0" 404 2193
+Not Found: /webfig/
+[04/Jun/2023 06:51:09] "GET /webfig/ HTTP/1.0" 404 2199
+Not Found: /favicon.ico
+[04/Jun/2023 06:51:58] "GET /favicon.ico HTTP/1.0" 404 2211
+[04/Jun/2023 06:51:58] "GET / HTTP/1.0" 200 1094
+[04/Jun/2023 06:51:59] "GET /admin/ HTTP/1.0" 302 0
+Not Found: /sugar_version.json
+[04/Jun/2023 06:51:59] "GET /sugar_version.json HTTP/1.0" 404 2232
+[04/Jun/2023 07:13:26] "GET / HTTP/1.0" 200 1094
+[04/Jun/2023 07:15:29] "GET / HTTP/1.0" 200 1094
+Not Found: /data/
+[04/Jun/2023 07:37:11] "PROPFIND /data/ HTTP/1.0" 404 2198
+Not Found: /data/
+[04/Jun/2023 07:37:38] "PROPFIND /data/ HTTP/1.0" 404 2198
+Not Found: /data/
+[04/Jun/2023 07:38:20] "PROPFIND /data/ HTTP/1.0" 404 2198
+Not Found: /data/
+[04/Jun/2023 07:38:23] "PROPFIND /data/ HTTP/1.0" 404 2198
+Not Found: /data/
+[04/Jun/2023 07:38:24] "PROPFIND /data/ HTTP/1.0" 404 2198
+Not Found: /data/
+[04/Jun/2023 07:38:25] "PROPFIND /data/ HTTP/1.0" 404 2198
+Not Found: /data/
+[04/Jun/2023 07:38:50] "PROPFIND /data/ HTTP/1.0" 404 2198
+Not Found: /data/
+[04/Jun/2023 07:39:20] "PROPFIND /data/ HTTP/1.0" 404 2198
+Not Found: /data/
+[04/Jun/2023 07:39:20] "PROPFIND /data/ HTTP/1.0" 404 2198
+Not Found: /data/
+[04/Jun/2023 07:39:21] "PROPFIND /data/ HTTP/1.0" 404 2198
+Not Found: /data/
+[04/Jun/2023 07:39:23] "PROPFIND /data/ HTTP/1.0" 404 2198
+Not Found: /data/
+[04/Jun/2023 07:39:27] "PROPFIND /data/ HTTP/1.0" 404 2198
+Not Found: /data/
+[04/Jun/2023 07:39:28] "PROPFIND /data/ HTTP/1.0" 404 2198
+Not Found: /data/
+[04/Jun/2023 07:39:31] "PROPFIND /data/ HTTP/1.0" 404 2198
+Not Found: /data/
+[04/Jun/2023 07:39:32] "PROPFIND /data/ HTTP/1.0" 404 2198
+Not Found: /data/
+[04/Jun/2023 07:39:32] "PROPFIND /data/ HTTP/1.0" 404 2198
+Not Found: /data/
+[04/Jun/2023 07:39:53] "PROPFIND /data/ HTTP/1.0" 404 2198
+Not Found: /data/
+[04/Jun/2023 07:39:53] "PROPFIND /data/ HTTP/1.0" 404 2198
+Not Found: /data/
+[04/Jun/2023 07:39:55] "PROPFIND /data/ HTTP/1.0" 404 2198
+Not Found: /data/
+[04/Jun/2023 07:40:07] "PROPFIND /data/ HTTP/1.0" 404 2198
+Not Found: /data/
+[04/Jun/2023 07:40:08] "PROPFIND /data/ HTTP/1.0" 404 2198
+Not Found: /data/
+[04/Jun/2023 07:40:20] "PROPFIND /data/ HTTP/1.0" 404 2198
+Not Found: /data/
+[04/Jun/2023 07:40:20] "PROPFIND /data/ HTTP/1.0" 404 2198
+Not Found: /data/
+[04/Jun/2023 07:40:44] "PROPFIND /data/ HTTP/1.0" 404 2198
+Not Found: /data/
+[04/Jun/2023 07:40:47] "PROPFIND /data/ HTTP/1.0" 404 2198
+Not Found: /data/
+[04/Jun/2023 07:40:50] "PROPFIND /data/ HTTP/1.0" 404 2198
+Not Found: /data/
+[04/Jun/2023 07:40:53] "PROPFIND /data/ HTTP/1.0" 404 2198
+Not Found: /data/
+[04/Jun/2023 07:41:05] "PROPFIND /data/ HTTP/1.0" 404 2198
+Not Found: /data/
+[04/Jun/2023 07:41:05] "PROPFIND /data/ HTTP/1.0" 404 2198
+Not Found: /data/
+[04/Jun/2023 07:41:57] "PROPFIND /data/ HTTP/1.0" 404 2198
+Not Found: /data/
+[04/Jun/2023 07:42:12] "PROPFIND /data/ HTTP/1.0" 404 2198
+Not Found: /data/
+[04/Jun/2023 07:42:54] "PROPFIND /data/ HTTP/1.0" 404 2198
+Not Found: /data/
+[04/Jun/2023 07:43:06] "PROPFIND /data/ HTTP/1.0" 404 2198
+Not Found: /data/
+[04/Jun/2023 07:43:07] "PROPFIND /data/ HTTP/1.0" 404 2198
+Not Found: /data/
+[04/Jun/2023 07:43:09] "PROPFIND /data/ HTTP/1.0" 404 2198
+Not Found: /data/
+[04/Jun/2023 07:43:09] "PROPFIND /data/ HTTP/1.0" 404 2198
+Not Found: /data/
+[04/Jun/2023 07:43:09] "PROPFIND /data/ HTTP/1.0" 404 2198
+Not Found: /data/
+[04/Jun/2023 07:43:14] "PROPFIND /data/ HTTP/1.0" 404 2198
+Not Found: /data/
+[04/Jun/2023 07:43:14] "PROPFIND /data/ HTTP/1.0" 404 2198
+Not Found: /data/
+[04/Jun/2023 07:43:19] "PROPFIND /data/ HTTP/1.0" 404 2198
+Not Found: /data/
+[04/Jun/2023 07:43:20] "PROPFIND /data/ HTTP/1.0" 404 2198
+Not Found: /data/
+[04/Jun/2023 07:43:23] "PROPFIND /data/ HTTP/1.0" 404 2198
+Not Found: /data/
+[04/Jun/2023 07:43:26] "PROPFIND /data/ HTTP/1.0" 404 2198
+Not Found: /data/
+[04/Jun/2023 07:44:18] "PROPFIND /data/ HTTP/1.0" 404 2198
+Not Found: /data/
+[04/Jun/2023 07:44:21] "PROPFIND /data/ HTTP/1.0" 404 2198
+Not Found: /data/
+[04/Jun/2023 07:44:23] "PROPFIND /data/ HTTP/1.0" 404 2198
+Not Found: /data/
+[04/Jun/2023 07:45:10] "PROPFIND /data/ HTTP/1.0" 404 2198
+Not Found: /data/
+[04/Jun/2023 07:45:11] "PROPFIND /data/ HTTP/1.0" 404 2198
+Not Found: /data/
+[04/Jun/2023 07:45:20] "PROPFIND /data/ HTTP/1.0" 404 2198
+Not Found: /data/
+[04/Jun/2023 07:45:21] "PROPFIND /data/ HTTP/1.0" 404 2198
+Not Found: /data/
+[04/Jun/2023 07:45:21] "PROPFIND /data/ HTTP/1.0" 404 2198
+Not Found: /data/
+[04/Jun/2023 07:45:21] "PROPFIND /data/ HTTP/1.0" 404 2198
+Not Found: /data/
+[04/Jun/2023 07:45:25] "PROPFIND /data/ HTTP/1.0" 404 2198
+Not Found: /data/
+[04/Jun/2023 07:45:26] "PROPFIND /data/ HTTP/1.0" 404 2198
+Not Found: /data/
+[04/Jun/2023 07:45:27] "PROPFIND /data/ HTTP/1.0" 404 2198
+Not Found: /data/
+[04/Jun/2023 07:45:28] "PROPFIND /data/ HTTP/1.0" 404 2198
+Not Found: /data/
+[04/Jun/2023 07:45:29] "PROPFIND /data/ HTTP/1.0" 404 2198
+Not Found: /data/
+[04/Jun/2023 07:45:29] "PROPFIND /data/ HTTP/1.0" 404 2198
+Not Found: /data/
+[04/Jun/2023 07:45:29] "PROPFIND /data/ HTTP/1.0" 404 2198
+Not Found: /data/
+[04/Jun/2023 07:45:47] "PROPFIND /data/ HTTP/1.0" 404 2198
+[04/Jun/2023 07:51:32] "GET / HTTP/1.0" 200 1094
+Not Found: /favicon.ico
+[04/Jun/2023 07:53:20] "GET /favicon.ico HTTP/1.0" 404 2211
+Not Found: /geoserver/web/
+[04/Jun/2023 07:53:55] "GET /geoserver/web/ HTTP/1.0" 404 2220
+Forbidden (CSRF cookie not set.): /
+[04/Jun/2023 08:15:01] "POST / HTTP/1.0" 403 2922
+Not Found: /.env
+[04/Jun/2023 08:15:01] "GET /.env HTTP/1.0" 404 2190
+[04/Jun/2023 08:17:23] "GET / HTTP/1.1" 200 1094
+[04/Jun/2023 08:20:55] "GET / HTTP/1.0" 200 1094
+Forbidden (CSRF cookie not set.): /
+[04/Jun/2023 08:48:17] "POST / HTTP/1.0" 403 2922
+Not Found: /.env
+[04/Jun/2023 08:48:17] "GET /.env HTTP/1.0" 404 2190
+[04/Jun/2023 09:00:59] "GET / HTTP/1.0" 200 1094
+Not Found: /.env
+[04/Jun/2023 09:32:04] "GET /.env HTTP/1.0" 404 2190
+Forbidden (CSRF cookie not set.): /
+[04/Jun/2023 09:32:05] "POST / HTTP/1.0" 403 2922
+Forbidden (CSRF cookie not set.): /
+[04/Jun/2023 09:53:58] "POST / HTTP/1.0" 403 2922
+Not Found: /.env
+[04/Jun/2023 09:53:58] "GET /.env HTTP/1.0" 404 2190
+Not Found: /.env
+[04/Jun/2023 10:18:34] "GET /.env HTTP/1.0" 404 2190
+Forbidden (CSRF cookie not set.): /
+[04/Jun/2023 10:18:34] "POST / HTTP/1.0" 403 2922
+Not Found: /sendgrid/.env
+[04/Jun/2023 10:18:40] "GET /sendgrid/.env HTTP/1.0" 404 2217
+Forbidden (CSRF cookie not set.): /
+[04/Jun/2023 10:18:41] "POST / HTTP/1.0" 403 2922
+Not Found: /.env
+[04/Jun/2023 10:18:48] "GET /.env HTTP/1.0" 404 2190
+[04/Jun/2023 10:23:53] "GET / HTTP/1.0" 200 1094
+[04/Jun/2023 10:38:05] code 400, message Bad request version ('À\x14À')
+[04/Jun/2023 10:38:05] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Jun/2023 10:48:16,252] - Broken pipe from ('172.104.210.105', 41949)
+[04/Jun/2023 10:48:16] "GET / HTTP/1.1" 200 1094
+[04/Jun/2023 10:48:16,529] - Broken pipe from ('172.104.210.105', 41950)
+[04/Jun/2023 10:58:36] "GET / HTTP/1.0" 200 1094
+Forbidden (CSRF cookie not set.): /
+[04/Jun/2023 11:09:32] "POST / HTTP/1.0" 403 2922
+Not Found: /.env
+[04/Jun/2023 11:09:32] "GET /.env HTTP/1.0" 404 2190
+Not Found: /druid/index.html
+[04/Jun/2023 11:22:51] "GET /druid/index.html HTTP/1.0" 404 2226
+[04/Jun/2023 12:01:48] "GET / HTTP/1.0" 200 1094
+[04/Jun/2023 12:06:02] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03üfùà\x93\x9d\x02CYåKçÆ=Xw\x89©áÆèYçCk`ê\x90Ûctq\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[04/Jun/2023 12:06:02] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Jun/2023 12:06:02] code 400, message Bad request version ('À\x14À')
+[04/Jun/2023 12:06:02] You're accessing the development server over HTTPS, but it only supports HTTP.
+[04/Jun/2023 12:06:03] "GET / HTTP/1.1" 200 1094
+[04/Jun/2023 12:06:03] code 400, message Bad request version ('À\x14À')
+[04/Jun/2023 12:06:03] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /api/islogged
+[04/Jun/2023 12:06:04] "GET /api/islogged HTTP/1.1" 404 2219
+[04/Jun/2023 12:13:11] "GET / HTTP/1.0" 200 1094
+Not Found: /.env
+[04/Jun/2023 12:32:16] "GET /.env HTTP/1.0" 404 2190
+Forbidden (CSRF cookie not set.): /
+[04/Jun/2023 12:32:16] "POST / HTTP/1.0" 403 2922
+Forbidden (CSRF cookie not set.): /
+[04/Jun/2023 12:41:32] "POST / HTTP/1.0" 403 2922
+Not Found: /.env
+[04/Jun/2023 12:41:32] "GET /.env HTTP/1.0" 404 2190
+[04/Jun/2023 12:59:10] "GET / HTTP/1.0" 200 1094
+[04/Jun/2023 13:16:13] "GET / HTTP/1.0" 200 1094
+[04/Jun/2023 13:41:34] "GET / HTTP/1.0" 200 1094
+Forbidden (CSRF cookie not set.): /
+[04/Jun/2023 13:44:03] "POST / HTTP/1.0" 403 2922
+Not Found: /.env
+[04/Jun/2023 13:44:03] "GET /.env HTTP/1.0" 404 2190
+[04/Jun/2023 13:55:40] "GET / HTTP/1.0" 200 1094
+Invalid HTTP_HOST header: 'example.com:80'. You may need to add 'example.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'example.com:80'. You may need to add 'example.com' to ALLOWED_HOSTS.
+Bad Request: /example.com:80
+[04/Jun/2023 13:58:16] "CONNECT example.com:80 HTTP/1.1" 400 62556
+[04/Jun/2023 13:58:31] code 400, message Bad request syntax ('\x05\x01\x00')
+[04/Jun/2023 13:58:31] " " 400 -
+[04/Jun/2023 13:58:31] code 400, message Bad request syntax ('\x04\x01\x00P\x00\x00\x00\x01\x00example.com\x00')
+[04/Jun/2023 13:58:31] " P    example.com " 400 -
+[04/Jun/2023 13:59:37] "GET / HTTP/1.0" 200 1094
+Not Found: /.git/config
+[04/Jun/2023 14:03:17] "GET /.git/config HTTP/1.0" 404 2211
+Not Found: /api/.env
+[04/Jun/2023 14:03:18] "GET /api/.env HTTP/1.0" 404 2202
+Not Found: /api/.env
+[04/Jun/2023 14:03:18] "POST /api/.env HTTP/1.0" 404 2203
+Not Found: /.env.dist
+[04/Jun/2023 14:03:19] "GET /.env.dist HTTP/1.0" 404 2205
+Not Found: /.env.dist
+[04/Jun/2023 14:03:19] "POST /.env.dist HTTP/1.0" 404 2206
+Not Found: /apps/.env
+[04/Jun/2023 14:03:20] "GET /apps/.env HTTP/1.0" 404 2205
+Not Found: /apps/.env
+[04/Jun/2023 14:03:20] "POST /apps/.env HTTP/1.0" 404 2206
+Not Found: /development/.env
+[04/Jun/2023 14:03:21] "GET /development/.env HTTP/1.0" 404 2226
+Not Found: /development/.env
+[04/Jun/2023 14:03:21] "POST /development/.env HTTP/1.0" 404 2227
+Not Found: /.env
+[04/Jun/2023 14:03:21] "GET /.env HTTP/1.0" 404 2190
+Not Found: /.env
+[04/Jun/2023 14:03:22] "POST /.env HTTP/1.0" 404 2191
+Not Found: /system/.env
+[04/Jun/2023 14:03:22] "GET /system/.env HTTP/1.0" 404 2211
+Not Found: /system/.env
+[04/Jun/2023 14:03:23] "POST /system/.env HTTP/1.0" 404 2212
+Not Found: /rest/.env
+[04/Jun/2023 14:03:23] "GET /rest/.env HTTP/1.0" 404 2205
+Not Found: /rest/.env
+[04/Jun/2023 14:03:24] "POST /rest/.env HTTP/1.0" 404 2206
+Not Found: /.env.production
+[04/Jun/2023 14:03:24] "GET /.env.production HTTP/1.0" 404 2223
+Not Found: /.env.production
+[04/Jun/2023 14:03:25] "POST /.env.production HTTP/1.0" 404 2224
+Not Found: /core/.env
+[04/Jun/2023 14:03:25] "GET /core/.env HTTP/1.0" 404 2205
+Not Found: /core/.env
+[04/Jun/2023 14:03:26] "POST /core/.env HTTP/1.0" 404 2206
+Not Found: /app/.env
+[04/Jun/2023 14:03:26] "GET /app/.env HTTP/1.0" 404 2202
+Not Found: /app/.env
+[04/Jun/2023 14:03:26] "POST /app/.env HTTP/1.0" 404 2203
+Not Found: /laravel/.env
+[04/Jun/2023 14:03:27] "GET /laravel/.env HTTP/1.0" 404 2214
+Not Found: /laravel/.env
+[04/Jun/2023 14:03:27] "POST /laravel/.env HTTP/1.0" 404 2215
+Not Found: /private/.env
+[04/Jun/2023 14:03:28] "GET /private/.env HTTP/1.0" 404 2214
+Not Found: /private/.env
+[04/Jun/2023 14:03:28] "POST /private/.env HTTP/1.0" 404 2215
+Not Found: /script/.env
+[04/Jun/2023 14:03:29] "GET /script/.env HTTP/1.0" 404 2211
+Not Found: /script/.env
+[04/Jun/2023 14:03:29] "POST /script/.env HTTP/1.0" 404 2212
+Not Found: /sources/.env
+[04/Jun/2023 14:03:30] "GET /sources/.env HTTP/1.0" 404 2214
+Not Found: /sources/.env
+[04/Jun/2023 14:03:30] "POST /sources/.env HTTP/1.0" 404 2215
+Not Found: /cms/.env
+[04/Jun/2023 14:03:31] "GET /cms/.env HTTP/1.0" 404 2202
+Not Found: /cms/.env
+[04/Jun/2023 14:03:31] "POST /cms/.env HTTP/1.0" 404 2203
+Not Found: /.env.old
+[04/Jun/2023 14:03:32] "GET /.env.old HTTP/1.0" 404 2202
+Not Found: /.env.old
+[04/Jun/2023 14:03:32] "POST /.env.old HTTP/1.0" 404 2203
+Not Found: /back/.env
+[04/Jun/2023 14:03:32] "GET /back/.env HTTP/1.0" 404 2205
+Not Found: /back/.env
+[04/Jun/2023 14:03:33] "POST /back/.env HTTP/1.0" 404 2206
+Not Found: /enviroments/.env.production
+[04/Jun/2023 14:03:33] "GET /enviroments/.env.production HTTP/1.0" 404 2259
+Not Found: /enviroments/.env.production
+[04/Jun/2023 14:03:34] "POST /enviroments/.env.production HTTP/1.0" 404 2260
+Not Found: /fedex/.env
+[04/Jun/2023 14:03:34] "GET /fedex/.env HTTP/1.0" 404 2208
+Not Found: /fedex/.env
+[04/Jun/2023 14:03:35] "POST /fedex/.env HTTP/1.0" 404 2209
+Not Found: /live_env
+[04/Jun/2023 14:03:35] "GET /live_env HTTP/1.0" 404 2202
+Not Found: /live_env
+[04/Jun/2023 14:03:39] "POST /live_env HTTP/1.0" 404 2203
+Not Found: /admin-app/.env
+[04/Jun/2023 14:03:39] "GET /admin-app/.env HTTP/1.0" 404 2220
+Not Found: /admin-app/.env
+[04/Jun/2023 14:03:40] "POST /admin-app/.env HTTP/1.0" 404 2221
+Not Found: /enviroments/.env
+[04/Jun/2023 14:03:40] "GET /enviroments/.env HTTP/1.0" 404 2226
+Not Found: /enviroments/.env
+[04/Jun/2023 14:03:41] "POST /enviroments/.env HTTP/1.0" 404 2227
+Not Found: /.env.save
+[04/Jun/2023 14:03:41] "GET /.env.save HTTP/1.0" 404 2205
+Not Found: /.env.save
+[04/Jun/2023 14:03:41] "POST /.env.save HTTP/1.0" 404 2206
+Not Found: /local/.env
+[04/Jun/2023 14:03:42] "GET /local/.env HTTP/1.0" 404 2208
+Not Found: /local/.env
+[04/Jun/2023 14:03:42] "POST /local/.env HTTP/1.0" 404 2209
+Not Found: /.env.development
+[04/Jun/2023 14:03:43] "GET /.env.development HTTP/1.0" 404 2226
+Not Found: /.env.development
+[04/Jun/2023 14:03:43] "POST /.env.development HTTP/1.0" 404 2227
+Not Found: /.env.project
+[04/Jun/2023 14:03:44] "GET /.env.project HTTP/1.0" 404 2214
+Not Found: /.env.project
+[04/Jun/2023 14:03:44] "POST /.env.project HTTP/1.0" 404 2215
+Not Found: /shared/.env
+[04/Jun/2023 14:03:45] "GET /shared/.env HTTP/1.0" 404 2211
+Not Found: /shared/.env
+[04/Jun/2023 14:03:45] "POST /shared/.env HTTP/1.0" 404 2212
+Not Found: /docker/.env
+[04/Jun/2023 14:03:45] "GET /docker/.env HTTP/1.0" 404 2211
+Not Found: /docker/.env
+[04/Jun/2023 14:03:46] "POST /docker/.env HTTP/1.0" 404 2212
+Not Found: /cp/.env
+[04/Jun/2023 14:03:46] "GET /cp/.env HTTP/1.0" 404 2199
+Not Found: /cp/.env
+[04/Jun/2023 14:03:47] "POST /cp/.env HTTP/1.0" 404 2200
+Not Found: /application/.env
+[04/Jun/2023 14:03:47] "GET /application/.env HTTP/1.0" 404 2226
+Not Found: /application/.env
+[04/Jun/2023 14:03:48] "POST /application/.env HTTP/1.0" 404 2227
+Not Found: /.env.prod
+[04/Jun/2023 14:03:48] "GET /.env.prod HTTP/1.0" 404 2205
+Not Found: /.env.prod
+[04/Jun/2023 14:03:49] "POST /.env.prod HTTP/1.0" 404 2206
+Not Found: /frontend_dev.php/$
+[04/Jun/2023 14:03:49] "GET /frontend_dev.php/$ HTTP/1.0" 404 2232
+Not Found: /debug/default/view
+[04/Jun/2023 14:03:50] "GET /debug/default/view?panel=config HTTP/1.0" 404 2245
+Not Found: /config.json
+[04/Jun/2023 14:03:50] "GET /config.json HTTP/1.0" 404 2211
+Not Found: /.json
+[04/Jun/2023 14:03:51] "GET /.json HTTP/1.0" 404 2193
+Not Found: /_profiler/phpinfo
+[04/Jun/2023 14:03:51] "GET /_profiler/phpinfo HTTP/1.0" 404 2229
+Not Found: /info.php
+[04/Jun/2023 14:03:51] "GET /info.php HTTP/1.0" 404 2202
+[04/Jun/2023 14:03:52] "GET /?phpinfo=1 HTTP/1.0" 200 1094
+Not Found: /phpinfo.php
+[04/Jun/2023 14:03:52] "GET /phpinfo.php HTTP/1.0" 404 2211
+[04/Jun/2023 14:08:59] "GET / HTTP/1.0" 200 1094
+[04/Jun/2023 14:10:30] "GET / HTTP/1.0" 200 1094
+Not Found: /favicon.ico
+[04/Jun/2023 14:10:30] "GET /favicon.ico HTTP/1.0" 404 2211
+[04/Jun/2023 14:10:38] "GET /admin/ HTTP/1.0" 302 0
+[04/Jun/2023 14:10:38] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
+[04/Jun/2023 14:10:38] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.0" 304 0
+[04/Jun/2023 14:10:38] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 304 0
+[04/Jun/2023 14:10:38] "GET /static/jazzmin/css/main.css HTTP/1.0" 304 0
+[04/Jun/2023 14:10:38] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.0" 304 0
+[04/Jun/2023 14:10:38] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.0" 304 0
+[04/Jun/2023 14:10:38] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 304 0
+[04/Jun/2023 14:10:38] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.0" 304 0
+[04/Jun/2023 14:10:38] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[04/Jun/2023 14:10:38] "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.0" 304 0
+[04/Jun/2023 14:22:21] "GET / HTTP/1.0" 200 1094
+Not Found: /favicon.ico
+[04/Jun/2023 14:22:22] "GET /favicon.ico HTTP/1.0" 404 2211
+[04/Jun/2023 14:22:34] "GET /admin HTTP/1.0" 301 0
+[04/Jun/2023 14:22:34] "GET /admin/ HTTP/1.0" 302 0
+[04/Jun/2023 14:22:35] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
+[04/Jun/2023 14:22:35] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.0" 200 59344
+[04/Jun/2023 14:22:35] "GET /static/jazzmin/css/main.css HTTP/1.0" 200 16969
+[04/Jun/2023 14:22:35] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 200 292458
+[04/Jun/2023 14:22:35] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 200 1382975
+[04/Jun/2023 14:22:35] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.0" 200 163234
+[04/Jun/2023 14:22:35] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.0" 200 62440
+[04/Jun/2023 14:22:36] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.0" 200 44244
+[04/Jun/2023 14:22:36] "GET /static/img/image-tda.png HTTP/1.0" 200 69859
+[04/Jun/2023 14:22:37] "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.0" 200 78196
+[04/Jun/2023 14:22:37] "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.0" 200 13276
+[04/Jun/2023 14:22:38] "GET /static/img/image-tda.png HTTP/1.0" 200 69859
+[04/Jun/2023 14:22:54] "POST /admin/login/?next=/admin/ HTTP/1.0" 302 0
+[04/Jun/2023 14:22:54] "GET /admin/ HTTP/1.0" 200 22459
+[04/Jun/2023 14:22:55] "GET /static/img/image-tda.png HTTP/1.0" 200 69859
+[04/Jun/2023 14:22:55] "GET /static/jazzmin/js/main.js HTTP/1.0" 200 2391
+[04/Jun/2023 14:23:04] "GET /admin/logout/ HTTP/1.0" 200 2194
+[04/Jun/2023 14:23:07] "GET /admin/ HTTP/1.0" 302 0
+[04/Jun/2023 14:23:07] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
+Invalid HTTP_HOST header: 'google.com:443'. You may need to add 'google.com' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'google.com:443'. You may need to add 'google.com' to ALLOWED_HOSTS.
+Bad Request: /google.com:443
+[04/Jun/2023 14:28:36] "CONNECT google.com:443 HTTP/1.1" 400 62583
+[04/Jun/2023 14:29:58] "GET / HTTP/1.0" 200 1094
+[04/Jun/2023 14:38:10] "POST /admin/login/?next=/admin/ HTTP/1.0" 302 0
+[04/Jun/2023 14:38:10] "GET /admin/ HTTP/1.0" 200 22462
+[04/Jun/2023 14:38:10] "GET /static/jazzmin/js/main.js HTTP/1.0" 304 0
+[04/Jun/2023 14:38:10] "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.0" 304 0
+[04/Jun/2023 14:38:18] "GET /admin/auth/group/ HTTP/1.0" 200 15830
+[04/Jun/2023 14:38:19] "GET /static/vendor/select2/css/select2.min.css HTTP/1.0" 200 16264
+[04/Jun/2023 14:38:19] "GET /admin/jsi18n/ HTTP/1.0" 200 8006
+[04/Jun/2023 14:38:19] "GET /static/admin/js/jquery.init.js HTTP/1.0" 200 347
+[04/Jun/2023 14:38:19] "GET /static/admin/js/core.js HTTP/1.0" 200 5682
+[04/Jun/2023 14:38:19] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.0" 200 8943
+[04/Jun/2023 14:38:19] "GET /static/admin/js/actions.js HTTP/1.0" 200 7872
+[04/Jun/2023 14:38:19] "GET /static/admin/js/urlify.js HTTP/1.0" 200 7887
+[04/Jun/2023 14:38:19] "GET /static/admin/js/prepopulate.js HTTP/1.0" 200 1531
+[04/Jun/2023 14:38:19] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.0" 200 232381
+[04/Jun/2023 14:38:19] "GET /static/vendor/select2/js/select2.min.js HTTP/1.0" 200 73170
+[04/Jun/2023 14:38:19] "GET /static/jazzmin/js/change_list.js HTTP/1.0" 200 2252
+[04/Jun/2023 14:38:23] "GET /admin/auth/user/ HTTP/1.0" 200 20899
+[04/Jun/2023 14:38:23] "GET /static/admin/img/icon-no.svg HTTP/1.0" 200 560
+[04/Jun/2023 14:38:23] "GET /admin/jsi18n/ HTTP/1.0" 200 8006
+[04/Jun/2023 14:38:23] "GET /static/admin/img/icon-yes.svg HTTP/1.0" 200 436
+[04/Jun/2023 14:38:26] "GET /admin/auth/group/ HTTP/1.0" 200 15830
+[04/Jun/2023 14:38:26] "GET /admin/jsi18n/ HTTP/1.0" 200 8006
+[04/Jun/2023 14:38:49] "GET /admin/ HTTP/1.0" 200 22462
+[04/Jun/2023 14:38:51] "GET /admin/Transporteapp/veh%C3%ADculo/ HTTP/1.0" 200 13149
+[04/Jun/2023 14:38:51] "GET /admin/jsi18n/ HTTP/1.0" 200 8006
+[04/Jun/2023 14:38:53] "GET /admin/Transporteapp/veh%C3%ADculo/add/ HTTP/1.0" 200 14217
+[04/Jun/2023 14:38:53] "GET /static/admin/js/change_form.js HTTP/1.0" 200 606
+[04/Jun/2023 14:38:53] "GET /admin/jsi18n/ HTTP/1.0" 200 8006
+[04/Jun/2023 14:38:53] "GET /static/jazzmin/js/change_form.js HTTP/1.0" 200 6052
+[04/Jun/2023 14:38:53] "GET /static/admin/js/prepopulate_init.js HTTP/1.0" 200 586
+[04/Jun/2023 14:38:56] "GET /admin/Transporteapp/bitacora/ HTTP/1.0" 200 13138
+[04/Jun/2023 14:38:56] "GET /admin/jsi18n/ HTTP/1.0" 200 8006
+[04/Jun/2023 14:38:59] "GET /admin/Transporteapp/cliente/ HTTP/1.0" 200 13131
+[04/Jun/2023 14:38:59] "GET /admin/jsi18n/ HTTP/1.0" 200 8006
+[04/Jun/2023 14:39:00] "GET /admin/Transporteapp/cliente/add/ HTTP/1.0" 200 17003
+[04/Jun/2023 14:39:00] "GET /admin/jsi18n/ HTTP/1.0" 200 8006
+[04/Jun/2023 14:39:13] "POST /admin/Transporteapp/cliente/add/ HTTP/1.0" 302 0
+[04/Jun/2023 14:39:13] "GET /admin/Transporteapp/cliente/ HTTP/1.0" 200 16010
+[04/Jun/2023 14:39:13] "GET /admin/jsi18n/ HTTP/1.0" 200 8006
+[04/Jun/2023 14:39:19] "POST /admin/Transporteapp/cliente/ HTTP/1.0" 200 13087
+[04/Jun/2023 14:39:19] "GET /static/admin/js/cancel.js HTTP/1.0" 200 564
+[04/Jun/2023 14:39:21] "POST /admin/Transporteapp/cliente/ HTTP/1.0" 302 0
+[04/Jun/2023 14:39:21] "GET /admin/Transporteapp/cliente/ HTTP/1.0" 200 13640
+[04/Jun/2023 14:39:21] "GET /admin/jsi18n/ HTTP/1.0" 200 8006
+[04/Jun/2023 14:39:26] "GET /admin/logout/ HTTP/1.0" 200 2194
+[04/Jun/2023 14:39:28] "GET /admin/ HTTP/1.0" 302 0
+[04/Jun/2023 14:39:28] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
+/root/Transporte/proyecto/settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 04, 2023 - 14:41:19
+Django version 4.2.1, using settings 'proyecto.settings'
+Starting development server at http://147.182.184.6:8000/
+Quit the server with CONTROL-C.
+
+[04/Jun/2023 14:41:20] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
+[04/Jun/2023 14:41:25] "POST /admin/login/?next=/admin/ HTTP/1.0" 302 0
+[04/Jun/2023 14:41:25] "GET /admin/ HTTP/1.0" 200 24390
+[04/Jun/2023 14:41:27] "GET /admin/logout/ HTTP/1.0" 200 2194
+[04/Jun/2023 14:41:30] "GET /admin/ HTTP/1.0" 302 0
+[04/Jun/2023 14:41:30] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
+[04/Jun/2023 14:41:39] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
+[04/Jun/2023 14:41:39] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.0" 404 179
+[04/Jun/2023 14:41:39] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 404 179
+[04/Jun/2023 14:41:39] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.0" 404 179
+[04/Jun/2023 14:41:39] "GET /static/jazzmin/css/main.css HTTP/1.0" 404 179
+[04/Jun/2023 14:41:39] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 404 179
+[04/Jun/2023 14:41:39] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.0" 404 179
+[04/Jun/2023 14:41:39] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.0" 404 179
+[04/Jun/2023 14:41:39] "GET /static/img/image-tda.png HTTP/1.0" 404 179
+[04/Jun/2023 14:41:39] "GET /static/img/image-tda.png HTTP/1.0" 404 179
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 04, 2023 - 14:42:03
+Django version 4.2.1, using settings 'proyecto.settings'
+Starting development server at http://147.182.184.6:8000/
+Quit the server with CONTROL-C.
+
+[04/Jun/2023 14:42:07] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
+[04/Jun/2023 14:42:08] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.0" 200 59344
+[04/Jun/2023 14:42:08] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 200 1382975
+[04/Jun/2023 14:42:08] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.0" 200 163234
+[04/Jun/2023 14:42:08] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 200 292458
+[04/Jun/2023 14:42:08] "GET /static/jazzmin/css/main.css HTTP/1.0" 200 16969
+[04/Jun/2023 14:42:08] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.0" 200 62440
+[04/Jun/2023 14:42:08] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.0" 200 44244
+[04/Jun/2023 14:42:08] "GET /static/img/image-tda.png HTTP/1.0" 200 69859
+[04/Jun/2023 14:42:16] "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.0" 200 78196
+[04/Jun/2023 14:42:43] "GET / HTTP/1.0" 200 1094
+/root/Transporte/proyecto/settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 04, 2023 - 14:46:48
+Django version 4.2.1, using settings 'proyecto.settings'
+Starting development server at http://147.182.184.6:8000/
+Quit the server with CONTROL-C.
+
+[04/Jun/2023 14:47:34] "POST / HTTP/1.0" 403 1444
+[04/Jun/2023 14:47:34] "GET /.env HTTP/1.0" 404 179
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 04, 2023 - 14:47:50
+Django version 4.2.1, using settings 'proyecto.settings'
+Starting development server at http://147.182.184.6:8000/
+Quit the server with CONTROL-C.
+
+Performing system checks...
+
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/management/commands/runserver.py", line 133, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/management/base.py", line 556, in check
+    raise SystemCheckError(msg)
+django.core.management.base.SystemCheckError: SystemCheckError: System check identified some issues:
+
+ERRORS:
+?: (staticfiles.E002) The STATICFILES_DIRS setting should not contain the STATIC_ROOT setting.
+
+System check identified 1 issue (0 silenced).
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 04, 2023 - 14:49:33
+Django version 4.2.1, using settings 'proyecto.settings'
+Starting development server at http://147.182.184.6:8000/
+Quit the server with CONTROL-C.
+
+[04/Jun/2023 14:50:10] "GET / HTTP/1.0" 200 1094
+[04/Jun/2023 14:50:12] "GET /admin/ HTTP/1.0" 302 0
+[04/Jun/2023 14:50:13] "GET /admin/login/?next=/admin/ HTTP/1.0" 500 145
+[04/Jun/2023 14:50:13] "GET /admin/ HTTP/1.0" 302 0
+[04/Jun/2023 14:50:13] "GET /admin/login/?next=/admin/ HTTP/1.0" 500 145
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 04, 2023 - 14:50:34
+Django version 4.2.1, using settings 'proyecto.settings'
+Starting development server at http://147.182.184.6:8000/
+Quit the server with CONTROL-C.
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 04, 2023 - 14:50:50
+Django version 4.2.1, using settings 'proyecto.settings'
+Starting development server at http://147.182.184.6:8000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 04, 2023 - 14:51:00
+Django version 4.2.1, using settings 'proyecto.settings'
+Starting development server at http://147.182.184.6:8000/
+Quit the server with CONTROL-C.
+
+[04/Jun/2023 14:51:05] "GET / HTTP/1.0" 200 1094
+[04/Jun/2023 14:51:07] "GET /admin/ HTTP/1.0" 302 0
+[04/Jun/2023 14:51:07] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
+[04/Jun/2023 14:51:55] "GET / HTTP/1.0" 200 1094
+[04/Jun/2023 14:52:03] "GET / HTTP/1.0" 200 1094
+Not Found: /favicon.ico
+[04/Jun/2023 14:52:03] "GET /favicon.ico HTTP/1.0" 404 2211
+[04/Jun/2023 14:52:06] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
+[04/Jun/2023 14:52:11] "POST /admin/login/?next=/admin/ HTTP/1.0" 302 0
+[04/Jun/2023 14:52:11] "GET /admin/ HTTP/1.0" 200 24392
+[04/Jun/2023 14:52:11] "GET /static/jazzmin/js/main.js HTTP/1.0" 200 2391
+[04/Jun/2023 14:52:11] "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.0" 200 13276
+[04/Jun/2023 14:52:15] "GET /admin/logout/ HTTP/1.0" 200 2194
+/root/Transporte/proyecto/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 04, 2023 - 14:54:06
+Django version 4.2.1, using settings 'proyecto.settings'
+Starting development server at http://147.182.184.6:8000/
+Quit the server with CONTROL-C.
+
+/root/Transporte/proyecto/settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 04, 2023 - 14:54:30
+Django version 4.2.1, using settings 'proyecto.settings'
+Starting development server at http://147.182.184.6:8000/
+Quit the server with CONTROL-C.
+
+[04/Jun/2023 14:54:54] "GET / HTTP/1.0" 200 1094
+[04/Jun/2023 14:54:56] "GET /admin/ HTTP/1.0" 302 0
+[04/Jun/2023 14:54:56] "GET /admin/login/?next=/admin/ HTTP/1.0" 500 145
+[04/Jun/2023 14:54:57] "GET /admin/ HTTP/1.0" 302 0
+[04/Jun/2023 14:54:57] "GET /admin/login/?next=/admin/ HTTP/1.0" 500 145
+[04/Jun/2023 14:57:20] "GET /robots.txt HTTP/1.0" 404 179
+[04/Jun/2023 14:57:22] "GET / HTTP/1.0" 200 1094
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 04, 2023 - 14:57:37
+Django version 4.2.1, using settings 'proyecto.settings'
+Starting development server at http://147.182.184.6:8000/
+Quit the server with CONTROL-C.
+
+[04/Jun/2023 14:57:45] "GET / HTTP/1.0" 200 1094
+[04/Jun/2023 14:57:47] "GET /admin/ HTTP/1.0" 302 0
+[04/Jun/2023 14:57:48] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
+[04/Jun/2023 14:57:55] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
+/root/Transporte/proyecto/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 04, 2023 - 15:02:58
+Django version 4.2.1, using settings 'proyecto.settings'
+Starting development server at http://147.182.184.6:8000/
+Quit the server with CONTROL-C.
+
+/root/Transporte/proyecto/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 04, 2023 - 15:03:16
+Django version 4.2.1, using settings 'proyecto.settings'
+Starting development server at http://147.182.184.6:8000/
+Quit the server with CONTROL-C.
+
+Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/files/storage/handler.py", line 35, in __getitem__
+    return self._storages[alias]
+KeyError: 'staticfiles'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/usr/local/lib/python3.10/dist-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/usr/local/lib/python3.10/dist-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/usr/local/lib/python3.10/dist-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.10/dist-packages/django/template/library.py", line 237, in render
+    output = self.func(*resolved_args, **resolved_kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/jazzmin/templatetags/jazzmin.py", line 149, in get_jazzmin_ui_tweaks
+    return get_ui_tweaks()
+  File "/usr/local/lib/python3.10/dist-packages/jazzmin/settings.py", line 312, in get_ui_tweaks
+    "theme": {"name": theme, "src": static(THEMES[theme])},
+  File "/usr/local/lib/python3.10/dist-packages/django/templatetags/static.py", line 179, in static
+    return StaticNode.handle_simple(path)
+  File "/usr/local/lib/python3.10/dist-packages/django/templatetags/static.py", line 129, in handle_simple
+    return staticfiles_storage.url(path)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/functional.py", line 266, in inner
+    self._setup()
+  File "/usr/local/lib/python3.10/dist-packages/django/contrib/staticfiles/storage.py", line 537, in _setup
+    self._wrapped = storages[STATICFILES_STORAGE_ALIAS]
+  File "/usr/local/lib/python3.10/dist-packages/django/core/files/storage/handler.py", line 43, in __getitem__
+    storage = self.create_storage(params)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/files/storage/handler.py", line 55, in create_storage
+    return storage_cls(**options)
+  File "/usr/local/lib/python3.10/dist-packages/whitenoise/storage.py", line 64, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/contrib/staticfiles/storage.py", line 460, in __init__
+    self.hashed_files, self.manifest_hash = self.load_manifest()
+  File "/usr/local/lib/python3.10/dist-packages/django/contrib/staticfiles/storage.py", line 470, in load_manifest
+    content = self.read_manifest()
+  File "/usr/local/lib/python3.10/dist-packages/django/contrib/staticfiles/storage.py", line 464, in read_manifest
+    with self.manifest_storage.open(self.manifest_name) as manifest:
+  File "/usr/local/lib/python3.10/dist-packages/django/core/files/storage/base.py", line 22, in open
+    return self._open(name, mode)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/files/storage/filesystem.py", line 68, in _open
+    return File(open(self.path(name), mode))
+  File "/usr/local/lib/python3.10/dist-packages/django/contrib/staticfiles/storage.py", line 39, in path
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: You're using the staticfiles app without having set the STATIC_ROOT setting to a filesystem path.
+[04/Jun/2023 15:03:20] "GET /admin/login/?next=/admin/ HTTP/1.0" 500 218868
+/root/Transporte/proyecto/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 04, 2023 - 15:04:39
+Django version 4.2.1, using settings 'proyecto.settings'
+Starting development server at http://147.182.184.6:8000/
+Quit the server with CONTROL-C.
+
+/root/Transporte/proyecto/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 04, 2023 - 15:04:54
+Django version 4.2.1, using settings 'proyecto.settings'
+Starting development server at http://147.182.184.6:8000/
+Quit the server with CONTROL-C.
+
+[04/Jun/2023 15:04:58] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
+[04/Jun/2023 15:16:11] "GET / HTTP/1.0" 200 1094
+[04/Jun/2023 15:16:18,814] - Broken pipe from ('104.152.52.228', 51724)
+[04/Jun/2023 15:28:38] code 400, message Bad request syntax ('MGLNDD_147.182.184.6_8000')
+[04/Jun/2023 15:28:38] "MGLNDD_147.182.184.6_8000" 400 -
+Not Found: /.env
+[04/Jun/2023 15:32:55] "GET /.env HTTP/1.0" 404 2190
+Forbidden (CSRF cookie not set.): /
+[04/Jun/2023 15:32:56] "POST / HTTP/1.0" 403 2922
+[04/Jun/2023 15:36:30] "GET / HTTP/1.1" 200 1094
+Not Found: /J4ui
+[04/Jun/2023 15:57:22] "GET /J4ui HTTP/1.0" 404 2190
+Not Found: /YPHl
+[04/Jun/2023 15:57:22] "GET /YPHl HTTP/1.0" 404 2190
+[04/Jun/2023 16:02:43] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03Å\x11ò@ßý\x94\x04\x19¬')
+[04/Jun/2023 16:02:43] You're accessing the development server over HTTPS, but it only supports HTTP.
+Forbidden (CSRF cookie not set.): /
+[04/Jun/2023 16:16:38] "POST / HTTP/1.0" 403 2922
+Not Found: /.env
+[04/Jun/2023 16:16:38] "GET /.env HTTP/1.0" 404 2190
+[04/Jun/2023 16:21:32] "GET / HTTP/1.0" 200 1094
+[04/Jun/2023 16:21:56] "GET / HTTP/1.0" 200 1094
+[04/Jun/2023 16:24:19] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
+[04/Jun/2023 16:24:19] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.0" 200 59344
+[04/Jun/2023 16:24:19] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.0" 200 163234
+[04/Jun/2023 16:24:19] "GET /static/jazzmin/css/main.css HTTP/1.0" 200 16969
+[04/Jun/2023 16:24:19] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 200 1382975
+[04/Jun/2023 16:24:19] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[04/Jun/2023 16:24:19] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 200 292458
+[04/Jun/2023 16:24:20] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.0" 200 44244
+[04/Jun/2023 16:24:20] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.0" 200 62440
+[04/Jun/2023 16:24:21] "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.0" 200 78196
+[04/Jun/2023 16:24:22] "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.0" 200 13276
+[04/Jun/2023 16:49:49] "GET / HTTP/1.0" 200 1094
+[04/Jun/2023 17:37:23] "GET / HTTP/1.0" 200 1094
+[04/Jun/2023 18:11:03] "GET / HTTP/1.0" 200 1094
+[04/Jun/2023 18:24:50] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
+[04/Jun/2023 18:24:50] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.0" 200 59344
+[04/Jun/2023 18:24:50] "GET /static/jazzmin/css/main.css HTTP/1.0" 200 16969
+[04/Jun/2023 18:24:50] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 200 1382975
+[04/Jun/2023 18:24:50] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 200 292458
+[04/Jun/2023 18:24:51] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.0" 200 62440
+[04/Jun/2023 18:24:51] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.0" 200 163234
+[04/Jun/2023 18:24:51] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.0" 200 44244
+[04/Jun/2023 18:24:51] "GET /static/img/image-tda.png HTTP/1.0" 200 69859
+[04/Jun/2023 18:24:52] "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.0" 200 78196
+[04/Jun/2023 18:24:53] "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.0" 200 13276
+Not Found: /.env
+[04/Jun/2023 18:38:19] "GET /.env HTTP/1.0" 404 2190
+Forbidden (CSRF cookie not set.): /
+[04/Jun/2023 18:38:20] "POST / HTTP/1.0" 403 2922
+Forbidden (CSRF cookie not set.): /
+[04/Jun/2023 18:46:56] "POST / HTTP/1.0" 403 2922
+Not Found: /.env
+[04/Jun/2023 18:46:57] "GET /.env HTTP/1.0" 404 2190
+[04/Jun/2023 18:49:36] "GET / HTTP/1.0" 200 1094
+[04/Jun/2023 19:02:30] "GET / HTTP/1.0" 200 1094
+[04/Jun/2023 19:20:08] "GET / HTTP/1.0" 200 1094
+[04/Jun/2023 19:21:28] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
+[04/Jun/2023 19:21:30] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.0" 200 59344
+[04/Jun/2023 19:21:30] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.0" 200 62440
+[04/Jun/2023 19:21:30] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 200 292458
+[04/Jun/2023 19:21:30] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.0" 200 163234
+[04/Jun/2023 19:21:30] "GET /static/jazzmin/css/main.css HTTP/1.0" 200 16969
+[04/Jun/2023 19:21:30] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 200 1382975
+[04/Jun/2023 19:21:30] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.0" 200 44244
+[04/Jun/2023 19:21:31] "GET /static/img/image-tda.png HTTP/1.0" 200 69859
+[04/Jun/2023 19:21:32] "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.0" 200 78196
+[04/Jun/2023 19:21:33] "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.0" 200 13276
+Not Found: /backend/.env
+[04/Jun/2023 19:24:53] "GET /backend/.env HTTP/1.0" 404 2214
+Not Found: /backend
+[04/Jun/2023 19:24:53] "POST /backend HTTP/1.0" 404 2200
+[04/Jun/2023 19:38:17] "GET / HTTP/1.0" 200 1094
+Not Found: /.env
+[04/Jun/2023 19:42:01] "GET /.env HTTP/1.0" 404 2190
+Forbidden (CSRF cookie not set.): /
+[04/Jun/2023 19:42:01] "POST / HTTP/1.0" 403 2922
+Forbidden (CSRF cookie not set.): /
+[04/Jun/2023 19:43:27] "POST / HTTP/1.0" 403 2922
+Not Found: /.env
+[04/Jun/2023 19:43:27] "GET /.env HTTP/1.0" 404 2190
+[04/Jun/2023 20:08:18] "GET / HTTP/1.0" 200 1094
+Not Found: /api/.env
+[04/Jun/2023 20:55:53] "GET /api/.env HTTP/1.0" 404 2202
+Not Found: /api
+[04/Jun/2023 20:55:53] "POST /api HTTP/1.0" 404 2188
+Forbidden (CSRF cookie not set.): /
+[04/Jun/2023 21:09:21] "POST / HTTP/1.0" 403 2922
+Not Found: /.env
+[04/Jun/2023 21:09:21] "GET /.env HTTP/1.0" 404 2190
+[04/Jun/2023 21:13:05] "GET / HTTP/1.0" 200 1094
+Not Found: /.env
+[04/Jun/2023 21:37:18] "GET /.env HTTP/1.0" 404 2190
+Forbidden (CSRF cookie not set.): /
+[04/Jun/2023 21:37:20] "POST / HTTP/1.0" 403 2922
+Not Found: /.env
+[04/Jun/2023 21:42:36] "GET /.env HTTP/1.0" 404 2190
+Forbidden (CSRF cookie not set.): /
+[04/Jun/2023 21:47:54] "POST / HTTP/1.0" 403 2922
+Not Found: /.env
+[04/Jun/2023 21:47:54] "GET /.env HTTP/1.0" 404 2190
+[04/Jun/2023 22:25:29] "GET / HTTP/1.0" 200 1094
+[04/Jun/2023 22:45:45] "GET / HTTP/1.0" 200 1094
+Not Found: /admit
+[04/Jun/2023 22:45:58] "GET /admit HTTP/1.0" 404 2193
+[04/Jun/2023 22:46:17] "GET / HTTP/1.0" 200 1094
+Not Found: /admit
+[04/Jun/2023 22:46:24] "GET /admit HTTP/1.0" 404 2193
+[04/Jun/2023 22:46:48] "GET / HTTP/1.1" 200 1094
+Not Found: /favicon.ico
+[04/Jun/2023 22:46:49] "GET /favicon.ico HTTP/1.1" 404 2216
+[04/Jun/2023 22:46:54] "GET /admin HTTP/1.1" 301 0
+[04/Jun/2023 22:46:54] "GET /admin/ HTTP/1.1" 302 0
+[04/Jun/2023 22:46:55] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3154
+[04/Jun/2023 22:46:55] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 59344
+[04/Jun/2023 22:46:55] "GET /static/jazzmin/css/main.css HTTP/1.1" 200 16969
+[04/Jun/2023 22:46:56] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 62440
+[04/Jun/2023 22:46:56] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.1" 200 163234
+[04/Jun/2023 22:46:56] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 200 44244
+[04/Jun/2023 22:46:56] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+[04/Jun/2023 22:46:56] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 200 1382975
+[04/Jun/2023 22:46:56] "GET /static/img/image-tda.png HTTP/1.1" 200 69859
+[04/Jun/2023 22:46:57] "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 78196
+[04/Jun/2023 22:46:57] "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 13276
+[04/Jun/2023 22:46:58] "GET /static/img/image-tda.png HTTP/1.1" 200 69859
+[04/Jun/2023 22:47:06] "GET /static/img/image-tda.png HTTP/1.1" 200 69859
+[04/Jun/2023 22:47:09,201] - Broken pipe from ('186.11.21.106', 29132)
+[04/Jun/2023 22:54:31] "GET / HTTP/1.0" 200 1094
+Not Found: /favicon.ico
+[04/Jun/2023 22:54:32] "GET /favicon.ico HTTP/1.0" 404 2211
+[04/Jun/2023 22:54:35] "GET /admin/ HTTP/1.0" 302 0
+[04/Jun/2023 22:54:35] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
+[04/Jun/2023 22:54:35] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.0" 200 59344
+[04/Jun/2023 22:54:35] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 200 1382975
+[04/Jun/2023 22:54:35] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.0" 200 163234
+[04/Jun/2023 22:54:35] "GET /static/jazzmin/css/main.css HTTP/1.0" 200 16969
+[04/Jun/2023 22:54:35] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 200 292458
+[04/Jun/2023 22:54:36] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.0" 200 62440
+[04/Jun/2023 22:54:36] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.0" 200 44244
+[04/Jun/2023 22:54:36] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[04/Jun/2023 22:54:36] "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.0" 200 78196
+[04/Jun/2023 22:54:40] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
+[04/Jun/2023 22:54:40] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 200 1382975
+[04/Jun/2023 22:54:50] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
+[04/Jun/2023 22:54:50] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.0" 200 59344
+[04/Jun/2023 22:54:50] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 200 1382975
+[04/Jun/2023 22:54:50] "GET /static/jazzmin/css/main.css HTTP/1.0" 200 16969
+[04/Jun/2023 22:54:50] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.0" 200 163234
+[04/Jun/2023 22:54:50] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 200 292458
+[04/Jun/2023 22:54:50] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.0" 200 62440
+[04/Jun/2023 22:54:50] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.0" 200 44244
+[04/Jun/2023 22:54:50] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[04/Jun/2023 22:54:53] "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.0" 200 78196
+[04/Jun/2023 22:55:14] "GET / HTTP/1.0" 200 1094
+[04/Jun/2023 22:55:20] "GET /admin HTTP/1.0" 301 0
+[04/Jun/2023 22:55:20] "GET /admin/ HTTP/1.0" 302 0
+[04/Jun/2023 22:55:21] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
+[04/Jun/2023 22:55:21] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.0" 200 59344
+[04/Jun/2023 22:55:21] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 200 1382975
+[04/Jun/2023 22:55:21] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 200 292458
+[04/Jun/2023 22:55:21] "GET /static/jazzmin/css/main.css HTTP/1.0" 200 16969
+[04/Jun/2023 22:55:21] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.0" 200 62440
+[04/Jun/2023 22:55:21] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.0" 200 163234
+[04/Jun/2023 22:55:21] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.0" 200 44244
+[04/Jun/2023 22:55:23] "GET /static/img/image-tda.png HTTP/1.0" 200 69859
+[04/Jun/2023 22:55:23] "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.0" 200 78196
+[04/Jun/2023 22:55:24] "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.0" 200 13276
+[04/Jun/2023 22:55:33] "POST /admin/login/?next=/admin/ HTTP/1.0" 302 0
+[04/Jun/2023 22:55:33] "GET /admin/ HTTP/1.0" 200 24412
+[04/Jun/2023 22:55:34] "GET /static/jazzmin/js/main.js HTTP/1.0" 200 2391
+[04/Jun/2023 22:55:34] "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.0" 200 13276
+[04/Jun/2023 22:55:35] "GET /admin/auth/group/ HTTP/1.0" 200 15830
+[04/Jun/2023 22:55:35] "GET /static/admin/js/jquery.init.js HTTP/1.0" 200 347
+[04/Jun/2023 22:55:35] "GET /static/vendor/select2/css/select2.min.css HTTP/1.0" 200 16264
+[04/Jun/2023 22:55:35] "GET /admin/jsi18n/ HTTP/1.0" 200 8006
+[04/Jun/2023 22:55:36] "GET /static/admin/js/core.js HTTP/1.0" 200 5682
+[04/Jun/2023 22:55:36] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.0" 200 8943
+[04/Jun/2023 22:55:36] "GET /static/admin/js/actions.js HTTP/1.0" 200 7872
+[04/Jun/2023 22:55:36] "GET /static/admin/js/urlify.js HTTP/1.0" 200 7887
+[04/Jun/2023 22:55:36] "GET /static/admin/js/prepopulate.js HTTP/1.0" 200 1531
+[04/Jun/2023 22:55:36] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.0" 200 232381
+[04/Jun/2023 22:55:36] "GET /static/vendor/select2/js/select2.min.js HTTP/1.0" 200 73170
+[04/Jun/2023 22:55:36] "GET /static/jazzmin/js/change_list.js HTTP/1.0" 200 2252
+[04/Jun/2023 22:55:40] "GET /admin/logout/ HTTP/1.0" 200 2194
+[04/Jun/2023 23:04:02] "GET / HTTP/1.0" 200 1094
+Forbidden (CSRF cookie not set.): /
+[04/Jun/2023 23:09:38] "POST / HTTP/1.0" 403 2922
+Not Found: /.env
+[04/Jun/2023 23:09:38] "GET /.env HTTP/1.0" 404 2190
+[04/Jun/2023 23:41:21] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
+[04/Jun/2023 23:41:21] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.0" 200 59344
+[04/Jun/2023 23:41:21] "GET /static/jazzmin/css/main.css HTTP/1.0" 200 16969
+[04/Jun/2023 23:41:21] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.0" 200 163234
+[04/Jun/2023 23:41:21] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 200 1382975
+[04/Jun/2023 23:41:21] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.0" 200 62440
+[04/Jun/2023 23:41:21] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 200 292458
+[04/Jun/2023 23:41:22] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.0" 200 44244
+[04/Jun/2023 23:41:23] "GET /static/img/image-tda.png HTTP/1.0" 200 69859
+[04/Jun/2023 23:41:23] "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.0" 200 78196
+[04/Jun/2023 23:41:24] "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.0" 200 13276
+[04/Jun/2023 23:41:31] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
+[05/Jun/2023 00:15:25] "GET / HTTP/1.0" 200 1094
+Not Found: /.env
+[05/Jun/2023 00:24:45] "GET /.env HTTP/1.0" 404 2190
+Forbidden (CSRF cookie not set.): /
+[05/Jun/2023 00:24:45] "POST / HTTP/1.0" 403 2922
+Forbidden (CSRF cookie not set.): /
+[05/Jun/2023 00:35:36] "POST / HTTP/1.0" 403 2922
+Not Found: /.env
+[05/Jun/2023 00:35:36] "GET /.env HTTP/1.0" 404 2190
+Forbidden (CSRF cookie not set.): /
+[05/Jun/2023 00:41:55] "POST / HTTP/1.0" 403 2922
+Not Found: /.env
+[05/Jun/2023 00:41:55] "GET /.env HTTP/1.0" 404 2190
+[05/Jun/2023 00:55:21] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
+[05/Jun/2023 00:55:21] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.0" 200 59344
+[05/Jun/2023 00:55:21] "GET /static/jazzmin/css/main.css HTTP/1.0" 200 16969
+[05/Jun/2023 00:55:21] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.0" 200 163234
+[05/Jun/2023 00:55:21] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.0" 200 62440
+[05/Jun/2023 00:55:21] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 200 1382975
+[05/Jun/2023 00:55:21] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 200 292458
+[05/Jun/2023 00:55:22] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.0" 200 44244
+[05/Jun/2023 00:55:22] "GET /static/img/image-tda.png HTTP/1.0" 200 69859
+[05/Jun/2023 00:55:23] "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.0" 200 78196
+[05/Jun/2023 00:55:24] "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.0" 200 13276
+[05/Jun/2023 00:55:43] "POST /admin/login/?next=/admin/ HTTP/1.0" 302 0
+[05/Jun/2023 00:55:43] "GET /admin/ HTTP/1.0" 200 24414
+[05/Jun/2023 00:55:43] "GET /static/jazzmin/js/main.js HTTP/1.0" 200 2391
+[05/Jun/2023 00:55:51] "GET /admin/logout/ HTTP/1.0" 200 2194
+[05/Jun/2023 01:24:52] "GET / HTTP/1.0" 200 1094
+[05/Jun/2023 01:29:41] "GET / HTTP/1.0" 200 1094
+[05/Jun/2023 01:32:26] "GET / HTTP/1.0" 200 1094
+Not Found: /client/get_targets
+[05/Jun/2023 01:32:26] "GET /client/get_targets HTTP/1.0" 404 2232
+Not Found: /upl.php
+[05/Jun/2023 01:32:27] "GET /upl.php HTTP/1.0" 404 2199
+Not Found: /geoip/
+[05/Jun/2023 01:32:27] "GET /geoip/ HTTP/1.0" 404 2196
+[05/Jun/2023 01:32:27] "GET / HTTP/1.0" 200 1094
+Not Found: /favicon.ico
+[05/Jun/2023 01:32:27] "GET /favicon.ico HTTP/1.0" 404 2211
+Not Found: /1.php
+[05/Jun/2023 01:32:27] "GET /1.php HTTP/1.0" 404 2193
+Not Found: /bundle.js
+[05/Jun/2023 01:32:28] "GET /bundle.js HTTP/1.0" 404 2205
+[05/Jun/2023 01:36:22] "GET / HTTP/1.1" 200 1094
+Forbidden (CSRF cookie not set.): /
+[05/Jun/2023 01:57:09] "POST / HTTP/1.0" 403 2922
+Not Found: /.env
+[05/Jun/2023 01:57:10] "GET /.env HTTP/1.0" 404 2190
+Not Found: /app/.env
+[05/Jun/2023 02:00:47] "GET /app/.env HTTP/1.0" 404 2202
+Not Found: /app
+[05/Jun/2023 02:00:48] "POST /app HTTP/1.0" 404 2188
+[05/Jun/2023 02:06:34] "GET / HTTP/1.0" 200 1094
+Not Found: /.env
+[05/Jun/2023 02:19:28] "GET /.env HTTP/1.0" 404 2190
+Forbidden (CSRF cookie not set.): /
+[05/Jun/2023 02:19:28] "POST / HTTP/1.0" 403 2922
+Not Found: /sendgrid/.env
+[05/Jun/2023 02:19:29] "GET /sendgrid/.env HTTP/1.0" 404 2217
+Forbidden (CSRF cookie not set.): /
+[05/Jun/2023 02:19:30] "POST / HTTP/1.0" 403 2922
+[05/Jun/2023 02:25:33] "GET / HTTP/1.0" 200 1094
+Forbidden (CSRF cookie not set.): /
+[05/Jun/2023 02:25:33] "POST / HTTP/1.0" 403 2922
+Not Found: /.env
+[05/Jun/2023 02:25:33] "GET /.env HTTP/1.0" 404 2190
+[05/Jun/2023 02:43:46] "GET / HTTP/1.0" 200 1094
+Not Found: /favicon.ico
+[05/Jun/2023 02:43:46] "GET /favicon.ico HTTP/1.0" 404 2211
+[05/Jun/2023 02:45:08] "GET / HTTP/1.0" 200 1094
+[05/Jun/2023 02:49:34] "GET / HTTP/1.0" 200 1094
+/root/Transporte/proyecto/settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 05, 2023 - 02:52:36
+Django version 4.2.1, using settings 'proyecto.settings'
+Starting development server at http://147.182.184.6:8000/
+Quit the server with CONTROL-C.
+
+[05/Jun/2023 02:52:38] "GET / HTTP/1.0" 200 1094
+[05/Jun/2023 02:52:42] "GET /admin/ HTTP/1.0" 302 0
+[05/Jun/2023 02:52:42] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
+[05/Jun/2023 02:52:42] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.0" 404 179
+[05/Jun/2023 02:52:42] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 404 179
+[05/Jun/2023 02:52:43] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.0" 404 179
+[05/Jun/2023 02:52:43] "GET /static/jazzmin/css/main.css HTTP/1.0" 404 179
+[05/Jun/2023 02:52:43] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 404 179
+[05/Jun/2023 02:52:43] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.0" 404 179
+[05/Jun/2023 02:52:43] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.0" 404 179
+[05/Jun/2023 02:52:43] "GET /static/img/image-tda.png HTTP/1.0" 404 179
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 05, 2023 - 02:56:54
+Django version 4.2.1, using settings 'proyecto.settings'
+Starting development server at http://147.182.184.6:8000/
+Quit the server with CONTROL-C.
+
+[05/Jun/2023 02:57:42] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
+[05/Jun/2023 02:57:43] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.0" 404 179
+[05/Jun/2023 02:57:43] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 404 179
+[05/Jun/2023 02:57:43] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.0" 404 179
+[05/Jun/2023 02:57:43] "GET /static/jazzmin/css/main.css HTTP/1.0" 404 179
+[05/Jun/2023 02:57:43] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 404 179
+[05/Jun/2023 02:57:43] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.0" 404 179
+[05/Jun/2023 02:57:43] "GET /static/img/image-tda.png HTTP/1.0" 404 179
+[05/Jun/2023 02:57:43] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.0" 404 179
+[05/Jun/2023 02:57:43] "GET /static/img/image-tda.png HTTP/1.0" 404 179
+[05/Jun/2023 02:57:50] "GET / HTTP/1.0" 200 1094
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 05, 2023 - 02:58:21
+Django version 4.2.1, using settings 'proyecto.settings'
+Starting development server at http://147.182.184.6:8000/
+Quit the server with CONTROL-C.
+
+[05/Jun/2023 02:58:22] "GET / HTTP/1.0" 200 1094
+[05/Jun/2023 02:58:27] "GET / HTTP/1.0" 200 1094
+[05/Jun/2023 02:58:29] "GET /admin/ HTTP/1.0" 302 0
+[05/Jun/2023 02:58:29] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
+[05/Jun/2023 02:58:30] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.0" 200 163234
+[05/Jun/2023 02:58:30] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.0" 200 59344
+[05/Jun/2023 02:58:30] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 200 1382975
+[05/Jun/2023 02:58:30] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.0" 200 62440
+[05/Jun/2023 02:58:30] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 200 292458
+[05/Jun/2023 02:58:30] "GET /static/jazzmin/css/main.css HTTP/1.0" 200 16969
+[05/Jun/2023 02:58:30] "GET /static/img/image-tda.png HTTP/1.0" 200 69859
+[05/Jun/2023 02:58:30] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.0" 200 44244
+[05/Jun/2023 02:58:31] "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.0" 304 0
+[05/Jun/2023 02:58:35] "POST /admin/login/?next=/admin/ HTTP/1.0" 302 0
+[05/Jun/2023 02:58:36] "GET /admin/ HTTP/1.0" 200 24414
+[05/Jun/2023 02:58:36] "GET /static/jazzmin/js/main.js HTTP/1.0" 304 0
+[05/Jun/2023 02:58:36] "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.0" 304 0
+[05/Jun/2023 02:58:38] "GET /admin/logout/ HTTP/1.0" 200 2194
+/root/Transporte/proyecto/settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 05, 2023 - 02:58:45
+Django version 4.2.1, using settings 'proyecto.settings'
+Starting development server at http://147.182.184.6:8000/
+Quit the server with CONTROL-C.
+
+[05/Jun/2023 02:58:46] "GET /admin/logout/ HTTP/1.0" 302 0
+[05/Jun/2023 02:58:46] "GET /admin/ HTTP/1.0" 302 0
+[05/Jun/2023 02:58:46] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
+[05/Jun/2023 02:58:47] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
+[05/Jun/2023 02:58:54] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
+[05/Jun/2023 02:58:54] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 404 179
+[05/Jun/2023 02:58:54] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.0" 404 179
+[05/Jun/2023 02:58:54] "GET /static/jazzmin/css/main.css HTTP/1.0" 404 179
+[05/Jun/2023 02:58:54] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.0" 404 179
+[05/Jun/2023 02:58:54] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 404 179
+[05/Jun/2023 02:58:54] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.0" 404 179
+[05/Jun/2023 02:58:54] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.0" 404 179
+[05/Jun/2023 02:58:54] "GET /static/img/image-tda.png HTTP/1.0" 404 179
+[05/Jun/2023 03:03:33] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
+[05/Jun/2023 03:03:34] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
+[05/Jun/2023 03:03:37] "GET / HTTP/1.0" 200 1094
+[05/Jun/2023 03:03:39] "GET /admin/ HTTP/1.0" 302 0
+[05/Jun/2023 03:03:39] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
+[05/Jun/2023 03:03:46] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 05, 2023 - 03:05:04
+Django version 4.2.1, using settings 'proyecto.settings'
+Starting development server at http://147.182.184.6:8000/
+Quit the server with CONTROL-C.
+
+[05/Jun/2023 03:05:05] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
+[05/Jun/2023 03:05:06] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
+[05/Jun/2023 03:05:13] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
+[05/Jun/2023 03:05:13] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.0" 200 59344
+[05/Jun/2023 03:05:14] "GET /static/jazzmin/css/main.css HTTP/1.0" 200 16969
+[05/Jun/2023 03:05:14] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.0" 200 163234
+[05/Jun/2023 03:05:14] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 200 292458
+[05/Jun/2023 03:05:14] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.0" 200 62440
+[05/Jun/2023 03:05:14] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 200 1382975
+[05/Jun/2023 03:05:14] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.0" 200 44244
+[05/Jun/2023 03:05:14] "GET /static/img/image-tda.png HTTP/1.0" 200 69859
+[05/Jun/2023 03:05:15] "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.0" 304 0
+[05/Jun/2023 03:05:21] "POST /admin/login/?next=/admin/ HTTP/1.0" 302 0
+[05/Jun/2023 03:05:22] "GET /admin/ HTTP/1.0" 200 24414
+[05/Jun/2023 03:05:23] "GET /admin/Transporteapp/bitacora/ HTTP/1.0" 200 13138
+[05/Jun/2023 03:05:23] "GET /static/vendor/select2/css/select2.min.css HTTP/1.0" 304 0
+[05/Jun/2023 03:05:23] "GET /admin/jsi18n/ HTTP/1.0" 200 8006
+[05/Jun/2023 03:05:23] "GET /static/admin/js/actions.js HTTP/1.0" 304 0
+[05/Jun/2023 03:05:23] "GET /static/admin/js/core.js HTTP/1.0" 304 0
+[05/Jun/2023 03:05:23] "GET /static/admin/js/jquery.init.js HTTP/1.0" 304 0
+[05/Jun/2023 03:05:23] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.0" 304 0
+[05/Jun/2023 03:05:23] "GET /static/admin/js/urlify.js HTTP/1.0" 304 0
+[05/Jun/2023 03:05:23] "GET /static/admin/js/prepopulate.js HTTP/1.0" 304 0
+[05/Jun/2023 03:05:23] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.0" 304 0
+[05/Jun/2023 03:05:23] "GET /static/vendor/select2/js/select2.min.js HTTP/1.0" 304 0
+[05/Jun/2023 03:05:24] "GET /static/jazzmin/js/change_list.js HTTP/1.0" 304 0
+[05/Jun/2023 03:05:25] "GET /admin/Transporteapp/bitacora/add/ HTTP/1.0" 200 21439
+[05/Jun/2023 03:05:25] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.0" 200 19319
+[05/Jun/2023 03:05:25] "GET /static/admin/js/calendar.js HTTP/1.0" 200 8466
+[05/Jun/2023 03:05:25] "GET /admin/jsi18n/ HTTP/1.0" 200 8006
+[05/Jun/2023 03:05:25] "GET /static/admin/js/change_form.js HTTP/1.0" 200 606
+[05/Jun/2023 03:05:25] "GET /static/admin/js/prepopulate_init.js HTTP/1.0" 200 586
+[05/Jun/2023 03:05:25] "GET /static/jazzmin/js/change_form.js HTTP/1.0" 200 6052
+[05/Jun/2023 03:05:25] "GET /static/admin/img/icon-viewlink.svg HTTP/1.0" 200 581
+[05/Jun/2023 03:05:25] "GET /static/admin/img/icon-changelink.svg HTTP/1.0" 200 380
+[05/Jun/2023 03:05:25] "GET /static/admin/img/icon-addlink.svg HTTP/1.0" 200 331
+[05/Jun/2023 03:05:27] "GET /admin/logout/ HTTP/1.0" 200 2194
+[05/Jun/2023 03:05:29] "GET /admin/ HTTP/1.0" 302 0
+[05/Jun/2023 03:05:29] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
+[05/Jun/2023 03:08:31] "GET / HTTP/1.0" 200 1094
+[05/Jun/2023 03:08:54] "GET /admin/ HTTP/1.0" 302 0
+[05/Jun/2023 03:08:54] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
+[05/Jun/2023 03:09:00] "GET /admin/ HTTP/1.0" 302 0
+[05/Jun/2023 03:09:00] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
+[05/Jun/2023 03:11:42] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
+[05/Jun/2023 03:11:42] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
+[05/Jun/2023 03:11:43] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
+[05/Jun/2023 03:11:51] "POST /admin/login/?next=/admin/ HTTP/1.0" 302 0
+[05/Jun/2023 03:11:51] "GET /admin/ HTTP/1.0" 200 24414
+[05/Jun/2023 03:11:55] "GET /admin/Transporteapp/cotizaci%C3%B3n/ HTTP/1.0" 200 13163
+[05/Jun/2023 03:11:55] "GET /admin/jsi18n/ HTTP/1.0" 200 8006
+[05/Jun/2023 03:11:57] "GET /admin/logout/ HTTP/1.0" 200 2194
+/root/Transporte/proyecto/settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 05, 2023 - 03:13:46
+Django version 4.2.1, using settings 'proyecto.settings'
+Starting development server at http://147.182.184.6:8000/
+Quit the server with CONTROL-C.
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 05, 2023 - 03:14:43
+Django version 4.2.1, using settings 'proyecto.settings'
+Starting development server at http://147.182.184.6:8000/
+Quit the server with CONTROL-C.
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 05, 2023 - 03:15:53
+Django version 4.2.1, using settings 'proyecto.settings'
+Starting development server at http://147.182.184.6:8000/
+Quit the server with CONTROL-C.
+
+[05/Jun/2023 03:16:25] "GET / HTTP/1.0" 200 1094
+[05/Jun/2023 03:16:28] "GET /admin/ HTTP/1.0" 302 0
+[05/Jun/2023 03:16:28] "GET /admin/login/?next=/admin/ HTTP/1.0" 500 145
+[05/Jun/2023 03:16:29] "GET /admin/ HTTP/1.0" 302 0
+[05/Jun/2023 03:16:29] "GET /admin/login/?next=/admin/ HTTP/1.0" 500 145
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 05, 2023 - 03:17:03
+Django version 4.2.1, using settings 'proyecto.settings'
+Starting development server at http://147.182.184.6:8000/
+Quit the server with CONTROL-C.
+
+/root/Transporte/proyecto/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 05, 2023 - 03:17:31
+Django version 4.2.1, using settings 'proyecto.settings'
+Starting development server at http://147.182.184.6:8000/
+Quit the server with CONTROL-C.
+
+/root/Transporte/proyecto/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 05, 2023 - 03:17:54
+Django version 4.2.1, using settings 'proyecto.settings'
+Starting development server at http://147.182.184.6:8000/
+Quit the server with CONTROL-C.
+
+[05/Jun/2023 03:17:58] "GET / HTTP/1.0" 200 1094
+[05/Jun/2023 03:18:00] "GET /admin/ HTTP/1.0" 302 0
+[05/Jun/2023 03:18:00] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
+Not Found: /amdin
+[05/Jun/2023 03:18:00] "GET /amdin HTTP/1.0" 404 2193
+[05/Jun/2023 03:18:07] "GET /admin/ HTTP/1.0" 302 0
+[05/Jun/2023 03:18:07] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
+Not Found: /aaa9
+[05/Jun/2023 03:18:12] "GET /aaa9 HTTP/1.1" 404 2195
+Not Found: /aab8
+[05/Jun/2023 03:18:13] "GET /aab8 HTTP/1.1" 404 2195
+[05/Jun/2023 03:18:14] "GET / HTTP/1.1" 200 1094
+[05/Jun/2023 03:18:18] "POST /admin/login/?next=/admin/ HTTP/1.0" 302 0
+[05/Jun/2023 03:18:18] "GET /admin/ HTTP/1.0" 200 24414
+[05/Jun/2023 03:18:23] "GET /admin/logout/ HTTP/1.0" 200 2194
+[05/Jun/2023 03:18:25] "GET /admin/ HTTP/1.0" 302 0
+[05/Jun/2023 03:18:25] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
+[05/Jun/2023 03:18:28] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
+[05/Jun/2023 03:18:28] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.0" 200 59344
+[05/Jun/2023 03:18:28] "GET /static/jazzmin/css/main.css HTTP/1.0" 200 16969
+[05/Jun/2023 03:18:28] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.0" 200 163234
+[05/Jun/2023 03:18:28] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.0" 200 62440
+[05/Jun/2023 03:18:28] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 200 292458
+[05/Jun/2023 03:18:28] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 200 1382975
+[05/Jun/2023 03:18:29] "GET /static/img/image-tda.png HTTP/1.0" 200 69859
+[05/Jun/2023 03:18:29] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.0" 200 44244
+[05/Jun/2023 03:18:30] "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.0" 200 78196
+Not Found: /.env
+[05/Jun/2023 03:18:43] "GET /.env HTTP/1.0" 404 2190
+Forbidden (CSRF cookie not set.): /
+[05/Jun/2023 03:18:44] "POST / HTTP/1.0" 403 2922
+/root/Transporte/proyecto/settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 05, 2023 - 03:30:48
+Django version 4.2.1, using settings 'proyecto.settings'
+Starting development server at http://147.182.184.6:8000/
+Quit the server with CONTROL-C.
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 05, 2023 - 03:31:59
+Django version 4.2.1, using settings 'proyecto.settings'
+Starting development server at http://147.182.184.6:8000/
+Quit the server with CONTROL-C.
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 05, 2023 - 03:32:35
+Django version 4.2.1, using settings 'proyecto.settings'
+Starting development server at http://147.182.184.6:8000/
+Quit the server with CONTROL-C.
+
+[05/Jun/2023 03:33:27] "GET / HTTP/1.0" 200 1094
+[05/Jun/2023 03:33:29] "GET /admin/ HTTP/1.0" 302 0
+[05/Jun/2023 03:33:29] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
+[05/Jun/2023 03:33:35] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
+[05/Jun/2023 03:33:41] "POST /admin/login/?next=/admin/ HTTP/1.0" 302 0
+[05/Jun/2023 03:33:41] "GET /admin/ HTTP/1.0" 200 24412
+[05/Jun/2023 03:33:41] "GET /static/jazzmin/js/main.js HTTP/1.0" 200 2391
+[05/Jun/2023 03:33:41] "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.0" 200 13276
+[05/Jun/2023 03:33:45] "GET /admin/logout/ HTTP/1.0" 200 2194
