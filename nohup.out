@@ -1359,3 +1359,12 @@ Quit the server with CONTROL-C.
 [05/Jun/2023 03:33:41] "GET /static/jazzmin/js/main.js HTTP/1.0" 200 2391
 [05/Jun/2023 03:33:41] "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.0" 200 13276
 [05/Jun/2023 03:33:45] "GET /admin/logout/ HTTP/1.0" 200 2194
+[05/Jun/2023 03:38:28] "POST / HTTP/1.0" 403 1444
+[05/Jun/2023 03:38:28] "GET /.env HTTP/1.0" 404 179
+[05/Jun/2023 03:39:04] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
+[05/Jun/2023 03:39:09] "POST /admin/login/?next=/admin/ HTTP/1.0" 302 0
+[05/Jun/2023 03:39:10] "GET /admin/ HTTP/1.0" 200 24414
+[05/Jun/2023 03:39:10] "GET /static/jazzmin/js/main.js HTTP/1.0" 304 0
+[05/Jun/2023 03:39:10] "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.0" 304 0
+[05/Jun/2023 03:39:12] "GET /admin/logout/ HTTP/1.0" 200 2194
+[05/Jun/2023 03:53:46] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
