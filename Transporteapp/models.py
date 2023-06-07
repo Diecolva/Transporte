@@ -1,4 +1,5 @@
 from django.db import models
+import datetime
 from django.contrib.auth.models import User
 
 # Create your models here.
@@ -15,9 +16,7 @@ class Cliente(models.Model):
 class Cotización(models.Model):
     cliente = models.ForeignKey(Cliente, on_delete=models.CASCADE)
     servicio = models.CharField(max_length=50)
-    estado = models.CharField(max_length=20)
     fechaSolicitud = models.DateField()
-    numeroSeguimiento = models.PositiveIntegerField()
     peso = models.PositiveIntegerField()
     dimensiones = models.IntegerField()
     fechaInicio = models.DateField()
@@ -33,17 +32,27 @@ class Cotización(models.Model):
 
 class Vehículo(models.Model):
     modelo = models.CharField(max_length=50)
+    año = models.IntegerField(default=datetime.date.today().year)
+    patente = models.CharField(max_length=50, default='')
 
     def __str__(self):
             return self.modelo
     
 
-class Bitacora(models.Model):
+class OrdenDeServicio(models.Model):
     cliente = models.ForeignKey(Cliente, on_delete=models.CASCADE)
     fecha = models.DateField()
     numeroSeguimiento = models.PositiveIntegerField()
     comentario = models.CharField(max_length=100)
-    estado = models.CharField(max_length=50)
+    ESTADO_CHOICES = [
+        ('opcion1', 'En evaluación'),
+        ('opcion2', 'Despachado'),
+        ('opcion3', 'En Traslado'),
+        ('opcion4', 'Interrumpido'),
+        ('opcion5', 'Cancelado'),
+        ('opcion6', 'Cumplido'),
+    ]
+    estado = models.CharField(max_length=50, choices=ESTADO_CHOICES, default="opcion1")
     valor = models.FloatField()
     transportista = models.ManyToManyField(User, related_name='Transportistas', blank=True)
 
@@ -56,3 +65,13 @@ class Bitacora(models.Model):
     def get_transportistas(self):
         return self.transportista.filter(groups__name='Transportistas').exclude(is_superuser=True)
     
+    class Meta:
+        verbose_name_plural = "Orden de servicio"
+
+class Bitacora(models.Model):
+    
+    Orden_de_servicio = models.ForeignKey(OrdenDeServicio, on_delete=models.CASCADE)
+    imagen = models.ImageField(upload_to='bitacora_imagenes/', blank=True)
+
+    def obtener_ordendeservicio_por_seguimiento(self):
+        return self.Orden_de_servicio
