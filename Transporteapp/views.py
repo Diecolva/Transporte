@@ -4,3 +4,6 @@ def index(request):
     data = {}
     return render (request, 'index.html', data)
 # Create your views here.
+def seguimiento(request):
+    data = {}
+    return render(request, 'seguimiento.html', data)

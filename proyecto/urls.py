@@ -21,6 +21,7 @@ from Transporteapp import views
 admin.site.site_header = 'Transportes TDA'
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.index)
+    path('', views.index),
+    path('seguimiento', views.seguimiento),
     ]
 

@@ -4075,3 +4075,1647 @@ Not Found: /.env
 [07/Jun/2023 23:28:02] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 304 0
 [07/Jun/2023 23:28:02] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.0" 304 0
 [07/Jun/2023 23:28:02] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[07/Jun/2023 23:30:57] "GET / HTTP/1.0" 200 1094
+[07/Jun/2023 23:30:58] "GET / HTTP/1.0" 200 1094
+[07/Jun/2023 23:31:01] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
+[07/Jun/2023 23:31:01] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.0" 304 0
+[07/Jun/2023 23:31:01] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 304 0
+[07/Jun/2023 23:31:02] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.0" 304 0
+[07/Jun/2023 23:31:02] "GET /static/jazzmin/css/main.css HTTP/1.0" 304 0
+[07/Jun/2023 23:31:02] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.0" 304 0
+[07/Jun/2023 23:31:02] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.0" 304 0
+[07/Jun/2023 23:31:02] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 304 0
+[07/Jun/2023 23:31:02] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[07/Jun/2023 23:31:02] "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.0" 304 0
+Forbidden (CSRF cookie not set.): /
+[07/Jun/2023 23:33:21] "POST / HTTP/1.0" 403 2922
+Not Found: /.env
+[07/Jun/2023 23:33:21] "GET /.env HTTP/1.0" 404 2190
+[07/Jun/2023 23:48:13] "GET / HTTP/1.0" 200 1094
+[08/Jun/2023 00:15:28] "GET / HTTP/1.0" 200 1094
+[08/Jun/2023 00:48:58] "GET / HTTP/1.0" 200 1094
+Not Found: /favicon.ico
+[08/Jun/2023 00:48:58] "GET /favicon.ico HTTP/1.0" 404 2211
+[08/Jun/2023 00:49:01] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
+[08/Jun/2023 00:49:01] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:01] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:01] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:01] "GET /static/jazzmin/css/main.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:01] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:01] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:01] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:01] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[08/Jun/2023 00:49:01] "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.0" 304 0
+[08/Jun/2023 00:49:05] "POST /admin/login/?next=/admin/ HTTP/1.0" 302 0
+[08/Jun/2023 00:49:05] "GET /admin/ HTTP/1.0" 200 27297
+[08/Jun/2023 00:49:06] "GET /static/jazzmin/css/main.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:06] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:06] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:06] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:06] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:06] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:06] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:06] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[08/Jun/2023 00:49:06] "GET /static/jazzmin/js/main.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:06] "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.0" 304 0
+[08/Jun/2023 00:49:07] "GET /admin/Transporteapp/bitacora/ HTTP/1.0" 200 16764
+[08/Jun/2023 00:49:07] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:07] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:07] "GET /static/vendor/select2/css/select2.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:07] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:07] "GET /admin/jsi18n/ HTTP/1.0" 200 8006
+[08/Jun/2023 00:49:07] "GET /static/jazzmin/css/main.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:08] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:08] "GET /static/admin/js/jquery.init.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:08] "GET /static/admin/js/core.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:08] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:08] "GET /static/admin/js/urlify.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:08] "GET /static/admin/js/actions.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:08] "GET /static/admin/js/prepopulate.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:08] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:08] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:08] "GET /static/jazzmin/js/change_list.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:08] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[08/Jun/2023 00:49:08] "GET /static/jazzmin/js/main.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:08] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:08] "GET /static/vendor/select2/js/select2.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:09] "GET /admin/Transporteapp/ordendeservicio/ HTTP/1.0" 200 18537
+[08/Jun/2023 00:49:09] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:09] "GET /static/jazzmin/css/main.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:09] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:09] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:09] "GET /static/vendor/select2/css/select2.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:09] "GET /admin/jsi18n/ HTTP/1.0" 200 8006
+[08/Jun/2023 00:49:09] "GET /static/admin/js/jquery.init.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:09] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:09] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:09] "GET /static/admin/js/actions.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:09] "GET /static/admin/js/urlify.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:09] "GET /static/admin/js/core.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:09] "GET /static/admin/js/prepopulate.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:09] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:09] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:09] "GET /static/jazzmin/js/change_list.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:09] "GET /static/vendor/select2/js/select2.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:09] "GET /static/jazzmin/js/main.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:09] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:09] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[08/Jun/2023 00:49:10] "GET /admin/Transporteapp/bitacora/ HTTP/1.0" 200 16764
+[08/Jun/2023 00:49:10] "GET /static/jazzmin/css/main.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:10] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:10] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:10] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:10] "GET /static/vendor/select2/css/select2.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:10] "GET /admin/jsi18n/ HTTP/1.0" 200 8006
+[08/Jun/2023 00:49:10] "GET /static/admin/js/core.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:10] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:10] "GET /static/admin/js/actions.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:10] "GET /static/admin/js/jquery.init.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:10] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:10] "GET /static/admin/js/urlify.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:11] "GET /static/admin/js/prepopulate.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:11] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:11] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:11] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[08/Jun/2023 00:49:11] "GET /static/jazzmin/js/change_list.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:11] "GET /static/vendor/select2/js/select2.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:11] "GET /static/jazzmin/js/main.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:11] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:12] "GET /admin/Transporteapp/bitacora/1/change/ HTTP/1.0" 200 17438
+[08/Jun/2023 00:49:12] "GET /static/vendor/select2/css/select2.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:12] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:12] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:12] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:12] "GET /static/jazzmin/css/main.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:12] "GET /admin/jsi18n/ HTTP/1.0" 200 8006
+[08/Jun/2023 00:49:12] "GET /static/admin/js/jquery.init.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:12] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:12] "GET /static/admin/js/core.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:12] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:12] "GET /static/admin/js/urlify.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:12] "GET /static/admin/js/actions.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:12] "GET /static/admin/js/prepopulate.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:12] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:12] "GET /static/admin/js/change_form.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:12] "GET /static/vendor/select2/js/select2.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:12] "GET /static/jazzmin/js/main.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:12] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:12] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:12] "GET /static/admin/js/prepopulate_init.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:12] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[08/Jun/2023 00:49:12] "GET /static/admin/img/icon-changelink.svg HTTP/1.0" 200 380
+[08/Jun/2023 00:49:12] "GET /static/admin/img/icon-viewlink.svg HTTP/1.0" 200 581
+[08/Jun/2023 00:49:12] "GET /static/jazzmin/js/change_form.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:12] "GET /static/admin/img/icon-addlink.svg HTTP/1.0" 304 0
+[08/Jun/2023 00:49:31] "GET /admin/Transporteapp/cliente/ HTTP/1.0" 200 16308
+[08/Jun/2023 00:49:31] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:31] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:31] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:31] "GET /static/jazzmin/css/main.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:31] "GET /static/vendor/select2/css/select2.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:31] "GET /admin/jsi18n/ HTTP/1.0" 200 8006
+[08/Jun/2023 00:49:31] "GET /static/admin/js/jquery.init.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:31] "GET /static/admin/js/core.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:31] "GET /static/admin/js/actions.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:31] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:31] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:31] "GET /static/admin/js/urlify.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:31] "GET /static/admin/js/prepopulate.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:31] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:32] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:32] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[08/Jun/2023 00:49:32] "GET /static/jazzmin/js/change_list.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:32] "GET /static/vendor/select2/js/select2.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:32] "GET /static/jazzmin/js/main.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:32] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:34] "GET /admin/Transporteapp/bitacora/ HTTP/1.0" 200 16764
+[08/Jun/2023 00:49:34] "GET /static/jazzmin/css/main.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:34] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:34] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:34] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:34] "GET /static/vendor/select2/css/select2.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:34] "GET /admin/jsi18n/ HTTP/1.0" 200 8006
+[08/Jun/2023 00:49:34] "GET /static/admin/js/core.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:34] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:34] "GET /static/admin/js/jquery.init.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:34] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:34] "GET /static/admin/js/actions.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:34] "GET /static/admin/js/urlify.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:34] "GET /static/admin/js/prepopulate.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:34] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:34] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:35] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[08/Jun/2023 00:49:35] "GET /static/jazzmin/js/change_list.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:35] "GET /static/vendor/select2/js/select2.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:35] "GET /static/jazzmin/js/main.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:35] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:36] "GET /admin/Transporteapp/cliente/ HTTP/1.0" 200 16308
+[08/Jun/2023 00:49:36] "GET /static/jazzmin/css/main.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:36] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:36] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:36] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:36] "GET /static/vendor/select2/css/select2.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:36] "GET /admin/jsi18n/ HTTP/1.0" 200 8006
+[08/Jun/2023 00:49:36] "GET /static/admin/js/core.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:36] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:36] "GET /static/admin/js/jquery.init.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:36] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:36] "GET /static/admin/js/actions.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:36] "GET /static/admin/js/urlify.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:37] "GET /static/admin/js/prepopulate.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:37] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:37] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:37] "GET /static/jazzmin/js/change_list.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:37] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[08/Jun/2023 00:49:37] "GET /static/vendor/select2/js/select2.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:37] "GET /static/jazzmin/js/main.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:37] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:38] "GET /admin/Transporteapp/cliente/1/change/ HTTP/1.0" 200 18278
+[08/Jun/2023 00:49:38] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:38] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:38] "GET /static/jazzmin/css/main.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:38] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:38] "GET /static/vendor/select2/css/select2.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:38] "GET /admin/jsi18n/ HTTP/1.0" 200 8006
+[08/Jun/2023 00:49:38] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:38] "GET /static/admin/js/jquery.init.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:38] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:38] "GET /static/admin/js/actions.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:38] "GET /static/admin/js/urlify.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:38] "GET /static/admin/js/core.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:38] "GET /static/admin/js/prepopulate.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:38] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:38] "GET /static/admin/js/change_form.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:38] "GET /static/admin/js/prepopulate_init.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:38] "GET /static/jazzmin/js/main.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:38] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:38] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:38] "GET /static/vendor/select2/js/select2.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:38] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[08/Jun/2023 00:49:38] "GET /static/jazzmin/js/change_form.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:39] "GET /admin/Transporteapp/bitacora/ HTTP/1.0" 200 16764
+[08/Jun/2023 00:49:40] "GET /static/vendor/select2/css/select2.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:40] "GET /static/jazzmin/css/main.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:40] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:40] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:40] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:40] "GET /admin/jsi18n/ HTTP/1.0" 200 8006
+[08/Jun/2023 00:49:40] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:40] "GET /static/admin/js/jquery.init.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:40] "GET /static/admin/js/core.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:40] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:40] "GET /static/admin/js/actions.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:40] "GET /static/admin/js/urlify.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:40] "GET /static/admin/js/prepopulate.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:40] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:40] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:40] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:40] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[08/Jun/2023 00:49:40] "GET /static/vendor/select2/js/select2.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:40] "GET /static/jazzmin/js/main.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:40] "GET /static/jazzmin/js/change_list.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:41] "GET /admin/Transporteapp/bitacora/1/change/ HTTP/1.0" 200 17438
+[08/Jun/2023 00:49:41] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:41] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:41] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:41] "GET /static/jazzmin/css/main.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:41] "GET /static/vendor/select2/css/select2.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:41] "GET /admin/jsi18n/ HTTP/1.0" 200 8006
+[08/Jun/2023 00:49:41] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:41] "GET /static/admin/js/core.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:41] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:41] "GET /static/admin/js/actions.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:41] "GET /static/admin/js/jquery.init.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:41] "GET /static/admin/js/urlify.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:41] "GET /static/admin/js/prepopulate.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:41] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:41] "GET /static/admin/js/change_form.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:42] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:42] "GET /static/vendor/select2/js/select2.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:42] "GET /static/jazzmin/js/main.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:42] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:42] "GET /static/admin/js/prepopulate_init.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:42] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[08/Jun/2023 00:49:42] "GET /static/admin/img/icon-viewlink.svg HTTP/1.0" 304 0
+[08/Jun/2023 00:49:42] "GET /static/admin/img/icon-addlink.svg HTTP/1.0" 304 0
+[08/Jun/2023 00:49:42] "GET /static/jazzmin/js/change_form.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:42] "GET /static/admin/img/icon-changelink.svg HTTP/1.0" 304 0
+[08/Jun/2023 00:49:48] "GET /admin/Transporteapp/ordendeservicio/ HTTP/1.0" 200 18537
+[08/Jun/2023 00:49:48] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:48] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:48] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:48] "GET /static/jazzmin/css/main.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:48] "GET /static/vendor/select2/css/select2.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:48] "GET /admin/jsi18n/ HTTP/1.0" 200 8006
+[08/Jun/2023 00:49:48] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:48] "GET /static/admin/js/jquery.init.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:48] "GET /static/admin/js/core.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:48] "GET /static/admin/js/actions.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:48] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:48] "GET /static/admin/js/urlify.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:48] "GET /static/admin/js/prepopulate.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:48] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:49] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:49] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[08/Jun/2023 00:49:49] "GET /static/jazzmin/js/change_list.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:49] "GET /static/vendor/select2/js/select2.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:49] "GET /static/jazzmin/js/main.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:49] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:50] "GET /admin/Transporteapp/ordendeservicio/?o=1 HTTP/1.0" 200 19095
+[08/Jun/2023 00:49:50] "GET /static/jazzmin/css/main.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:50] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:50] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:50] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:50] "GET /static/vendor/select2/css/select2.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:50] "GET /admin/jsi18n/ HTTP/1.0" 200 8006
+[08/Jun/2023 00:49:50] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:50] "GET /static/admin/js/core.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:50] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:50] "GET /static/admin/js/actions.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:50] "GET /static/admin/js/urlify.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:50] "GET /static/admin/js/jquery.init.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:50] "GET /static/admin/js/prepopulate.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:50] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:50] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:50] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[08/Jun/2023 00:49:50] "GET /static/jazzmin/js/change_list.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:50] "GET /static/vendor/select2/js/select2.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:50] "GET /static/jazzmin/js/main.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:50] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:55] "GET /admin/Transporteapp/ordendeservicio/?o= HTTP/1.0" 200 18664
+[08/Jun/2023 00:49:56] "GET /static/jazzmin/css/main.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:56] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:56] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:56] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:56] "GET /static/vendor/select2/css/select2.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:56] "GET /admin/jsi18n/ HTTP/1.0" 200 8006
+[08/Jun/2023 00:49:56] "GET /static/admin/js/core.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:56] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:56] "GET /static/admin/js/jquery.init.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:56] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:56] "GET /static/admin/js/actions.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:56] "GET /static/admin/js/urlify.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:56] "GET /static/admin/js/prepopulate.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:56] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:56] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:56] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[08/Jun/2023 00:49:56] "GET /static/jazzmin/js/change_list.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:56] "GET /static/vendor/select2/js/select2.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:56] "GET /static/jazzmin/js/main.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:56] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:57] "GET /admin/Transporteapp/ordendeservicio/?o=1 HTTP/1.0" 200 19095
+[08/Jun/2023 00:49:57] "GET /static/jazzmin/css/main.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:57] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:57] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:57] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:57] "GET /static/vendor/select2/css/select2.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:57] "GET /admin/jsi18n/ HTTP/1.0" 200 8006
+[08/Jun/2023 00:49:57] "GET /static/admin/js/core.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:57] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:57] "GET /static/admin/js/jquery.init.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:57] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:57] "GET /static/admin/js/actions.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:57] "GET /static/admin/js/urlify.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:58] "GET /static/admin/js/prepopulate.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:58] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:58] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:58] "GET /static/jazzmin/js/change_list.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:58] "GET /static/vendor/select2/js/select2.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:58] "GET /static/jazzmin/js/main.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:58] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:58] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[08/Jun/2023 00:49:59] "GET /admin/Transporteapp/ordendeservicio/?o=-1 HTTP/1.0" 200 19095
+[08/Jun/2023 00:49:59] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:59] "GET /static/vendor/select2/css/select2.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:59] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:59] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:59] "GET /static/jazzmin/css/main.css HTTP/1.0" 304 0
+[08/Jun/2023 00:49:59] "GET /admin/jsi18n/ HTTP/1.0" 200 8006
+[08/Jun/2023 00:49:59] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:59] "GET /static/admin/js/core.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:59] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:59] "GET /static/admin/js/actions.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:59] "GET /static/admin/js/jquery.init.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:59] "GET /static/admin/js/urlify.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:59] "GET /static/admin/js/prepopulate.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:59] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:59] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:59] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[08/Jun/2023 00:49:59] "GET /static/jazzmin/js/change_list.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:59] "GET /static/vendor/select2/js/select2.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:59] "GET /static/jazzmin/js/main.js HTTP/1.0" 304 0
+[08/Jun/2023 00:49:59] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:01] "GET /admin/Transporteapp/ordendeservicio/?o= HTTP/1.0" 200 18664
+[08/Jun/2023 00:50:01] "GET /static/jazzmin/css/main.css HTTP/1.0" 304 0
+[08/Jun/2023 00:50:01] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:50:01] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:50:01] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:50:01] "GET /static/vendor/select2/css/select2.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:50:01] "GET /admin/jsi18n/ HTTP/1.0" 200 8006
+[08/Jun/2023 00:50:01] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:01] "GET /static/admin/js/jquery.init.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:01] "GET /static/admin/js/core.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:01] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:01] "GET /static/admin/js/actions.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:02] "GET /static/admin/js/urlify.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:02] "GET /static/admin/js/prepopulate.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:02] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:05] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:05] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:05] "GET /static/vendor/select2/js/select2.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:05] "GET /static/jazzmin/js/change_list.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:05] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[08/Jun/2023 00:50:05] "GET /static/jazzmin/js/main.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:07] "GET /admin/Transporteapp/ordendeservicio/1/change/?_changelist_filters=o%3D HTTP/1.0" 200 23107
+[08/Jun/2023 00:50:08] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:50:08] "GET /static/jazzmin/css/main.css HTTP/1.0" 304 0
+[08/Jun/2023 00:50:08] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:50:08] "GET /static/vendor/select2/css/select2.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:50:08] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:50:08] "GET /admin/jsi18n/ HTTP/1.0" 200 8006
+[08/Jun/2023 00:50:08] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:08] "GET /static/admin/js/core.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:08] "GET /static/admin/js/jquery.init.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:08] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:08] "GET /static/admin/js/actions.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:08] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:08] "GET /static/admin/js/urlify.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:08] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:08] "GET /static/admin/js/calendar.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:08] "GET /static/admin/js/prepopulate.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:08] "GET /static/admin/js/change_form.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:08] "GET /static/admin/js/prepopulate_init.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:08] "GET /static/vendor/select2/js/select2.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:08] "GET /static/jazzmin/js/main.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:08] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:08] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:08] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[08/Jun/2023 00:50:08] "GET /static/admin/img/icon-addlink.svg HTTP/1.0" 304 0
+[08/Jun/2023 00:50:08] "GET /static/admin/img/icon-viewlink.svg HTTP/1.0" 304 0
+[08/Jun/2023 00:50:08] "GET /static/admin/img/icon-changelink.svg HTTP/1.0" 304 0
+[08/Jun/2023 00:50:08] "GET /static/jazzmin/js/change_form.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:13] "POST /admin/Transporteapp/ordendeservicio/1/change/?_changelist_filters=o%3D HTTP/1.0" 302 0
+[08/Jun/2023 00:50:13] "GET /admin/Transporteapp/ordendeservicio/ HTTP/1.0" 200 19124
+[08/Jun/2023 00:50:13] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:50:13] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:50:13] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:50:13] "GET /static/jazzmin/css/main.css HTTP/1.0" 304 0
+[08/Jun/2023 00:50:13] "GET /static/vendor/select2/css/select2.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:50:13] "GET /admin/jsi18n/ HTTP/1.0" 200 8006
+[08/Jun/2023 00:50:13] "GET /static/admin/js/jquery.init.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:13] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:13] "GET /static/admin/js/core.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:13] "GET /static/admin/js/actions.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:13] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:13] "GET /static/admin/js/urlify.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:13] "GET /static/admin/js/prepopulate.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:13] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:13] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:13] "GET /static/jazzmin/js/change_list.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:13] "GET /static/vendor/select2/js/select2.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:13] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:13] "GET /static/jazzmin/js/main.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:13] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[08/Jun/2023 00:50:15] "GET /admin/Transporteapp/bitacora/ HTTP/1.0" 200 16764
+[08/Jun/2023 00:50:15] "GET /static/jazzmin/css/main.css HTTP/1.0" 304 0
+[08/Jun/2023 00:50:15] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:50:15] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:50:15] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:50:15] "GET /static/vendor/select2/css/select2.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:50:15] "GET /admin/jsi18n/ HTTP/1.0" 200 8006
+[08/Jun/2023 00:50:15] "GET /static/admin/js/core.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:15] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:15] "GET /static/admin/js/jquery.init.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:15] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:15] "GET /static/admin/js/actions.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:15] "GET /static/admin/js/urlify.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:15] "GET /static/admin/js/prepopulate.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:15] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:16] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:16] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:16] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[08/Jun/2023 00:50:16] "GET /static/jazzmin/js/change_list.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:16] "GET /static/vendor/select2/js/select2.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:16] "GET /static/jazzmin/js/main.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:17] "GET /admin/Transporteapp/bitacora/1/change/ HTTP/1.0" 200 17438
+[08/Jun/2023 00:50:17] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:50:17] "GET /static/jazzmin/css/main.css HTTP/1.0" 304 0
+[08/Jun/2023 00:50:17] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:50:17] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:50:17] "GET /static/vendor/select2/css/select2.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:50:17] "GET /admin/jsi18n/ HTTP/1.0" 200 8006
+[08/Jun/2023 00:50:17] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:17] "GET /static/admin/js/jquery.init.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:17] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:17] "GET /static/admin/js/actions.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:17] "GET /static/admin/js/urlify.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:17] "GET /static/admin/js/core.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:17] "GET /static/admin/js/prepopulate.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:17] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:17] "GET /static/admin/js/change_form.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:17] "GET /static/jazzmin/js/main.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:17] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:17] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:17] "GET /static/admin/js/prepopulate_init.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:17] "GET /static/vendor/select2/js/select2.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:17] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[08/Jun/2023 00:50:17] "GET /static/admin/img/icon-viewlink.svg HTTP/1.0" 304 0
+[08/Jun/2023 00:50:17] "GET /static/admin/img/icon-addlink.svg HTTP/1.0" 304 0
+[08/Jun/2023 00:50:17] "GET /static/admin/img/icon-changelink.svg HTTP/1.0" 304 0
+[08/Jun/2023 00:50:17] "GET /static/jazzmin/js/change_form.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:19] "GET /admin/Transporteapp/ordendeservicio/1/change/?_to_field=id&_popup=1 HTTP/1.0" 200 13572
+[08/Jun/2023 00:50:19] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:50:19] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:50:19] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:50:19] "GET /static/jazzmin/css/main.css HTTP/1.0" 304 0
+[08/Jun/2023 00:50:19] "GET /static/vendor/select2/css/select2.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:50:19] "GET /admin/jsi18n/ HTTP/1.0" 200 8006
+[08/Jun/2023 00:50:19] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:19] "GET /static/admin/js/calendar.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:19] "GET /static/admin/js/jquery.init.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:19] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:19] "GET /static/admin/js/core.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:19] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:19] "GET /static/admin/js/actions.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:19] "GET /static/admin/js/urlify.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:19] "GET /static/admin/js/prepopulate.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:19] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:19] "GET /static/admin/js/change_form.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:19] "GET /static/admin/js/prepopulate_init.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:19] "GET /static/vendor/select2/js/select2.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:19] "GET /static/jazzmin/js/main.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:19] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:19] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:19] "GET /static/admin/img/icon-addlink.svg HTTP/1.0" 304 0
+[08/Jun/2023 00:50:19] "GET /static/admin/img/icon-changelink.svg HTTP/1.0" 304 0
+[08/Jun/2023 00:50:19] "GET /static/jazzmin/js/change_form.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:19] "GET /static/admin/img/icon-viewlink.svg HTTP/1.0" 304 0
+[08/Jun/2023 00:50:27] "GET /admin/ HTTP/1.0" 200 27609
+[08/Jun/2023 00:50:27] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:50:27] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:50:27] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:27] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:27] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.0" 304 0
+[08/Jun/2023 00:50:27] "GET /static/jazzmin/css/main.css HTTP/1.0" 304 0
+[08/Jun/2023 00:50:27] "GET /static/jazzmin/js/main.js HTTP/1.0" 304 0
+[08/Jun/2023 00:50:27] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[08/Jun/2023 00:50:27] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.0" 304 0
+[08/Jun/2023 01:02:29] "GET / HTTP/1.0" 200 1094
+Forbidden (CSRF cookie not set.): /
+[08/Jun/2023 01:10:51] "POST / HTTP/1.0" 403 2922
+Not Found: /.env
+[08/Jun/2023 01:10:51] "GET /.env HTTP/1.0" 404 2190
+[08/Jun/2023 01:39:33] "GET / HTTP/1.0" 200 1094
+Not Found: /favicon.ico
+[08/Jun/2023 01:39:53] "GET /favicon.ico HTTP/1.0" 404 2211
+Not Found: /robots.txt
+[08/Jun/2023 01:39:54] "GET /robots.txt HTTP/1.0" 404 2208
+Not Found: /sitemap.xml
+[08/Jun/2023 01:39:56] "GET /sitemap.xml HTTP/1.0" 404 2211
+Forbidden (CSRF cookie not set.): /
+[08/Jun/2023 02:11:34] "POST / HTTP/1.0" 403 2922
+Not Found: /.env
+[08/Jun/2023 02:11:34] "GET /.env HTTP/1.0" 404 2190
+[08/Jun/2023 02:18:14] "GET / HTTP/1.0" 200 1094
+[08/Jun/2023 02:25:43] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03pWÏb½2òBI\x00à\x8eÎ\x9a\x7fµ\x80\x11¹ýëBÌ\x10&\x03R¯R2èë\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[08/Jun/2023 02:25:43] You're accessing the development server over HTTPS, but it only supports HTTP.
+[08/Jun/2023 02:48:55] "GET / HTTP/1.0" 200 1094
+[08/Jun/2023 02:48:55] "GET / HTTP/1.0" 200 1094
+Not Found: /favicon.ico
+[08/Jun/2023 02:48:55] "GET /favicon.ico HTTP/1.0" 404 2211
+Forbidden (CSRF cookie not set.): /
+[08/Jun/2023 02:55:33] "POST / HTTP/1.0" 403 2922
+Not Found: /.env
+[08/Jun/2023 02:55:33] "GET /.env HTTP/1.0" 404 2190
+[08/Jun/2023 02:55:41] "GET / HTTP/1.0" 200 1094
+[08/Jun/2023 02:55:44] "GET /admin/login/?next=/admin/ HTTP/1.0" 302 0
+[08/Jun/2023 02:55:44] "GET /admin/ HTTP/1.0" 200 27619
+[08/Jun/2023 02:55:44] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 304 0
+[08/Jun/2023 02:55:44] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.0" 304 0
+[08/Jun/2023 02:55:45] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.0" 304 0
+[08/Jun/2023 02:55:45] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 304 0
+[08/Jun/2023 02:55:45] "GET /static/jazzmin/css/main.css HTTP/1.0" 304 0
+[08/Jun/2023 02:55:45] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.0" 304 0
+[08/Jun/2023 02:55:45] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.0" 304 0
+[08/Jun/2023 02:55:45] "GET /static/jazzmin/js/main.js HTTP/1.0" 304 0
+[08/Jun/2023 02:55:45] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[08/Jun/2023 02:55:45] "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.0" 304 0
+[08/Jun/2023 02:55:45] "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.0" 304 0
+[08/Jun/2023 02:55:46] "GET /admin/Transporteapp/bitacora/ HTTP/1.0" 200 16764
+[08/Jun/2023 02:55:46] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.0" 304 0
+[08/Jun/2023 02:55:46] "GET /static/vendor/select2/css/select2.min.css HTTP/1.0" 304 0
+[08/Jun/2023 02:55:46] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 304 0
+[08/Jun/2023 02:55:46] "GET /static/jazzmin/css/main.css HTTP/1.0" 304 0
+[08/Jun/2023 02:55:46] "GET /admin/jsi18n/ HTTP/1.0" 200 8006
+[08/Jun/2023 02:55:46] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.0" 304 0
+[08/Jun/2023 02:55:46] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 304 0
+[08/Jun/2023 02:55:46] "GET /static/admin/js/jquery.init.js HTTP/1.0" 304 0
+[08/Jun/2023 02:55:46] "GET /static/admin/js/core.js HTTP/1.0" 304 0
+[08/Jun/2023 02:55:46] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.0" 304 0
+[08/Jun/2023 02:55:46] "GET /static/admin/js/actions.js HTTP/1.0" 304 0
+[08/Jun/2023 02:55:46] "GET /static/admin/js/urlify.js HTTP/1.0" 304 0
+[08/Jun/2023 02:55:46] "GET /static/admin/js/prepopulate.js HTTP/1.0" 304 0
+[08/Jun/2023 02:55:46] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.0" 304 0
+[08/Jun/2023 02:55:46] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.0" 304 0
+[08/Jun/2023 02:55:46] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.0" 304 0
+[08/Jun/2023 02:55:46] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[08/Jun/2023 02:55:46] "GET /static/jazzmin/js/change_list.js HTTP/1.0" 304 0
+[08/Jun/2023 02:55:46] "GET /static/vendor/select2/js/select2.min.js HTTP/1.0" 304 0
+[08/Jun/2023 02:55:46] "GET /static/jazzmin/js/main.js HTTP/1.0" 304 0
+[08/Jun/2023 02:55:48] "GET /admin/logout/ HTTP/1.0" 200 2194
+[08/Jun/2023 02:55:48] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.0" 304 0
+[08/Jun/2023 02:55:48] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.0" 304 0
+[08/Jun/2023 02:55:48] "GET /static/jazzmin/css/main.css HTTP/1.0" 304 0
+[08/Jun/2023 02:55:48] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 304 0
+[08/Jun/2023 02:55:48] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 304 0
+[08/Jun/2023 02:55:48] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.0" 304 0
+[08/Jun/2023 02:55:49] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.0" 304 0
+[08/Jun/2023 02:55:49] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[08/Jun/2023 03:00:07] "GET / HTTP/1.1" 200 1094
+Not Found: /favicon.ico
+[08/Jun/2023 03:00:25] "GET /favicon.ico HTTP/1.1" 404 2216
+Invalid HTTP_HOST header: 'api.ipify.org'. You may need to add 'api.ipify.org' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ipify.org'. You may need to add 'api.ipify.org' to ALLOWED_HOSTS.
+Bad Request: /http:/api.ipify.org/
+[08/Jun/2023 03:00:28] "GET http://api.ipify.org/?format=json HTTP/1.1" 400 63498
+Invalid HTTP_HOST header: 'www.shadowserver.org'. You may need to add 'www.shadowserver.org' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.shadowserver.org'. You may need to add 'www.shadowserver.org' to ALLOWED_HOSTS.
+Bad Request: /www.shadowserver.org:443
+[08/Jun/2023 03:00:31] "CONNECT www.shadowserver.org:443 HTTP/1.1" 400 63701
+Not Found: /boaform/admin/formLogin
+[08/Jun/2023 03:05:04] "POST /boaform/admin/formLogin HTTP/1.0" 404 2248
+[08/Jun/2023 03:22:28] "GET / HTTP/1.0" 200 1094
+[08/Jun/2023 03:22:38] "GET / HTTP/1.0" 200 1094
+[08/Jun/2023 03:22:39] "GET / HTTP/1.0" 200 1094
+Not Found: /favicon.ico
+[08/Jun/2023 03:22:44] "GET /favicon.ico HTTP/1.0" 404 2211
+[08/Jun/2023 03:23:10] "GET / HTTP/1.0" 200 1094
+Forbidden (CSRF cookie not set.): /
+[08/Jun/2023 03:41:19] "POST / HTTP/1.0" 403 2922
+Not Found: /.env
+[08/Jun/2023 03:41:19] "GET /.env HTTP/1.0" 404 2190
+[08/Jun/2023 04:01:25] "GET / HTTP/1.0" 200 1094
+[08/Jun/2023 04:45:25] "GET / HTTP/1.0" 200 1094
+[08/Jun/2023 04:47:59] "GET / HTTP/1.0" 200 1094
+[08/Jun/2023 04:48:16] "GET / HTTP/1.0" 200 1094
+Forbidden (CSRF cookie not set.): /
+[08/Jun/2023 04:49:37] "POST / HTTP/1.0" 403 2922
+Not Found: /.env
+[08/Jun/2023 04:49:37] "GET /.env HTTP/1.0" 404 2190
+Invalid HTTP_HOST header: 'Transporte-web:8000'. You may need to add 'transporte-web' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'Transporte-web:8000'. You may need to add 'transporte-web' to ALLOWED_HOSTS.
+Bad Request: /
+[08/Jun/2023 04:53:21] "GET / HTTP/1.0" 400 62500
+[08/Jun/2023 05:00:06] "GET / HTTP/1.0" 200 1094
+[08/Jun/2023 05:02:36] code 400, message Bad request version ("bÍó\x84\x81\x00\x00*À,À+À0À/\x00\x9f\x00\x9eÀ$À#À(À'À")
+[08/Jun/2023 05:02:36] You're accessing the development server over HTTPS, but it only supports HTTP.
+[08/Jun/2023 05:02:36] code 400, message Bad request version ("©í\x00\x00*À,À+À0À/\x00\x9f\x00\x9eÀ$À#À(À'À")
+[08/Jun/2023 05:02:36] You're accessing the development server over HTTPS, but it only supports HTTP.
+[08/Jun/2023 05:11:56] "GET / HTTP/1.0" 200 1094
+[08/Jun/2023 05:16:10] "GET / HTTP/1.1" 200 1094
+[08/Jun/2023 05:18:56] "GET / HTTP/1.0" 200 1094
+Not Found: /favicon.ico
+[08/Jun/2023 05:20:35] "GET /favicon.ico HTTP/1.0" 404 2211
+Not Found: /geoserver/web/
+[08/Jun/2023 05:21:20] "GET /geoserver/web/ HTTP/1.0" 404 2220
+[08/Jun/2023 05:49:09] "GET / HTTP/1.0" 200 1094
+Forbidden (CSRF cookie not set.): /
+[08/Jun/2023 05:49:19] "POST / HTTP/1.0" 403 2922
+Not Found: /.env
+[08/Jun/2023 05:49:19] "GET /.env HTTP/1.0" 404 2190
+Not Found: /Autodiscover/Autodiscover.xml
+[08/Jun/2023 06:11:19] "POST /Autodiscover/Autodiscover.xml HTTP/1.0" 404 2266
+Not Found: /boaform/admin/formLogin
+[08/Jun/2023 06:11:51] "POST /boaform/admin/formLogin HTTP/1.0" 404 2248
+[08/Jun/2023 06:16:14] "GET / HTTP/1.0" 200 1094
+Forbidden (CSRF cookie not set.): /
+[08/Jun/2023 06:31:06] "POST / HTTP/1.0" 403 2922
+Not Found: /.env
+[08/Jun/2023 06:31:06] "GET /.env HTTP/1.0" 404 2190
+Forbidden (CSRF cookie not set.): /
+[08/Jun/2023 06:44:08] "POST / HTTP/1.0" 403 2922
+Not Found: /.env
+[08/Jun/2023 06:44:08] "GET /.env HTTP/1.0" 404 2190
+Not Found: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[08/Jun/2023 06:52:53] "POST /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2329
+[08/Jun/2023 06:57:47] "GET / HTTP/1.0" 200 1094
+Not Found: /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+[08/Jun/2023 07:04:30] "GET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0" 404 2328
+[08/Jun/2023 07:04:38] "GET / HTTP/1.0" 200 1094
+Not Found: /solr/admin/info/system
+[08/Jun/2023 07:51:24] "GET /solr/admin/info/system?wt=json HTTP/1.0" 404 2252
+Not Found: /boaform/admin/formLogin
+[08/Jun/2023 07:55:56] "POST /boaform/admin/formLogin HTTP/1.0" 404 2248
+Forbidden (CSRF cookie not set.): /
+[08/Jun/2023 07:56:10] "POST / HTTP/1.0" 403 2922
+Not Found: /.env
+[08/Jun/2023 07:56:10] "GET /.env HTTP/1.0" 404 2190
+Not Found: /.env
+[08/Jun/2023 08:21:46] "GET /.env HTTP/1.0" 404 2190
+Forbidden (CSRF cookie not set.): /
+[08/Jun/2023 08:21:47] "POST / HTTP/1.0" 403 2922
+[08/Jun/2023 08:22:24] "GET / HTTP/1.0" 200 1094
+Forbidden (CSRF cookie not set.): /
+[08/Jun/2023 08:26:43] "POST / HTTP/1.0" 403 2922
+Not Found: /.env
+[08/Jun/2023 08:26:43] "GET /.env HTTP/1.0" 404 2190
+Not Found: /index.php
+[08/Jun/2023 08:27:20] "GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP21 HTTP/1.0" 404 2324
+Not Found: /aaa9
+[08/Jun/2023 08:58:53] "GET /aaa9 HTTP/1.0" 404 2190
+Not Found: /aab8
+[08/Jun/2023 08:59:01] "GET /aab8 HTTP/1.0" 404 2190
+[08/Jun/2023 08:59:09] "GET / HTTP/1.0" 200 1094
+Forbidden (CSRF cookie not set.): /
+[08/Jun/2023 09:05:49] "POST / HTTP/1.0" 403 2922
+Not Found: /.env
+[08/Jun/2023 09:05:49] "GET /.env HTTP/1.0" 404 2190
+[08/Jun/2023 09:06:42] "GET / HTTP/1.0" 200 1094
+[08/Jun/2023 09:06:43] "GET /?a=fetch&content=<php>die(@md5(HelloThinkCMF))</php> HTTP/1.0" 200 1094
+[08/Jun/2023 09:42:53] "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.0" 200 1094
+[08/Jun/2023 09:47:28] "GET / HTTP/1.0" 200 1094
+Not Found: /.git/config
+[08/Jun/2023 09:47:28] "GET /.git/config HTTP/1.0" 404 2211
+Not Found: /server-status
+[08/Jun/2023 09:47:28] "GET /server-status HTTP/1.0" 404 2217
+Not Found: /config.json
+[08/Jun/2023 09:47:28] "GET /config.json HTTP/1.0" 404 2211
+Not Found: /.env
+[08/Jun/2023 09:47:29] "GET /.env HTTP/1.0" 404 2190
+Not Found: /telescope/requests
+[08/Jun/2023 09:47:29] "GET /telescope/requests HTTP/1.0" 404 2232
+Not Found: /info.php
+[08/Jun/2023 09:47:29] "GET /info.php HTTP/1.0" 404 2202
+[08/Jun/2023 09:49:58] "GET / HTTP/1.0" 200 1094
+[08/Jun/2023 09:53:56] "GET / HTTP/1.0" 200 1094
+Forbidden (CSRF cookie not set.): /
+[08/Jun/2023 09:54:27] "POST / HTTP/1.0" 403 2922
+Not Found: /.env
+[08/Jun/2023 09:54:27] "GET /.env HTTP/1.0" 404 2190
+[08/Jun/2023 09:56:32] "GET / HTTP/1.0" 200 1094
+Not Found: /boaform/admin/formLogin
+[08/Jun/2023 10:01:50] "POST /boaform/admin/formLogin HTTP/1.0" 404 2248
+[08/Jun/2023 10:02:00] "GET / HTTP/1.0" 200 1094
+Not Found: /aaa9
+[08/Jun/2023 10:03:06] "GET /aaa9 HTTP/1.0" 404 2190
+Not Found: /aab8
+[08/Jun/2023 10:03:20] "GET /aab8 HTTP/1.0" 404 2190
+[08/Jun/2023 10:03:39] "GET / HTTP/1.0" 200 1094
+Not Found: /boaform/admin/formLogin
+[08/Jun/2023 10:16:50] "POST /boaform/admin/formLogin HTTP/1.0" 404 2248
+Forbidden (CSRF cookie not set.): /
+[08/Jun/2023 10:39:32] "POST / HTTP/1.0" 403 2922
+Not Found: /.env
+[08/Jun/2023 10:39:32] "GET /.env HTTP/1.0" 404 2190
+[08/Jun/2023 10:40:54] code 400, message Bad request version ('À\x14À')
+[08/Jun/2023 10:40:54] You're accessing the development server over HTTPS, but it only supports HTTP.
+Forbidden (CSRF cookie not set.): /
+[08/Jun/2023 10:59:36] "POST / HTTP/1.0" 403 2922
+Not Found: /.env
+[08/Jun/2023 10:59:36] "GET /.env HTTP/1.0" 404 2190
+Not Found: /aaa9
+[08/Jun/2023 11:11:43] "GET /aaa9 HTTP/1.0" 404 2190
+Not Found: /aab8
+[08/Jun/2023 11:12:01] "GET /aab8 HTTP/1.0" 404 2190
+[08/Jun/2023 11:12:23] "GET / HTTP/1.0" 200 1094
+Not Found: /console/
+[08/Jun/2023 11:12:39] "GET /console/ HTTP/1.0" 404 2202
+[08/Jun/2023 11:20:42] "GET / HTTP/1.0" 200 1094
+Not Found: /config/getuser
+[08/Jun/2023 11:55:21] "GET /config/getuser?index=0 HTTP/1.0" 404 2228
+Not Found: /_ignition/execute-solution
+[08/Jun/2023 11:57:54] "GET /_ignition/execute-solution HTTP/1.0" 404 2256
+[08/Jun/2023 12:07:43] "GET / HTTP/1.0" 200 1094
+Forbidden (CSRF cookie not set.): /
+[08/Jun/2023 12:08:36] "POST / HTTP/1.0" 403 2922
+Not Found: /.env
+[08/Jun/2023 12:08:36] "GET /.env HTTP/1.0" 404 2190
+[08/Jun/2023 12:17:20] code 400, message Bad HTTP/0.9 request type ('Z¥\x01')
+[08/Jun/2023 12:17:20] "Z¥     " 400 -
+[08/Jun/2023 12:27:05] "GET / HTTP/1.0" 200 1094
+[08/Jun/2023 12:54:02] "GET / HTTP/1.0" 200 1094
+Forbidden (CSRF cookie not set.): /
+[08/Jun/2023 12:57:01] "POST / HTTP/1.0" 403 2922
+Not Found: /.env
+[08/Jun/2023 12:57:01] "GET /.env HTTP/1.0" 404 2190
+[08/Jun/2023 13:04:14] "GET / HTTP/1.0" 200 1094
+[08/Jun/2023 13:12:31] "GET / HTTP/1.0" 200 1094
+[08/Jun/2023 13:38:09] "GET / HTTP/1.0" 200 1094
+Not Found: /favicon.ico
+[08/Jun/2023 13:38:09] "GET /favicon.ico HTTP/1.0" 404 2211
+[08/Jun/2023 13:38:14] "GET /admin HTTP/1.0" 301 0
+[08/Jun/2023 13:38:14] "GET /admin/ HTTP/1.0" 302 0
+[08/Jun/2023 13:38:15] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
+[08/Jun/2023 13:38:15] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.0" 200 59344
+[08/Jun/2023 13:38:15] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 200 1382975
+[08/Jun/2023 13:38:15] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.0" 200 163234
+[08/Jun/2023 13:38:15] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 200 292458
+[08/Jun/2023 13:38:15] "GET /static/jazzmin/css/main.css HTTP/1.0" 200 16969
+[08/Jun/2023 13:38:15] "GET /static/img/image-tda.png HTTP/1.0" 200 69859
+[08/Jun/2023 13:38:16] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.0" 200 62440
+[08/Jun/2023 13:38:16] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.0" 200 44244
+[08/Jun/2023 13:38:19] "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.0" 200 78196
+[08/Jun/2023 13:38:19] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[08/Jun/2023 13:38:19] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[08/Jun/2023 13:42:51] code 400, message Bad request syntax ('MGLNDD_147.182.184.6_8000')
+[08/Jun/2023 13:42:51] "MGLNDD_147.182.184.6_8000" 400 -
+[08/Jun/2023 13:51:51] "POST /admin/login/?next=/admin/ HTTP/1.0" 302 0
+[08/Jun/2023 13:51:52] "GET /admin/ HTTP/1.0" 200 27625
+[08/Jun/2023 13:51:52] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.0" 304 0
+[08/Jun/2023 13:51:52] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 304 0
+[08/Jun/2023 13:51:52] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.0" 304 0
+[08/Jun/2023 13:51:52] "GET /static/jazzmin/css/main.css HTTP/1.0" 304 0
+[08/Jun/2023 13:51:52] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[08/Jun/2023 13:51:52] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 304 0
+[08/Jun/2023 13:51:53] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.0" 304 0
+[08/Jun/2023 13:51:53] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.0" 304 0
+[08/Jun/2023 13:51:53] "GET /static/jazzmin/js/main.js HTTP/1.0" 200 2391
+[08/Jun/2023 13:51:53] "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.0" 304 0
+[08/Jun/2023 13:51:53] "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.0" 200 13276
+[08/Jun/2023 13:51:57] "GET /admin/Transporteapp/ordendeservicio/ HTTP/1.0" 200 18537
+[08/Jun/2023 13:51:57] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.0" 304 0
+[08/Jun/2023 13:51:57] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 304 0
+[08/Jun/2023 13:51:57] "GET /static/vendor/select2/css/select2.min.css HTTP/1.0" 200 16264
+[08/Jun/2023 13:51:57] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.0" 304 0
+[08/Jun/2023 13:51:57] "GET /admin/jsi18n/ HTTP/1.0" 200 8006
+[08/Jun/2023 13:51:57] "GET /static/jazzmin/css/main.css HTTP/1.0" 304 0
+[08/Jun/2023 13:51:57] "GET /static/admin/js/jquery.init.js HTTP/1.0" 200 347
+[08/Jun/2023 13:51:57] "GET /static/admin/js/core.js HTTP/1.0" 200 5682
+[08/Jun/2023 13:51:57] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.0" 200 8943
+[08/Jun/2023 13:51:58] "GET /static/admin/js/actions.js HTTP/1.0" 200 7872
+[08/Jun/2023 13:51:58] "GET /static/admin/js/urlify.js HTTP/1.0" 200 7887
+[08/Jun/2023 13:51:58] "GET /static/admin/js/prepopulate.js HTTP/1.0" 200 1531
+[08/Jun/2023 13:51:58] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.0" 200 232381
+[08/Jun/2023 13:51:58] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 304 0
+[08/Jun/2023 13:51:58] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.0" 304 0
+[08/Jun/2023 13:51:59] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.0" 304 0
+[08/Jun/2023 13:51:59] "GET /static/jazzmin/js/main.js HTTP/1.0" 304 0
+[08/Jun/2023 13:51:59] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[08/Jun/2023 13:51:59] "GET /static/vendor/select2/js/select2.min.js HTTP/1.0" 200 73170
+[08/Jun/2023 13:51:59] "GET /static/jazzmin/js/change_list.js HTTP/1.0" 200 2252
+[08/Jun/2023 13:52:02] "GET /admin/Transporteapp/bitacora/ HTTP/1.0" 200 16764
+[08/Jun/2023 13:52:02] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.0" 304 0
+[08/Jun/2023 13:52:02] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 304 0
+[08/Jun/2023 13:52:02] "GET /static/vendor/select2/css/select2.min.css HTTP/1.0" 304 0
+[08/Jun/2023 13:52:02] "GET /static/jazzmin/css/main.css HTTP/1.0" 304 0
+[08/Jun/2023 13:52:02] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.0" 304 0
+[08/Jun/2023 13:52:02] "GET /admin/jsi18n/ HTTP/1.0" 200 8006
+[08/Jun/2023 13:52:02] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 304 0
+[08/Jun/2023 13:52:03] "GET /static/admin/js/jquery.init.js HTTP/1.0" 304 0
+[08/Jun/2023 13:52:03] "GET /static/admin/js/core.js HTTP/1.0" 304 0
+[08/Jun/2023 13:52:03] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.0" 304 0
+[08/Jun/2023 13:52:03] "GET /static/admin/js/actions.js HTTP/1.0" 304 0
+[08/Jun/2023 13:52:03] "GET /static/admin/js/urlify.js HTTP/1.0" 304 0
+[08/Jun/2023 13:52:03] "GET /static/admin/js/prepopulate.js HTTP/1.0" 304 0
+[08/Jun/2023 13:52:03] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.0" 304 0
+[08/Jun/2023 13:52:03] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.0" 304 0
+[08/Jun/2023 13:52:03] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.0" 304 0
+[08/Jun/2023 13:52:03] "GET /static/jazzmin/js/main.js HTTP/1.0" 304 0
+[08/Jun/2023 13:52:03] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[08/Jun/2023 13:52:03] "GET /static/vendor/select2/js/select2.min.js HTTP/1.0" 304 0
+[08/Jun/2023 13:52:03] "GET /static/jazzmin/js/change_list.js HTTP/1.0" 304 0
+[08/Jun/2023 13:52:06] "GET /admin/Transporteapp/bitacora/1/change/ HTTP/1.0" 200 17438
+[08/Jun/2023 13:52:06] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.0" 304 0
+[08/Jun/2023 13:52:06] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.0" 304 0
+[08/Jun/2023 13:52:06] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 304 0
+[08/Jun/2023 13:52:06] "GET /static/vendor/select2/css/select2.min.css HTTP/1.0" 304 0
+[08/Jun/2023 13:52:06] "GET /static/jazzmin/css/main.css HTTP/1.0" 304 0
+[08/Jun/2023 13:52:07] "GET /admin/jsi18n/ HTTP/1.0" 200 8006
+[08/Jun/2023 13:52:07] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 304 0
+[08/Jun/2023 13:52:07] "GET /static/admin/js/jquery.init.js HTTP/1.0" 304 0
+[08/Jun/2023 13:52:07] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.0" 304 0
+[08/Jun/2023 13:52:07] "GET /static/admin/js/core.js HTTP/1.0" 304 0
+[08/Jun/2023 13:52:07] "GET /static/admin/js/actions.js HTTP/1.0" 304 0
+[08/Jun/2023 13:52:07] "GET /static/admin/js/urlify.js HTTP/1.0" 304 0
+[08/Jun/2023 13:52:07] "GET /static/admin/js/prepopulate.js HTTP/1.0" 304 0
+[08/Jun/2023 13:52:07] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.0" 304 0
+[08/Jun/2023 13:52:07] "GET /static/admin/js/change_form.js HTTP/1.0" 200 606
+[08/Jun/2023 13:52:07] "GET /static/admin/js/prepopulate_init.js HTTP/1.0" 200 586
+[08/Jun/2023 13:52:07] "GET /static/vendor/select2/js/select2.min.js HTTP/1.0" 304 0
+[08/Jun/2023 13:52:07] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.0" 304 0
+[08/Jun/2023 13:52:07] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.0" 304 0
+[08/Jun/2023 13:52:07] "GET /static/jazzmin/js/main.js HTTP/1.0" 304 0
+[08/Jun/2023 13:52:08] "GET /static/admin/img/icon-changelink.svg HTTP/1.0" 200 380
+[08/Jun/2023 13:52:08] "GET /static/admin/img/icon-addlink.svg HTTP/1.0" 200 331
+[08/Jun/2023 13:52:08] "GET /static/admin/img/icon-viewlink.svg HTTP/1.0" 200 581
+[08/Jun/2023 13:52:08] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[08/Jun/2023 13:52:08] "GET /static/jazzmin/js/change_form.js HTTP/1.0" 200 6052
+[08/Jun/2023 13:52:10] "GET /admin/Transporteapp/ordendeservicio/1/change/?_to_field=id&_popup=1 HTTP/1.0" 200 13572
+[08/Jun/2023 13:52:11] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.0" 304 0
+[08/Jun/2023 13:52:11] "GET /static/admin/js/calendar.js HTTP/1.0" 200 8466
+[08/Jun/2023 13:52:11] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 304 0
+[08/Jun/2023 13:52:11] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.0" 304 0
+[08/Jun/2023 13:52:11] "GET /static/jazzmin/css/main.css HTTP/1.0" 304 0
+[08/Jun/2023 13:52:11] "GET /static/vendor/select2/css/select2.min.css HTTP/1.0" 304 0
+[08/Jun/2023 13:52:11] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.0" 200 19319
+[08/Jun/2023 13:52:11] "GET /static/admin/js/jquery.init.js HTTP/1.0" 304 0
+[08/Jun/2023 13:52:11] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 304 0
+[08/Jun/2023 13:52:11] "GET /admin/jsi18n/ HTTP/1.0" 200 8006
+[08/Jun/2023 13:52:11] "GET /static/admin/js/core.js HTTP/1.0" 304 0
+[08/Jun/2023 13:52:11] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.0" 304 0
+[08/Jun/2023 13:52:11] "GET /static/admin/js/urlify.js HTTP/1.0" 304 0
+[08/Jun/2023 13:52:11] "GET /static/admin/js/actions.js HTTP/1.0" 304 0
+[08/Jun/2023 13:52:11] "GET /static/admin/js/prepopulate.js HTTP/1.0" 304 0
+[08/Jun/2023 13:52:11] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.0" 304 0
+[08/Jun/2023 13:52:12] "GET /static/admin/js/change_form.js HTTP/1.0" 304 0
+[08/Jun/2023 13:52:12] "GET /static/admin/js/prepopulate_init.js HTTP/1.0" 304 0
+[08/Jun/2023 13:52:12] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.0" 304 0
+[08/Jun/2023 13:52:12] "GET /static/vendor/select2/js/select2.min.js HTTP/1.0" 304 0
+[08/Jun/2023 13:52:12] "GET /static/jazzmin/js/main.js HTTP/1.0" 304 0
+[08/Jun/2023 13:52:12] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.0" 304 0
+[08/Jun/2023 13:52:12] "GET /static/admin/img/icon-changelink.svg HTTP/1.0" 304 0
+[08/Jun/2023 13:52:12] "GET /static/admin/img/icon-addlink.svg HTTP/1.0" 304 0
+[08/Jun/2023 13:52:12] "GET /static/admin/img/icon-viewlink.svg HTTP/1.0" 304 0
+[08/Jun/2023 13:52:12] "GET /static/jazzmin/js/change_form.js HTTP/1.0" 304 0
+[08/Jun/2023 13:52:27] "GET /admin/logout/ HTTP/1.0" 200 2194
+[08/Jun/2023 13:52:28] "GET /static/jazzmin/css/main.css HTTP/1.0" 304 0
+[08/Jun/2023 13:52:28] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 304 0
+[08/Jun/2023 13:52:28] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.0" 304 0
+[08/Jun/2023 13:52:28] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.0" 304 0
+[08/Jun/2023 13:52:28] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 304 0
+[08/Jun/2023 13:52:28] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[08/Jun/2023 13:52:28] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.0" 304 0
+[08/Jun/2023 13:52:28] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.0" 304 0
+[08/Jun/2023 14:01:28] "GET / HTTP/1.0" 200 1094
+Forbidden (CSRF cookie not set.): /
+[08/Jun/2023 14:02:57] "POST / HTTP/1.0" 403 2922
+Not Found: /.env
+[08/Jun/2023 14:02:57] "GET /.env HTTP/1.0" 404 2190
+[08/Jun/2023 14:04:52] "GET / HTTP/1.0" 200 1094
+[08/Jun/2023 14:27:27] "GET / HTTP/1.0" 200 1094
+Forbidden (CSRF cookie not set.): /
+[08/Jun/2023 14:35:43] "POST / HTTP/1.0" 403 2922
+Not Found: /.env
+[08/Jun/2023 14:35:43] "GET /.env HTTP/1.0" 404 2190
+Not Found: /actuator/gateway/routes
+[08/Jun/2023 14:42:44] "GET /actuator/gateway/routes HTTP/1.0" 404 2247
+Forbidden (CSRF cookie not set.): /
+[08/Jun/2023 15:21:26] "POST / HTTP/1.0" 403 2922
+Not Found: /.env
+[08/Jun/2023 15:21:27] "GET /.env HTTP/1.0" 404 2190
+[08/Jun/2023 15:31:41] "GET / HTTP/1.0" 200 1094
+[08/Jun/2023 15:33:06] "GET / HTTP/1.0" 200 1094
+Not Found: /favicon.ico
+[08/Jun/2023 15:33:07] "GET /favicon.ico HTTP/1.0" 404 2211
+[08/Jun/2023 15:33:10] "GET /admin HTTP/1.0" 301 0
+[08/Jun/2023 15:33:10] "GET /admin/ HTTP/1.0" 302 0
+[08/Jun/2023 15:33:10] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
+[08/Jun/2023 15:33:11] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.0" 200 59344
+[08/Jun/2023 15:33:11] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.0" 200 163234
+[08/Jun/2023 15:33:11] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 200 1382975
+[08/Jun/2023 15:33:11] "GET /static/jazzmin/css/main.css HTTP/1.0" 200 16969
+[08/Jun/2023 15:33:11] "GET /static/img/image-tda.png HTTP/1.0" 200 69859
+[08/Jun/2023 15:33:11] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 200 292458
+[08/Jun/2023 15:33:11] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.0" 200 62440
+[08/Jun/2023 15:33:11] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.0" 200 44244
+[08/Jun/2023 15:33:13] "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.0" 200 78196
+[08/Jun/2023 15:35:14,769] - Broken pipe from ('167.248.133.124', 42446)
+[08/Jun/2023 15:35:15] "GET / HTTP/1.1" 200 1094
+[08/Jun/2023 15:35:15,817] - Broken pipe from ('167.248.133.124', 45278)
+[08/Jun/2023 15:35:15] "GET / HTTP/1.1" 200 1094
+[08/Jun/2023 15:35:15] code 505, message Invalid HTTP version (2.0)
+[08/Jun/2023 15:35:15] "PRI * HTTP/2.0" 505 -
+Not Found: /favicon.ico
+[08/Jun/2023 15:35:15] "GET /favicon.ico HTTP/1.1" 404 2216
+[08/Jun/2023 15:39:56] "HEAD / HTTP/1.0" 200 0
+[08/Jun/2023 15:39:59] "GET / HTTP/1.0" 200 1094
+Not Found: /geoserver
+[08/Jun/2023 15:45:15] "GET /geoserver HTTP/1.0" 404 2205
+[08/Jun/2023 16:51:40] "GET / HTTP/1.0" 200 1094
+[08/Jun/2023 16:58:09] "GET / HTTP/1.0" 200 1094
+Forbidden (CSRF cookie not set.): /
+[08/Jun/2023 17:03:30] "POST / HTTP/1.0" 403 2922
+Not Found: /.env
+[08/Jun/2023 17:03:31] "GET /.env HTTP/1.0" 404 2190
+Not Found: /config/getuser
+[08/Jun/2023 17:11:12] "GET /config/getuser?index=0 HTTP/1.0" 404 2228
+[08/Jun/2023 17:21:55] "GET / HTTP/1.0" 200 1094
+Not Found: /pTf2
+[08/Jun/2023 17:31:38] "GET /pTf2 HTTP/1.0" 404 2190
+Not Found: /2Emy
+[08/Jun/2023 17:31:38] "GET /2Emy HTTP/1.0" 404 2190
+Forbidden (CSRF cookie not set.): /
+[08/Jun/2023 17:40:52] "POST / HTTP/1.0" 403 2922
+Not Found: /.env
+[08/Jun/2023 17:40:52] "GET /.env HTTP/1.0" 404 2190
+[08/Jun/2023 18:03:41] "GET / HTTP/1.0" 200 1094
+[08/Jun/2023 18:07:32] "GET / HTTP/1.0" 200 1094
+[08/Jun/2023 18:07:32] "GET / HTTP/1.0" 200 1094
+Not Found: /favicon.ico
+[08/Jun/2023 18:07:32] "GET /favicon.ico HTTP/1.0" 404 2211
+Not Found: /boaform/admin/formLogin
+[08/Jun/2023 18:07:44] "POST /boaform/admin/formLogin HTTP/1.0" 404 2248
+Forbidden (CSRF cookie not set.): /
+[08/Jun/2023 18:23:10] "POST / HTTP/1.0" 403 2922
+Not Found: /.env
+[08/Jun/2023 18:23:10] "GET /.env HTTP/1.0" 404 2190
+[08/Jun/2023 18:32:42] "GET / HTTP/1.0" 200 1094
+[08/Jun/2023 19:09:31] "GET / HTTP/1.0" 200 1094
+[08/Jun/2023 19:25:56] "GET / HTTP/1.0" 200 1094
+Forbidden (CSRF cookie not set.): /
+[08/Jun/2023 19:26:13] "POST / HTTP/1.0" 403 2922
+Not Found: /.env
+[08/Jun/2023 19:26:13] "GET /.env HTTP/1.0" 404 2190
+[08/Jun/2023 19:40:50] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.0" 200 44244
+[08/Jun/2023 19:40:50] "GET /admin/ HTTP/1.0" 302 0
+[08/Jun/2023 19:40:50] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
+[08/Jun/2023 19:40:50] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
+[08/Jun/2023 19:40:50] "GET / HTTP/1.0" 200 1094
+[08/Jun/2023 19:40:50] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.0" 200 59344
+[08/Jun/2023 19:40:50] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 200 292458
+[08/Jun/2023 19:40:50] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.0" 200 59344
+[08/Jun/2023 19:40:50] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.0" 200 163234
+[08/Jun/2023 19:40:50] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 200 1382975
+[08/Jun/2023 19:40:50] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 200 292458
+[08/Jun/2023 19:40:50] "GET /static/jazzmin/css/main.css HTTP/1.0" 200 16969
+[08/Jun/2023 19:40:50] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.0" 200 163234
+[08/Jun/2023 19:40:50] "GET /static/jazzmin/css/main.css HTTP/1.0" 200 16969
+[08/Jun/2023 19:40:50] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 200 1382975
+[08/Jun/2023 19:40:50] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 200 292458
+[08/Jun/2023 19:40:50] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.0" 200 62440
+[08/Jun/2023 19:40:50] "GET /static/img/image-tda.png HTTP/1.0" 200 69859
+[08/Jun/2023 19:40:50] "GET /admin HTTP/1.0" 301 0
+[08/Jun/2023 19:40:50] "GET /admin/ HTTP/1.0" 302 0
+[08/Jun/2023 19:40:51] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
+[08/Jun/2023 19:40:51] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.0" 200 59344
+[08/Jun/2023 19:40:51] "GET /static/img/image-tda.png HTTP/1.0" 200 69859
+[08/Jun/2023 19:40:51] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.0" 200 62440
+[08/Jun/2023 19:40:51] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.0" 200 163234
+[08/Jun/2023 19:40:51] "GET /static/jazzmin/css/main.css HTTP/1.0" 200 16969
+[08/Jun/2023 19:40:51] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 200 1382975
+[08/Jun/2023 19:40:51] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 200 292458
+[08/Jun/2023 19:40:51] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.0" 200 44244
+[08/Jun/2023 19:40:51] "GET /static/jazzmin/js/main.js HTTP/1.0" 200 2391
+[08/Jun/2023 19:40:51] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.0" 200 62440
+[08/Jun/2023 19:40:51] "GET /static/img/image-tda.png HTTP/1.0" 200 69859
+[08/Jun/2023 19:40:51] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.0" 200 44244
+[08/Jun/2023 19:40:51] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.0" 200 62440
+[08/Jun/2023 19:40:51] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.0" 200 44244
+[08/Jun/2023 19:40:52] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 200 292458
+[08/Jun/2023 19:40:52] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 200 1382975
+[08/Jun/2023 19:40:52] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 200 1382975
+[08/Jun/2023 19:40:52] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 200 292458
+[08/Jun/2023 19:40:52] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 200 292458
+[08/Jun/2023 19:40:53] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 200 1382975
+[08/Jun/2023 19:40:53] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 200 292458
+[08/Jun/2023 19:41:04] "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.0" 200 78196
+[08/Jun/2023 19:41:10] "GET /static/img/image-tda.png HTTP/1.0" 200 69859
+[08/Jun/2023 19:41:10] "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.0" 200 78196
+[08/Jun/2023 19:41:11] "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.0" 200 78196
+[08/Jun/2023 19:41:16] "GET /static/img/image-tda.png HTTP/1.0" 200 69859
+[08/Jun/2023 19:41:17] "GET /static/img/image-tda.png HTTP/1.0" 200 69859
+[08/Jun/2023 20:02:27] "GET / HTTP/1.0" 200 1094
+[08/Jun/2023 20:04:50] "GET / HTTP/1.0" 200 1094
+[08/Jun/2023 20:17:51] "GET / HTTP/1.0" 200 1094
+Not Found: /robots.txt
+[08/Jun/2023 20:17:51] "GET /robots.txt HTTP/1.0" 404 2208
+Not Found: /sitemap.xml
+[08/Jun/2023 20:17:51] "GET /sitemap.xml HTTP/1.0" 404 2211
+Not Found: /.well-known/security.txt
+[08/Jun/2023 20:17:51] "GET /.well-known/security.txt HTTP/1.0" 404 2250
+Not Found: /favicon.ico
+[08/Jun/2023 20:17:52] "GET /favicon.ico HTTP/1.0" 404 2211
+Forbidden (CSRF cookie not set.): /
+[08/Jun/2023 20:19:36] "POST / HTTP/1.0" 403 2922
+Not Found: /.env
+[08/Jun/2023 20:19:36] "GET /.env HTTP/1.0" 404 2190
+[08/Jun/2023 21:04:05] "GET / HTTP/1.0" 200 1094
+[08/Jun/2023 21:04:59] "GET / HTTP/1.1" 200 1094
+[08/Jun/2023 21:06:35] "GET / HTTP/1.0" 200 1094
+[08/Jun/2023 21:08:40] "GET / HTTP/1.0" 200 1094
+[08/Jun/2023 21:16:00] "GET / HTTP/1.0" 200 1094
+Forbidden (CSRF cookie not set.): /
+[08/Jun/2023 21:16:02] "POST / HTTP/1.0" 403 2922
+Not Found: /.env
+[08/Jun/2023 21:16:02] "GET /.env HTTP/1.0" 404 2190
+[08/Jun/2023 21:50:18] "GET / HTTP/1.0" 200 1094
+Forbidden (CSRF cookie not set.): /
+[08/Jun/2023 21:56:54] "POST / HTTP/1.0" 403 2922
+Not Found: /.env
+[08/Jun/2023 21:56:55] "GET /.env HTTP/1.0" 404 2190
+[08/Jun/2023 22:08:13] "GET / HTTP/1.0" 200 1094
+[08/Jun/2023 22:32:10] "GET / HTTP/1.1" 200 1094
+[08/Jun/2023 22:46:37] code 400, message Bad request version ('À\x14À')
+[08/Jun/2023 22:46:37] You're accessing the development server over HTTPS, but it only supports HTTP.
+[08/Jun/2023 22:46:37] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03¨ýöUn})íö{åé\x02Ó\x88s$¢1\x9c\x84Àuá´\x9aô!µÐT\x12\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[08/Jun/2023 22:46:37] You're accessing the development server over HTTPS, but it only supports HTTP.
+[08/Jun/2023 22:46:37] "GET / HTTP/1.1" 200 1094
+[08/Jun/2023 22:46:37] code 400, message Bad request version ('À\x14À')
+[08/Jun/2023 22:46:37] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /api/islogged
+[08/Jun/2023 22:46:37] "GET /api/islogged HTTP/1.1" 404 2219
+Not Found: /config/getuser
+[08/Jun/2023 22:50:05] "GET /config/getuser?index=0 HTTP/1.0" 404 2228
+[08/Jun/2023 22:56:25] "GET / HTTP/1.0" 200 1094
+Forbidden (CSRF cookie not set.): /
+[08/Jun/2023 22:58:14] "POST / HTTP/1.0" 403 2922
+Not Found: /.env
+[08/Jun/2023 22:58:14] "GET /.env HTTP/1.0" 404 2190
+Forbidden (CSRF cookie not set.): /
+[08/Jun/2023 23:06:57] "POST / HTTP/1.0" 403 2922
+Not Found: /.env
+[08/Jun/2023 23:06:58] "GET /.env HTTP/1.0" 404 2190
+[08/Jun/2023 23:08:19] "GET / HTTP/1.0" 200 1094
+[08/Jun/2023 23:27:06] "GET / HTTP/1.0" 200 1094
+[08/Jun/2023 23:39:36] "GET / HTTP/1.0" 200 1094
+[08/Jun/2023 23:39:37] "GET / HTTP/1.0" 200 1094
+Not Found: /favicon.ico
+[08/Jun/2023 23:39:39] "GET /favicon.ico HTTP/1.0" 404 2211
+[08/Jun/2023 23:53:57] "GET / HTTP/1.1" 200 1094
+[08/Jun/2023 23:53:57] "GET / HTTP/1.1" 200 1094
+[08/Jun/2023 23:54:23] "GET /admin/ HTTP/1.1" 302 0
+[09/Jun/2023 00:01:05] "GET / HTTP/1.1" 200 1094
+[09/Jun/2023 00:06:43] "GET / HTTP/1.0" 200 1094
+Forbidden (CSRF cookie not set.): /
+[09/Jun/2023 00:11:26] "POST / HTTP/1.0" 403 2922
+Not Found: /.env
+[09/Jun/2023 00:11:26] "GET /.env HTTP/1.0" 404 2190
+[09/Jun/2023 00:11:54] "GET / HTTP/1.0" 200 1094
+Not Found: /.env
+[09/Jun/2023 00:21:30] "GET /.env HTTP/1.0" 404 2190
+[09/Jun/2023 00:24:22] "GET / HTTP/1.1" 200 1094
+Not Found: /favicon.ico
+[09/Jun/2023 00:24:38] "GET /favicon.ico HTTP/1.1" 404 2216
+Invalid HTTP_HOST header: 'api.ipify.org'. You may need to add 'api.ipify.org' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ipify.org'. You may need to add 'api.ipify.org' to ALLOWED_HOSTS.
+Bad Request: /http:/api.ipify.org/
+[09/Jun/2023 00:24:42] "GET http://api.ipify.org/?format=json HTTP/1.1" 400 63345
+Invalid HTTP_HOST header: 'www.shadowserver.org'. You may need to add 'www.shadowserver.org' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.shadowserver.org'. You may need to add 'www.shadowserver.org' to ALLOWED_HOSTS.
+Bad Request: /www.shadowserver.org:443
+[09/Jun/2023 00:24:45] "CONNECT www.shadowserver.org:443 HTTP/1.1" 400 63548
+Not Found: /boaform/admin/formLogin
+[09/Jun/2023 00:28:08] "POST /boaform/admin/formLogin HTTP/1.0" 404 2248
+Not Found: /.env
+[09/Jun/2023 00:34:33] "GET /.env HTTP/1.0" 404 2190
+Forbidden (CSRF cookie not set.): /
+[09/Jun/2023 00:34:33] "POST / HTTP/1.0" 403 2922
+Not Found: /boaform/admin/formLogin
+[09/Jun/2023 00:35:02] "POST /boaform/admin/formLogin HTTP/1.0" 404 2248
+[09/Jun/2023 00:49:00] "GET / HTTP/1.0" 200 8871
+[09/Jun/2023 00:51:27] "GET / HTTP/1.1" 200 8871
+[09/Jun/2023 00:56:44] "GET / HTTP/1.0" 200 8871
+Not Found: /static/css/main.css
+[09/Jun/2023 00:56:44] "GET /static/css/main.css HTTP/1.0" 404 2235
+[09/Jun/2023 00:56:44] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+Not Found: /static/img/camion-1.jpeg
+[09/Jun/2023 00:56:44] "GET /static/img/camion-1.jpeg HTTP/1.0" 404 2250
+Not Found: /static/img/camion-2.jpg
+[09/Jun/2023 00:56:44] "GET /static/img/camion-2.jpg HTTP/1.0" 404 2247
+[09/Jun/2023 00:58:38] "GET / HTTP/1.0" 200 8871
+[09/Jun/2023 00:58:38] "GET /static/css/main.css HTTP/1.0" 200 4256
+[09/Jun/2023 00:58:38] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+Not Found: /static/img/camion-1.jpeg
+[09/Jun/2023 00:58:38] "GET /static/img/camion-1.jpeg HTTP/1.0" 404 2250
+Not Found: /static/img/camion-2.jpg
+[09/Jun/2023 00:58:38] "GET /static/img/camion-2.jpg HTTP/1.0" 404 2247
+[09/Jun/2023 00:58:38] "GET /static/img/banner.jpg HTTP/1.0" 200 111174
+Not Found: /static/img/background.jpg
+[09/Jun/2023 00:58:38] "GET /static/img/background.jpg HTTP/1.0" 404 2253
+[09/Jun/2023 00:59:34] "GET / HTTP/1.0" 200 8871
+[09/Jun/2023 00:59:34] "GET /static/css/main.css HTTP/1.0" 304 0
+[09/Jun/2023 00:59:34] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+Not Found: /static/img/camion-1.jpeg
+[09/Jun/2023 00:59:34] "GET /static/img/camion-1.jpeg HTTP/1.0" 404 2250
+Not Found: /static/img/camion-2.jpg
+[09/Jun/2023 00:59:34] "GET /static/img/background.jpg HTTP/1.0" 200 142837
+[09/Jun/2023 00:59:34] "GET /static/img/camion-2.jpg HTTP/1.0" 404 2247
+[09/Jun/2023 00:59:34] "GET /static/img/banner.jpg HTTP/1.0" 304 0
+[09/Jun/2023 00:59:35] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[09/Jun/2023 01:00:18] "GET / HTTP/1.0" 200 8871
+[09/Jun/2023 01:00:18] "GET /static/css/main.css HTTP/1.0" 304 0
+[09/Jun/2023 01:00:18] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[09/Jun/2023 01:00:18] "GET /static/img/banner.jpg HTTP/1.0" 304 0
+[09/Jun/2023 01:00:18] "GET /static/img/background.jpg HTTP/1.0" 304 0
+Not Found: /static/img/camion-2.jpg
+[09/Jun/2023 01:00:18] "GET /static/img/camion-2.jpg HTTP/1.0" 404 2247
+[09/Jun/2023 01:00:18] "GET /static/img/camion-1.jpeg HTTP/1.0" 200 109171
+[09/Jun/2023 01:00:19] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[09/Jun/2023 01:01:27] "GET / HTTP/1.0" 200 8871
+[09/Jun/2023 01:01:27] "GET /static/css/main.css HTTP/1.0" 304 0
+[09/Jun/2023 01:01:27] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[09/Jun/2023 01:01:27] "GET /static/img/banner.jpg HTTP/1.0" 304 0
+[09/Jun/2023 01:01:27] "GET /static/img/camion-1.jpeg HTTP/1.0" 304 0
+[09/Jun/2023 01:01:27] "GET /static/img/background.jpg HTTP/1.0" 304 0
+[09/Jun/2023 01:01:27] "GET /static/img/camion-2.jpg HTTP/1.0" 200 92709
+[09/Jun/2023 01:01:27] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+Not Found: /seguimiento
+[09/Jun/2023 01:01:29] "GET /seguimiento HTTP/1.0" 404 2211
+Not Found: /favicon.ico
+[09/Jun/2023 01:01:29] "GET /favicon.ico HTTP/1.0" 404 2211
+/root/Transporte/Transporteapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 09, 2023 - 01:02:33
+Django version 4.2.1, using settings 'proyecto.settings'
+Starting development server at http://147.182.184.6:8000/
+Quit the server with CONTROL-C.
+
+Not Found: /status
+[09/Jun/2023 01:02:56] "GET /status HTTP/1.1" 404 2201
+Not Found: /stat
+[09/Jun/2023 01:02:57] "GET /stat HTTP/1.1" 404 2195
+[09/Jun/2023 01:03:53] "GET / HTTP/1.0" 200 8871
+/root/Transporte/proyecto/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 09, 2023 - 01:04:11
+Django version 4.2.1, using settings 'proyecto.settings'
+Starting development server at http://147.182.184.6:8000/
+Quit the server with CONTROL-C.
+
+[09/Jun/2023 01:04:14] "GET / HTTP/1.0" 200 8871
+[09/Jun/2023 01:04:14] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[09/Jun/2023 01:04:14] "GET /static/css/main.css HTTP/1.0" 304 0
+[09/Jun/2023 01:04:15] "GET /static/img/camion-1.jpeg HTTP/1.0" 304 0
+[09/Jun/2023 01:04:15] "GET /static/img/camion-2.jpg HTTP/1.0" 304 0
+[09/Jun/2023 01:04:15] "GET /static/img/background.jpg HTTP/1.0" 304 0
+[09/Jun/2023 01:04:15] "GET /static/img/banner.jpg HTTP/1.0" 304 0
+[09/Jun/2023 01:04:15] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[09/Jun/2023 01:04:16] "GET /seguimiento HTTP/1.0" 200 0
+Forbidden (CSRF cookie not set.): /
+[09/Jun/2023 01:06:52] "POST / HTTP/1.0" 403 2922
+[09/Jun/2023 01:06:52] "GET / HTTP/1.0" 200 8871
+Not Found: /.env
+[09/Jun/2023 01:06:52] "GET /.env HTTP/1.0" 404 2301
+[09/Jun/2023 01:06:52] "GET /static/css/main.css HTTP/1.0" 200 4256
+[09/Jun/2023 01:06:52] "GET /static/img/camion-1.jpeg HTTP/1.0" 200 109171
+[09/Jun/2023 01:06:52] "GET /static/img/image-tda.png HTTP/1.0" 200 69859
+[09/Jun/2023 01:06:52] "GET /static/img/camion-2.jpg HTTP/1.0" 200 92709
+[09/Jun/2023 01:06:52] "GET /static/img/background.jpg HTTP/1.0" 200 142837
+[09/Jun/2023 01:06:53] "GET /static/img/banner.jpg HTTP/1.0" 200 111174
+[09/Jun/2023 01:06:53] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[09/Jun/2023 01:10:45] "GET / HTTP/1.0" 200 8871
+[09/Jun/2023 01:10:45] "GET /static/img/image-tda.png HTTP/1.0" 200 69859
+[09/Jun/2023 01:10:45] "GET /static/css/main.css HTTP/1.0" 200 4256
+[09/Jun/2023 01:10:46] "GET /static/img/camion-1.jpeg HTTP/1.0" 200 109171
+[09/Jun/2023 01:10:47] "GET /static/img/camion-2.jpg HTTP/1.0" 200 92709
+[09/Jun/2023 01:10:47] "GET /static/img/background.jpg HTTP/1.0" 200 142837
+[09/Jun/2023 01:10:47] "GET /static/img/banner.jpg HTTP/1.0" 200 111174
+[09/Jun/2023 01:10:52] "GET /static/img/image-tda.png HTTP/1.0" 200 69859
+[09/Jun/2023 01:11:21] "GET /seguimiento HTTP/1.0" 200 0
+Not Found: /favicon.ico
+[09/Jun/2023 01:11:22] "GET /favicon.ico HTTP/1.0" 404 2322
+[09/Jun/2023 01:12:18] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[09/Jun/2023 01:12:18] "  /*à     Cookie: mstshash=Administr" 400 -
+[09/Jun/2023 01:15:24] "GET /static/css/main.css HTTP/1.0" 304 0
+[09/Jun/2023 01:17:16] code 400, message Bad request version ('Â÷E\x8cò\x9cJ`\x18â')
+[09/Jun/2023 01:17:16] You're accessing the development server over HTTPS, but it only supports HTTP.
+[09/Jun/2023 01:17:28] "GET / HTTP/1.1" 200 8871
+[09/Jun/2023 01:17:49] "GET /static/img/image-tda.png HTTP/1.1" 200 69859
+Not Found: /robots.txt
+[09/Jun/2023 01:17:51] "GET /robots.txt HTTP/1.1" 404 2324
+Not Found: /sitemap.xml
+[09/Jun/2023 01:17:52] "GET /sitemap.xml HTTP/1.1" 404 2327
+[09/Jun/2023 01:19:15] "GET / HTTP/1.0" 200 8871
+[09/Jun/2023 01:19:15] "GET /static/css/main.css HTTP/1.0" 304 0
+[09/Jun/2023 01:19:15] "GET /static/img/camion-1.jpeg HTTP/1.0" 304 0
+[09/Jun/2023 01:19:15] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[09/Jun/2023 01:19:15] "GET /static/img/banner.jpg HTTP/1.0" 304 0
+[09/Jun/2023 01:19:15] "GET /static/img/background.jpg HTTP/1.0" 304 0
+[09/Jun/2023 01:19:15] "GET /static/img/camion-2.jpg HTTP/1.0" 304 0
+[09/Jun/2023 01:19:18] "GET /static/css/main.css HTTP/1.0" 304 0
+[09/Jun/2023 01:21:48] "GET / HTTP/1.0" 200 8871
+[09/Jun/2023 01:21:48] "GET /static/css/main.css HTTP/1.0" 304 0
+[09/Jun/2023 01:21:48] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[09/Jun/2023 01:21:49] "GET /static/img/camion-1.jpeg HTTP/1.0" 304 0
+[09/Jun/2023 01:21:49] "GET /static/img/camion-2.jpg HTTP/1.0" 304 0
+[09/Jun/2023 01:21:50] "GET / HTTP/1.0" 200 8871
+[09/Jun/2023 01:21:50] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[09/Jun/2023 01:21:50] "GET /static/css/main.css HTTP/1.0" 304 0
+[09/Jun/2023 01:21:50] "GET /static/img/camion-1.jpeg HTTP/1.0" 200 109171
+[09/Jun/2023 01:21:50] "GET /static/img/camion-2.jpg HTTP/1.0" 200 92709
+[09/Jun/2023 01:21:50] "GET /static/img/background.jpg HTTP/1.0" 200 142837
+[09/Jun/2023 01:21:51] "GET /static/img/banner.jpg HTTP/1.0" 200 111174
+[09/Jun/2023 01:21:51] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[09/Jun/2023 01:21:53] "GET /static/css/main.css HTTP/1.0" 304 0
+[09/Jun/2023 01:22:04] "GET / HTTP/1.0" 200 8871
+[09/Jun/2023 01:22:04] "GET /static/css/main.css HTTP/1.0" 304 0
+[09/Jun/2023 01:22:04] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[09/Jun/2023 01:22:04] "GET /static/img/camion-1.jpeg HTTP/1.0" 304 0
+[09/Jun/2023 01:22:04] "GET /static/img/background.jpg HTTP/1.0" 304 0
+[09/Jun/2023 01:22:04] "GET /static/img/banner.jpg HTTP/1.0" 304 0
+[09/Jun/2023 01:22:04] "GET /static/img/camion-2.jpg HTTP/1.0" 304 0
+[09/Jun/2023 01:22:04] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[09/Jun/2023 01:22:04] "GET / HTTP/1.0" 200 8871
+[09/Jun/2023 01:22:04] "GET /static/css/main.css HTTP/1.0" 304 0
+[09/Jun/2023 01:22:04] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[09/Jun/2023 01:22:04] "GET /static/img/camion-1.jpeg HTTP/1.0" 304 0
+[09/Jun/2023 01:22:04] "GET /static/img/banner.jpg HTTP/1.0" 304 0
+[09/Jun/2023 01:22:04] "GET /static/img/background.jpg HTTP/1.0" 304 0
+[09/Jun/2023 01:22:04] "GET /static/img/camion-2.jpg HTTP/1.0" 304 0
+[09/Jun/2023 01:22:09] "GET / HTTP/1.0" 200 8871
+[09/Jun/2023 01:22:09] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[09/Jun/2023 01:22:09] "GET /static/css/main.css HTTP/1.0" 304 0
+[09/Jun/2023 01:22:09] "GET /static/img/camion-1.jpeg HTTP/1.0" 304 0
+[09/Jun/2023 01:22:09] "GET /static/img/camion-2.jpg HTTP/1.0" 304 0
+[09/Jun/2023 01:22:09] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[09/Jun/2023 01:22:09] "GET / HTTP/1.0" 200 8871
+[09/Jun/2023 01:22:10] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[09/Jun/2023 01:22:10] "GET /static/css/main.css HTTP/1.0" 304 0
+[09/Jun/2023 01:22:10] "GET /static/img/camion-2.jpg HTTP/1.0" 304 0
+[09/Jun/2023 01:22:10] "GET /static/img/camion-1.jpeg HTTP/1.0" 304 0
+[09/Jun/2023 01:22:10] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[09/Jun/2023 01:22:38] "GET / HTTP/1.0" 200 8871
+[09/Jun/2023 01:22:38] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[09/Jun/2023 01:22:38] "GET /static/css/main.css HTTP/1.0" 304 0
+[09/Jun/2023 01:22:38] "GET /static/img/camion-1.jpeg HTTP/1.0" 304 0
+[09/Jun/2023 01:22:38] "GET /static/img/camion-2.jpg HTTP/1.0" 304 0
+[09/Jun/2023 01:22:39] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[09/Jun/2023 01:22:39] "GET / HTTP/1.0" 200 8871
+[09/Jun/2023 01:22:39] "GET /static/css/main.css HTTP/1.0" 304 0
+[09/Jun/2023 01:22:39] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[09/Jun/2023 01:22:39] "GET /static/img/camion-1.jpeg HTTP/1.0" 304 0
+[09/Jun/2023 01:22:39] "GET /static/img/camion-2.jpg HTTP/1.0" 304 0
+[09/Jun/2023 01:22:39] "GET / HTTP/1.0" 200 8871
+[09/Jun/2023 01:22:39] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[09/Jun/2023 01:22:39] "GET /static/css/main.css HTTP/1.0" 304 0
+[09/Jun/2023 01:22:40] "GET /static/img/camion-1.jpeg HTTP/1.0" 304 0
+[09/Jun/2023 01:22:40] "GET /static/img/camion-2.jpg HTTP/1.0" 304 0
+[09/Jun/2023 01:22:40] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+Not Found: /favicon.ico
+[09/Jun/2023 01:25:37] "GET /favicon.ico HTTP/1.0" 404 2322
+Not Found: /phpMyAdmin/scripts/setup.php
+[09/Jun/2023 01:35:46] "GET /phpMyAdmin/scripts/setup.php HTTP/1.0" 404 2373
+Not Found: /favicon.ico
+[09/Jun/2023 01:35:47] "GET /favicon.ico HTTP/1.1" 404 2327
+Not Found: /phpmyadmin/scripts/setup.php
+[09/Jun/2023 01:35:47] "GET /phpmyadmin/scripts/setup.php HTTP/1.0" 404 2373
+Not Found: /phpMyAdmin-2.11.4/scripts/setup.php
+[09/Jun/2023 01:35:48] "GET /phpMyAdmin-2.11.4/scripts/setup.php HTTP/1.0" 404 2394
+Not Found: /phpMyAdmin-2.10.0.2/scripts/setup.php
+[09/Jun/2023 01:35:56] "GET /phpMyAdmin-2.10.0.2/scripts/setup.php HTTP/1.0" 404 2400
+Not Found: /phpMyAdmin-2.10.3/scripts/setup.php
+[09/Jun/2023 01:35:58] "GET /phpMyAdmin-2.10.3/scripts/setup.php HTTP/1.0" 404 2394
+Not Found: /phpMyAdmin-2.8.0.2/scripts/setup.php
+[09/Jun/2023 01:35:59] "GET /phpMyAdmin-2.8.0.2/scripts/setup.php HTTP/1.0" 404 2397
+Not Found: /phpMyAdmin-2.10.2/scripts/setup.php
+[09/Jun/2023 01:36:01] "GET /phpMyAdmin-2.10.2/scripts/setup.php HTTP/1.0" 404 2394
+Not Found: /phpMyAdmin-2.11.9.2/scripts/setup.php
+[09/Jun/2023 01:36:01] "GET /phpMyAdmin-2.11.9.2/scripts/setup.php HTTP/1.0" 404 2400
+Not Found: /phpMyAdmin-2.11.7/scripts/setup.php
+[09/Jun/2023 01:36:07] "GET /phpMyAdmin-2.11.7/scripts/setup.php HTTP/1.0" 404 2394
+Not Found: /phpMyAdmin-2.11.1.2/scripts/setup.php
+[09/Jun/2023 01:36:08] "GET /phpMyAdmin-2.11.1.2/scripts/setup.php HTTP/1.0" 404 2400
+Not Found: /pma/scripts/setup.php
+[09/Jun/2023 01:36:09] "GET /pma/scripts/setup.php HTTP/1.0" 404 2352
+Not Found: /phpMyAdmin3/scripts/setup.php
+[09/Jun/2023 01:36:09] "GET /phpMyAdmin3/scripts/setup.php HTTP/1.0" 404 2376
+Not Found: /MyAdmin/scripts/setup.php
+[09/Jun/2023 01:36:19] "GET /MyAdmin/scripts/setup.php HTTP/1.0" 404 2364
+Not Found: /PHPMYADMIN/scripts/setup.php
+[09/Jun/2023 01:36:19] "GET /PHPMYADMIN/scripts/setup.php HTTP/1.0" 404 2373
+Not Found: /SQL/scripts/setup.php
+[09/Jun/2023 01:36:23] "GET /SQL/scripts/setup.php HTTP/1.0" 404 2352
+Not Found: /phpMyAdmin-2.5.5-pl1/scripts/setup.php
+[09/Jun/2023 01:36:24] "GET /phpMyAdmin-2.5.5-pl1/scripts/setup.php HTTP/1.0" 404 2403
+Not Found: /phpMyAdmin-2.5.5/scripts/setup.php
+[09/Jun/2023 01:36:25] "GET /phpMyAdmin-2.5.5/scripts/setup.php HTTP/1.0" 404 2391
+[09/Jun/2023 01:36:37] "GET /admin/pma/scripts/setup.php HTTP/1.0" 302 0
+Not Found: /webadmin/scripts/setup.php
+[09/Jun/2023 01:36:49] "GET /webadmin/scripts/setup.php HTTP/1.0" 404 2367
+Not Found: /dbadmin/scripts/setup.php
+[09/Jun/2023 01:36:55] "GET /dbadmin/scripts/setup.php HTTP/1.0" 404 2364
+Not Found: /mysql/scripts/setup.php
+[09/Jun/2023 01:36:59] "GET /mysql/scripts/setup.php HTTP/1.0" 404 2358
+Not Found: /phpMyAdmin2/scripts/setup.php
+[09/Jun/2023 01:37:01] "GET /phpMyAdmin2/scripts/setup.php HTTP/1.0" 404 2376
+Not Found: /sqlweb/scripts/setup.php
+[09/Jun/2023 01:37:06] "GET /sqlweb/scripts/setup.php HTTP/1.0" 404 2361
+Not Found: /webdb/scripts/setup.php
+[09/Jun/2023 01:37:06] "GET /webdb/scripts/setup.php HTTP/1.0" 404 2358
+Not Found: /websql/scripts/setup.php
+[09/Jun/2023 01:37:08] "GET /websql/scripts/setup.php HTTP/1.0" 404 2361
+Not Found: /db/scripts/setup.php
+[09/Jun/2023 01:37:19] "GET /db/scripts/setup.php HTTP/1.0" 404 2349
+Not Found: /sqlmanager/scripts/setup.php
+[09/Jun/2023 01:37:20] "GET /sqlmanager/scripts/setup.php HTTP/1.0" 404 2373
+Not Found: /mysqlmanager/scripts/setup.php
+[09/Jun/2023 01:37:22] "GET /mysqlmanager/scripts/setup.php HTTP/1.0" 404 2379
+Not Found: /php-myadmin/scripts/setup.php
+[09/Jun/2023 01:37:29] "GET /php-myadmin/scripts/setup.php HTTP/1.0" 404 2376
+[09/Jun/2023 01:48:32] "GET / HTTP/1.0" 200 8871
+[09/Jun/2023 01:48:32] "GET /static/css/main.css HTTP/1.0" 304 0
+[09/Jun/2023 01:48:32] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[09/Jun/2023 01:48:32] "GET /static/img/camion-1.jpeg HTTP/1.0" 304 0
+[09/Jun/2023 01:48:32] "GET /static/img/camion-2.jpg HTTP/1.0" 304 0
+[09/Jun/2023 01:48:32] "GET /static/img/background.jpg HTTP/1.0" 304 0
+[09/Jun/2023 01:48:32] "GET /static/img/banner.jpg HTTP/1.0" 304 0
+[09/Jun/2023 01:48:34] "GET /static/css/main.css HTTP/1.0" 304 0
+[09/Jun/2023 01:49:12] "GET / HTTP/1.0" 200 8871
+[09/Jun/2023 01:49:12] "GET /static/css/main.css HTTP/1.0" 304 0
+[09/Jun/2023 01:49:12] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[09/Jun/2023 01:49:12] "GET /static/img/camion-1.jpeg HTTP/1.0" 304 0
+[09/Jun/2023 01:49:12] "GET /static/img/camion-2.jpg HTTP/1.0" 304 0
+[09/Jun/2023 01:49:12] "GET /static/img/banner.jpg HTTP/1.0" 304 0
+[09/Jun/2023 01:49:12] "GET /static/img/background.jpg HTTP/1.0" 304 0
+[09/Jun/2023 01:49:23] "GET / HTTP/1.0" 200 8871
+[09/Jun/2023 01:49:23] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[09/Jun/2023 01:49:24] "GET /static/css/main.css HTTP/1.0" 304 0
+[09/Jun/2023 01:49:24] "GET /static/img/camion-1.jpeg HTTP/1.0" 304 0
+[09/Jun/2023 01:49:24] "GET /static/img/background.jpg HTTP/1.0" 304 0
+[09/Jun/2023 01:49:24] "GET /static/img/banner.jpg HTTP/1.0" 304 0
+[09/Jun/2023 01:49:24] "GET /static/img/camion-2.jpg HTTP/1.0" 304 0
+[09/Jun/2023 01:50:37] "GET / HTTP/1.0" 200 8871
+[09/Jun/2023 01:50:38] "GET /static/css/main.css HTTP/1.0" 200 4256
+[09/Jun/2023 01:50:38] "GET /static/img/image-tda.png HTTP/1.0" 200 69859
+[09/Jun/2023 01:50:38] "GET /static/img/camion-1.jpeg HTTP/1.0" 200 109171
+[09/Jun/2023 01:50:38] "GET /static/img/camion-2.jpg HTTP/1.0" 200 92709
+[09/Jun/2023 01:50:39] "GET /static/img/background.jpg HTTP/1.0" 200 142837
+[09/Jun/2023 01:50:39] "GET /static/img/banner.jpg HTTP/1.0" 200 111174
+[09/Jun/2023 01:50:40] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[09/Jun/2023 01:51:35] "GET /seguimiento HTTP/1.0" 200 0
+Not Found: /favicon.ico
+[09/Jun/2023 01:51:36] "GET /favicon.ico HTTP/1.0" 404 2322
+[09/Jun/2023 01:54:42] "GET / HTTP/1.0" 200 8871
+[09/Jun/2023 01:54:43] "GET /static/css/main.css HTTP/1.0" 200 4256
+[09/Jun/2023 01:54:43] "GET /static/img/image-tda.png HTTP/1.0" 200 69859
+[09/Jun/2023 01:54:43] "GET /static/img/camion-1.jpeg HTTP/1.0" 200 109171
+[09/Jun/2023 01:54:44] "GET /static/img/camion-2.jpg HTTP/1.0" 200 92709
+[09/Jun/2023 01:54:44] "GET /static/img/background.jpg HTTP/1.0" 200 142837
+[09/Jun/2023 01:54:44] "GET /static/img/banner.jpg HTTP/1.0" 200 111174
+[09/Jun/2023 01:54:45] "GET /static/img/image-tda.png HTTP/1.0" 200 69859
+[09/Jun/2023 01:55:39] "GET / HTTP/1.0" 200 8871
+[09/Jun/2023 01:55:39] "GET /static/css/main.css HTTP/1.0" 200 4256
+[09/Jun/2023 01:55:39] "GET /static/img/image-tda.png HTTP/1.0" 200 69859
+[09/Jun/2023 01:55:39] "GET /static/img/camion-1.jpeg HTTP/1.0" 200 109171
+[09/Jun/2023 01:55:39] "GET /static/img/camion-2.jpg HTTP/1.0" 200 92709
+[09/Jun/2023 01:55:39] "GET /static/img/banner.jpg HTTP/1.0" 200 111174
+[09/Jun/2023 01:55:39] "GET /static/img/background.jpg HTTP/1.0" 200 142837
+[09/Jun/2023 01:55:40] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[09/Jun/2023 01:56:10] "GET /seguimiento HTTP/1.0" 200 0
+Not Found: /favicon.ico
+[09/Jun/2023 01:56:10] "GET /favicon.ico HTTP/1.0" 404 2322
+[09/Jun/2023 01:56:24] "GET /seguimiento HTTP/1.0" 200 0
+[09/Jun/2023 02:03:57] "GET / HTTP/1.0" 200 8871
+[09/Jun/2023 02:15:54] "GET / HTTP/1.0" 200 8871
+[09/Jun/2023 02:15:54] "GET /static/css/main.css HTTP/1.0" 200 4256
+[09/Jun/2023 02:15:55] "GET /static/img/image-tda.png HTTP/1.0" 200 69859
+[09/Jun/2023 02:15:55] "GET /static/img/camion-1.jpeg HTTP/1.0" 200 109171
+[09/Jun/2023 02:15:55] "GET /static/img/camion-2.jpg HTTP/1.0" 200 92709
+[09/Jun/2023 02:15:55] "GET /static/img/background.jpg HTTP/1.0" 200 142837
+[09/Jun/2023 02:15:56] "GET /static/img/banner.jpg HTTP/1.0" 200 111174
+[09/Jun/2023 02:15:56] "GET /static/img/image-tda.png HTTP/1.0" 200 69859
+[09/Jun/2023 02:20:51] "GET /static/css/main.css HTTP/1.0" 304 0
+[09/Jun/2023 02:21:18] "GET / HTTP/1.0" 200 8871
+[09/Jun/2023 02:21:18] "GET /static/css/main.css HTTP/1.0" 304 0
+[09/Jun/2023 02:21:18] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[09/Jun/2023 02:21:18] "GET /static/img/camion-1.jpeg HTTP/1.0" 304 0
+[09/Jun/2023 02:21:18] "GET /static/img/camion-2.jpg HTTP/1.0" 304 0
+[09/Jun/2023 02:21:18] "GET /static/img/background.jpg HTTP/1.0" 304 0
+[09/Jun/2023 02:21:18] "GET /static/img/banner.jpg HTTP/1.0" 304 0
+[09/Jun/2023 02:21:18] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[09/Jun/2023 02:21:46] "GET / HTTP/1.0" 200 8871
+[09/Jun/2023 02:21:46] "GET /static/css/main.css HTTP/1.0" 200 4256
+[09/Jun/2023 02:21:46] "GET /static/img/image-tda.png HTTP/1.0" 200 69859
+[09/Jun/2023 02:21:46] "GET /static/img/camion-1.jpeg HTTP/1.0" 200 109171
+[09/Jun/2023 02:21:47] "GET /static/img/camion-2.jpg HTTP/1.0" 200 92709
+[09/Jun/2023 02:21:47] "GET /static/img/background.jpg HTTP/1.0" 200 142837
+[09/Jun/2023 02:21:48] "GET /static/img/banner.jpg HTTP/1.0" 200 111174
+[09/Jun/2023 02:21:48] "GET /static/img/image-tda.png HTTP/1.0" 200 69859
+Forbidden (CSRF cookie not set.): /
+[09/Jun/2023 02:23:06] "POST / HTTP/1.0" 403 2922
+Not Found: /.env
+[09/Jun/2023 02:23:06] "GET /.env HTTP/1.0" 404 2301
+[09/Jun/2023 02:28:07] "GET / HTTP/1.0" 200 8871
+[09/Jun/2023 02:30:51] "GET / HTTP/1.0" 200 8871
+[09/Jun/2023 02:30:52] "GET /static/css/main.css HTTP/1.0" 304 0
+[09/Jun/2023 02:30:52] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[09/Jun/2023 02:30:52] "GET /static/img/camion-1.jpeg HTTP/1.0" 304 0
+[09/Jun/2023 02:30:52] "GET /static/img/camion-2.jpg HTTP/1.0" 304 0
+[09/Jun/2023 02:30:52] "GET /static/img/background.jpg HTTP/1.0" 304 0
+[09/Jun/2023 02:30:52] "GET /static/img/banner.jpg HTTP/1.0" 304 0
+Not Found: /aaaaaaaaaaaaaaaaaaaaaaaaaqr
+[09/Jun/2023 02:31:25] "GET / HTTP/1.0" 200 8871
+Not Found: /99vt
+[09/Jun/2023 02:31:25] "GET /99vt HTTP/1.0" 404 2301
+[09/Jun/2023 02:31:25] "GET /aaaaaaaaaaaaaaaaaaaaaaaaaqr HTTP/1.0" 404 2370
+Not Found: /robots.txt
+Not Found: /robots.txt
+[09/Jun/2023 02:31:25] "GET /robots.txt HTTP/1.0" 404 2319
+[09/Jun/2023 02:31:25] "GET /robots.txt HTTP/1.0" 404 2319
+Not Found: /gate.php
+[09/Jun/2023 02:31:25] "GET /gate.php HTTP/1.0" 404 2313
+Not Found: /99vu
+[09/Jun/2023 02:31:26] "GET /99vu HTTP/1.0" 404 2301
+[09/Jun/2023 02:31:34] "GET / HTTP/1.0" 200 8871
+[09/Jun/2023 02:31:42] "GET / HTTP/1.0" 200 8871
+[09/Jun/2023 02:32:25] "GET / HTTP/1.0" 200 8871
+[09/Jun/2023 02:32:25] "GET / HTTP/1.0" 200 8871
+[09/Jun/2023 02:32:26] "GET / HTTP/1.0" 200 8871
+[09/Jun/2023 02:32:26] "GET /static/css/main.css HTTP/1.0" 200 4256
+[09/Jun/2023 02:32:26] "GET /static/img/image-tda.png HTTP/1.0" 200 69859
+[09/Jun/2023 02:32:26] "GET /static/img/camion-1.jpeg HTTP/1.0" 200 109171
+[09/Jun/2023 02:32:26] "GET /static/img/camion-2.jpg HTTP/1.0" 200 92709
+[09/Jun/2023 02:32:27] "GET /static/img/background.jpg HTTP/1.0" 200 142837
+[09/Jun/2023 02:32:27] "GET /static/img/banner.jpg HTTP/1.0" 200 111174
+[09/Jun/2023 02:32:29] "GET / HTTP/1.0" 200 8871
+[09/Jun/2023 02:32:29] "GET /static/css/main.css HTTP/1.0" 200 4256
+[09/Jun/2023 02:32:29] "GET /static/img/image-tda.png HTTP/1.0" 200 69859
+[09/Jun/2023 02:32:29] "GET /static/img/camion-1.jpeg HTTP/1.0" 200 109171
+[09/Jun/2023 02:32:29] "GET /static/img/camion-2.jpg HTTP/1.0" 200 92709
+[09/Jun/2023 02:32:29] "GET /static/img/background.jpg HTTP/1.0" 200 142837
+[09/Jun/2023 02:32:29] "GET /static/img/banner.jpg HTTP/1.0" 200 111174
+Not Found: /boaform/admin/formLogin
+[09/Jun/2023 02:55:46] "POST /boaform/admin/formLogin HTTP/1.0" 404 2359
+[09/Jun/2023 03:12:00] "GET / HTTP/1.0" 200 8871
+[09/Jun/2023 03:12:00] "GET /static/css/main.css HTTP/1.0" 200 4548
+[09/Jun/2023 03:12:00] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[09/Jun/2023 03:12:00] "GET /static/img/camion-1.jpeg HTTP/1.0" 304 0
+[09/Jun/2023 03:12:00] "GET /static/img/background.jpg HTTP/1.0" 304 0
+[09/Jun/2023 03:12:00] "GET /static/img/camion-2.jpg HTTP/1.0" 304 0
+[09/Jun/2023 03:12:00] "GET /static/img/banner.jpg HTTP/1.0" 304 0
+[09/Jun/2023 03:12:04] "GET / HTTP/1.0" 200 8871
+[09/Jun/2023 03:12:04] "GET /static/css/main.css HTTP/1.0" 304 0
+[09/Jun/2023 03:12:04] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[09/Jun/2023 03:12:05] "GET /static/img/camion-1.jpeg HTTP/1.0" 304 0
+[09/Jun/2023 03:12:05] "GET /static/img/camion-2.jpg HTTP/1.0" 304 0
+[09/Jun/2023 03:12:05] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[09/Jun/2023 03:12:05] "GET / HTTP/1.0" 200 8871
+[09/Jun/2023 03:12:05] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[09/Jun/2023 03:12:05] "GET /static/css/main.css HTTP/1.0" 304 0
+[09/Jun/2023 03:12:05] "GET /static/img/camion-1.jpeg HTTP/1.0" 304 0
+[09/Jun/2023 03:12:05] "GET /static/img/camion-2.jpg HTTP/1.0" 304 0
+[09/Jun/2023 03:12:06] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[09/Jun/2023 03:12:11] "GET /admin/ HTTP/1.0" 302 0
+[09/Jun/2023 03:12:11] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
+[09/Jun/2023 03:12:11] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.0" 304 0
+[09/Jun/2023 03:12:11] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 304 0
+[09/Jun/2023 03:12:11] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.0" 304 0
+[09/Jun/2023 03:12:11] "GET /static/jazzmin/css/main.css HTTP/1.0" 304 0
+[09/Jun/2023 03:12:11] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.0" 304 0
+[09/Jun/2023 03:12:11] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 304 0
+[09/Jun/2023 03:12:11] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[09/Jun/2023 03:12:11] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.0" 304 0
+[09/Jun/2023 03:12:11] "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.0" 304 0
+[09/Jun/2023 03:12:14] "GET / HTTP/1.0" 200 8871
+[09/Jun/2023 03:12:14] "GET /static/css/main.css HTTP/1.0" 200 4548
+[09/Jun/2023 03:12:15] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[09/Jun/2023 03:12:15] "GET /static/img/camion-1.jpeg HTTP/1.0" 200 109171
+[09/Jun/2023 03:12:15] "GET /static/img/banner.jpg HTTP/1.0" 200 111174
+[09/Jun/2023 03:12:15] "GET /static/img/camion-2.jpg HTTP/1.0" 200 92709
+[09/Jun/2023 03:12:15] "GET /static/img/background.jpg HTTP/1.0" 200 142837
+[09/Jun/2023 03:12:21] "GET /static/css/main.css HTTP/1.0" 304 0
+Forbidden (CSRF cookie not set.): /
+[09/Jun/2023 03:13:15] "POST / HTTP/1.0" 403 2922
+Not Found: /.env
+[09/Jun/2023 03:13:16] "GET /.env HTTP/1.0" 404 2301
+[09/Jun/2023 03:15:58] "GET /admin/ HTTP/1.0" 302 0
+[09/Jun/2023 03:15:58] "GET /admin/login/?next=/admin/ HTTP/1.0" 200 3154
+[09/Jun/2023 03:15:58] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.0" 304 0
+[09/Jun/2023 03:15:58] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.0" 304 0
+[09/Jun/2023 03:15:58] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.0" 304 0
+[09/Jun/2023 03:15:58] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.0" 304 0
+[09/Jun/2023 03:15:58] "GET /static/jazzmin/css/main.css HTTP/1.0" 304 0
+[09/Jun/2023 03:15:58] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.0" 304 0
+[09/Jun/2023 03:15:58] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.0" 304 0
+[09/Jun/2023 03:15:58] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[09/Jun/2023 03:15:59] "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.0" 304 0
+[09/Jun/2023 03:16:02] "GET / HTTP/1.0" 200 8871
+[09/Jun/2023 03:16:02] "GET /static/css/main.css HTTP/1.0" 200 4555
+[09/Jun/2023 03:16:02] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[09/Jun/2023 03:16:02] "GET /static/img/camion-1.jpeg HTTP/1.0" 304 0
+[09/Jun/2023 03:16:02] "GET /static/img/camion-2.jpg HTTP/1.0" 304 0
+[09/Jun/2023 03:16:02] "GET /static/img/banner.jpg HTTP/1.0" 304 0
+[09/Jun/2023 03:16:02] "GET /static/img/background.jpg HTTP/1.0" 304 0
+[09/Jun/2023 03:16:09] "GET /static/css/main.css HTTP/1.0" 304 0
+[09/Jun/2023 03:16:17] "GET / HTTP/1.0" 200 8871
+[09/Jun/2023 03:16:18] "GET /static/css/main.css HTTP/1.0" 200 4555
+[09/Jun/2023 03:16:18] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[09/Jun/2023 03:16:18] "GET /static/img/camion-1.jpeg HTTP/1.0" 304 0
+[09/Jun/2023 03:16:18] "GET /static/img/camion-2.jpg HTTP/1.0" 304 0
+[09/Jun/2023 03:16:18] "GET /static/img/background.jpg HTTP/1.0" 304 0
+[09/Jun/2023 03:16:18] "GET /static/img/banner.jpg HTTP/1.0" 304 0
+[09/Jun/2023 03:16:34] "GET / HTTP/1.0" 200 8871
+[09/Jun/2023 03:16:35] "GET /static/css/main.css HTTP/1.0" 200 4555
+[09/Jun/2023 03:16:35] "GET /static/img/camion-2.jpg HTTP/1.0" 304 0
+[09/Jun/2023 03:16:35] "GET /static/img/camion-1.jpeg HTTP/1.0" 304 0
+[09/Jun/2023 03:16:35] "GET /static/img/image-tda.png HTTP/1.0" 200 69859
+[09/Jun/2023 03:16:35] "GET /static/img/background.jpg HTTP/1.0" 304 0
+[09/Jun/2023 03:16:35] "GET /static/img/banner.jpg HTTP/1.0" 304 0
+[09/Jun/2023 03:16:36] "GET /static/img/image-tda.png HTTP/1.0" 200 69859
+[09/Jun/2023 03:16:53] "GET /seguimiento HTTP/1.0" 200 0
+Not Found: /favicon.ico
+[09/Jun/2023 03:16:53] "GET /favicon.ico HTTP/1.0" 404 2322
+[09/Jun/2023 03:16:57] "GET /seguimiento HTTP/1.0" 200 0
+[09/Jun/2023 03:17:24] "GET / HTTP/1.0" 200 8871
+[09/Jun/2023 03:17:24] "GET /static/css/main.css HTTP/1.0" 304 0
+[09/Jun/2023 03:17:24] "GET /static/img/camion-2.jpg HTTP/1.0" 304 0
+[09/Jun/2023 03:17:24] "GET /static/img/camion-1.jpeg HTTP/1.0" 304 0
+[09/Jun/2023 03:17:24] "GET /static/img/image-tda.png HTTP/1.0" 200 69859
+[09/Jun/2023 03:17:24] "GET /static/img/background.jpg HTTP/1.0" 304 0
+[09/Jun/2023 03:17:25] "GET /static/img/banner.jpg HTTP/1.0" 304 0
+[09/Jun/2023 03:19:38] "GET / HTTP/1.0" 200 8871
+[09/Jun/2023 03:19:39] "GET /static/img/image-tda.png HTTP/1.0" 206 69859
+[09/Jun/2023 03:20:09] "GET / HTTP/1.0" 200 8871
+[09/Jun/2023 03:20:09] "GET /static/css/main.css HTTP/1.0" 200 4555
+[09/Jun/2023 03:20:09] "GET /static/img/image-tda.png HTTP/1.0" 200 69859
+[09/Jun/2023 03:20:09] "GET /static/img/camion-1.jpeg HTTP/1.0" 200 109171
+[09/Jun/2023 03:20:10] "GET /static/img/camion-2.jpg HTTP/1.0" 200 92709
+[09/Jun/2023 03:20:10] "GET /static/img/background.jpg HTTP/1.0" 200 142837
+[09/Jun/2023 03:20:10] "GET /static/img/banner.jpg HTTP/1.0" 200 111174
+[09/Jun/2023 03:20:11] "GET /static/img/image-tda.png HTTP/1.0" 304 0
+[09/Jun/2023 03:21:25] "GET /seguimiento HTTP/1.0" 200 0
+Not Found: /favicon.ico
+[09/Jun/2023 03:21:25] "GET /favicon.ico HTTP/1.0" 404 2322
+[09/Jun/2023 03:23:28] "GET / HTTP/1.0" 200 8871
+[09/Jun/2023 03:23:28] "GET /static/css/main.css HTTP/1.0" 200 4555
+[09/Jun/2023 03:23:29] "GET /static/img/image-tda.png HTTP/1.0" 200 69859
+[09/Jun/2023 03:23:29] "GET /static/img/camion-1.jpeg HTTP/1.0" 200 109171
+[09/Jun/2023 03:23:29] "GET /static/img/camion-2.jpg HTTP/1.0" 200 92709
+[09/Jun/2023 03:23:30] "GET /static/img/background.jpg HTTP/1.0" 200 142837
+[09/Jun/2023 03:23:30] "GET /static/img/banner.jpg HTTP/1.0" 200 111174
+[09/Jun/2023 03:23:30] "GET /static/img/image-tda.png HTTP/1.0" 200 69859
+Not Found: /robots.txt
+[09/Jun/2023 03:24:06] "GET /robots.txt HTTP/1.0" 404 2319
+[09/Jun/2023 03:24:12] "GET / HTTP/1.0" 200 8871
+[09/Jun/2023 03:24:15] "GET /static/css/main.css HTTP/1.0" 200 4555
