@@ -28,6 +28,7 @@ h4 {
 .jumbotron {
   margin-top: 2em;
   background: url(/static/img/banner.jpg) no-repeat 0% 0% / 100% 100%;
+  background-size: cover;
   color: #fff;
   font-family: Montserrat, sans-serif;
   text-align: left;
