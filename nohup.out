@@ -17250,3 +17250,5 @@ Quit the server with CONTROL-C.
 [15/Jun/2023 02:35:03] "GET /static/jazzmin/js/change_form.js HTTP/1.0" 304 0
 Not Found: /favicon.ico
 [15/Jun/2023 02:35:42] "GET /favicon.ico HTTP/1.0" 404 2322
+Not Found: /geoserver/web/
+[15/Jun/2023 02:36:21] "GET /geoserver/web/ HTTP/1.0" 404 2331
