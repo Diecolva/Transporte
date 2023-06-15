@@ -5,10 +5,10 @@ from Transporteapp.models import Cliente, Cotización, Vehículo, OrdenDeServici
 from django.urls import path
 from django.conf import settings
 from django.conf.urls.static import static
-
-
-
-
+from django.urls import reverse
+from django.utils.html import format_html
+from django.http import HttpResponseRedirect
+from urllib.parse import urlencode
 
 class TransportistasSelect(forms.Select):
     def get_queryset(self):
@@ -21,6 +21,10 @@ class TransportistasSelect(forms.Select):
 
 
 class OrdenDeServicioAdminForm(forms.ModelForm):
+    transportista = forms.ModelMultipleChoiceField(
+        queryset=User.objects.filter(groups__name='Transportistas').exclude(is_superuser=True)
+    )
+
     class Meta:
         model = OrdenDeServicio
         fields = '__all__'
@@ -33,13 +37,28 @@ class ClienteAdmin(admin.ModelAdmin):
 
 class OrdenDeServicioAdmin(admin.ModelAdmin):
     form = OrdenDeServicioAdminForm
-    list_display = ('cliente', 'fecha', 'numeroSeguimiento', 'comentario', 'valor', 'display_transportistas')
+    list_display = ('id','cliente', 'fecha', 'numeroSeguimiento', 'comentario', 'valor', 'display_transportistas', 'add_to_bitacora')
+    search_fields = ['cliente__nombre', 'numeroSeguimiento']
 
     def display_transportistas(self, obj):
         return ", ".join([transportista.username for transportista in obj.transportista.all()])
     display_transportistas.short_description = 'Transportista'
-    search_fields = ['cliente__nombre', 'numeroSeguimiento']
 
+    def add_to_bitacora(self, obj):
+        bitacora_create_url = reverse('admin:Transporteapp_bitacora_add')
+        bitacora_data = urlencode({
+            'Orden_de_servicio': obj.id,
+        })
+        return format_html('<a class="button" href="{}?{}">Añadir a Bitácora</a>', bitacora_create_url, bitacora_data)
+    add_to_bitacora.short_description = 'Acción'
+
+    def response_add(self, request, obj, post_url_continue=None):
+        bitacora_create_url = reverse('admin:Transporteapp_bitacora_add')
+        bitacora_data = urlencode({
+            'Orden_de_servicio': obj.id,
+        })
+        bitacora_create_url += '?' + bitacora_data
+        return HttpResponseRedirect(bitacora_create_url)
 
 class GroupAdmin(admin.ModelAdmin):
     list_display = ('name', 'empleados')
@@ -49,11 +68,11 @@ class GroupAdmin(admin.ModelAdmin):
         return ", ".join([user.username for user in empleados])
 
 class CotizacionAdmin(admin.ModelAdmin):
-    search_fields = ['numeroSeguimiento']
+    search_fields = ['Orden_de_servicio__id', 'Orden_de_servicio__cliente__nombre', 'Orden_de_servicio__numeroSeguimiento']
 
 class BitacoraAdmin(admin.ModelAdmin):
-    list_display = ('cliente_nombre', 'numero_seguimiento')
-    search_fields = ['orden_de_servicio__numeroSeguimiento']
+    list_display = ('Orden_de_servicio_id', 'cliente_nombre', 'numero_seguimiento')
+    search_fields = ['Orden_de_servicio__id']
 
     def cliente_nombre(self, obj):
         return obj.Orden_de_servicio.cliente.nombre
