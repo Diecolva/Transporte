@@ -108,13 +108,20 @@
 <hr>
 <!-- Container (Portfolio Section) -->
 <div id="cotice" class="container-fluid text-center bg-grey">
-  <h2>COTIZACIÓN DE SERVICIO</h2><br>
+  <h2>COTIZACIÓN DE SERVICIO</h2>
   <h4>Por favor, ingrese los datos requeridos</h4>
-  <div class="row text-center slideanim">
-    <div class="col-sm-4">
+  
+  <div class="container">
+    <div class="row text-center slideanim">
+      <div class="col-sm-4">
+        <form method="POST">
+          {% csrf_token %}
+          {{ form.as_p }}
+          <button type="submit" class="btn btn-primary">ENVIAR</button>
+        </form>
       </div>
     </div>
-  </div><br>
+  </div>
   <hr>
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
@@ -230,7 +237,7 @@ $(document).ready(function(){
       var pos = $(this).offset().top;
 
       var winTop = $(window).scrollTop();
-        if (pos < winTop + 1000) {
+        if (pos < winTop + 800) {
           $(this).addClass("slide");
         }
     });

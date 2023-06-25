@@ -23,5 +23,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index),
     path('seguimiento', views.seguimiento),
+    path('confirmacion', views.confirmacion, name='confirmacion'),
     ]
 

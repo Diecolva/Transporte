@@ -6,9 +6,9 @@ from django.contrib.auth.models import User
 
 class Cliente(models.Model):
     nombre = models.CharField(max_length=50)
-    dirección = models.CharField(max_length=50)
-    correo = models.CharField(max_length=50)
-    teléfono = models.PositiveIntegerField()
+    dirección = models.CharField(max_length=50, blank=True, null=True)
+    correo = models.CharField(max_length=50, blank=True, null=True)
+    teléfono = models.PositiveIntegerField(blank=True, null=True)
 
     def __str__(self):
         return self.nombre
@@ -18,7 +18,7 @@ class Cotización(models.Model):
     servicio = models.CharField(max_length=50)
     fechaSolicitud = models.DateField()
     peso = models.PositiveIntegerField()
-    dimensiones = models.IntegerField()
+    dimensiones = models.CharField(max_length=50)
     fechaInicio = models.DateField()
     lugarOrigen = models.CharField(max_length=50)
     lugarDestino = models.CharField(max_length=50)
@@ -70,7 +70,7 @@ class OrdenDeServicio(models.Model):
 
 class Bitacora(models.Model):
     
-    Orden_de_servicio = models.ForeignKey(OrdenDeServicio, on_delete=models.CASCADE)
+    Orden_de_servicio = models.ForeignKey(OrdenDeServicio, on_delete=models.CASCADE, null=True)
     imagen = models.ImageField(upload_to='bitacora_imagenes/', blank=True)
 
     def obtener_ordendeservicio_por_seguimiento(self):
