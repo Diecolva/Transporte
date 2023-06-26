@@ -33,7 +33,8 @@ class OrdenDeServicioAdminForm(forms.ModelForm):
         }
 
 class ClienteAdmin(admin.ModelAdmin):
-    search_fields = ['nombre']
+    search_fields = ['id', 'nombre']
+    list_display = ('id', 'nombre', 'dirección', 'correo', 'teléfono')
 
 class OrdenDeServicioAdmin(admin.ModelAdmin):
     form = OrdenDeServicioAdminForm
@@ -68,7 +69,8 @@ class GroupAdmin(admin.ModelAdmin):
         return ", ".join([user.username for user in empleados])
 
 class CotizacionAdmin(admin.ModelAdmin):
-    search_fields = ['Orden_de_servicio__id', 'Orden_de_servicio__cliente__nombre', 'Orden_de_servicio__numeroSeguimiento']
+    search_fields = ['id', 'cliente__nombre']
+    list_display = ('id', 'cliente', 'servicio', 'fechaSolicitud', 'peso', 'dimensiones', 'fechaInicio', 'lugarOrigen', 'lugarDestino')
 
 class BitacoraAdmin(admin.ModelAdmin):
     list_display = ('Orden_de_servicio_id', 'cliente_nombre', 'numero_seguimiento')
