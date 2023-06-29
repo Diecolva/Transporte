@@ -1,14 +1,15 @@
 from django.db import models
 import datetime
 from django.contrib.auth.models import User
+import random
 
 # Create your models here.
 
 class Cliente(models.Model):
     nombre = models.CharField(max_length=50)
-    dirección = models.CharField(max_length=50)
-    correo = models.CharField(max_length=50)
-    teléfono = models.PositiveIntegerField()
+    dirección = models.CharField(max_length=50, default='')
+    correo = models.CharField(max_length=50, default='')
+    teléfono = models.PositiveIntegerField(default=0)
 
     def __str__(self):
         return self.nombre
@@ -18,7 +19,7 @@ class Cotización(models.Model):
     servicio = models.CharField(max_length=50)
     fechaSolicitud = models.DateField()
     peso = models.PositiveIntegerField()
-    dimensiones = models.CharField(max_length=50)
+    dimensiones = models.CharField(max_length=50, null=True, blank=True)
     fechaInicio = models.DateField()
     lugarOrigen = models.CharField(max_length=50)
     lugarDestino = models.CharField(max_length=50)
@@ -42,17 +43,17 @@ class Vehículo(models.Model):
 class OrdenDeServicio(models.Model):
     cliente = models.ForeignKey(Cliente, on_delete=models.CASCADE)
     fecha = models.DateField()
-    numeroSeguimiento = models.PositiveIntegerField()
+    numeroSeguimiento = models.PositiveIntegerField(unique=True, blank=True)
     comentario = models.CharField(max_length=100)
     ESTADO_CHOICES = [
-        ('opcion1', 'En evaluación'),
-        ('opcion2', 'Despachado'),
-        ('opcion3', 'En Traslado'),
-        ('opcion4', 'Interrumpido'),
-        ('opcion5', 'Cancelado'),
-        ('opcion6', 'Cumplido'),
+        ('En evaluación', 'En evaluación'),
+        ('Despachado', 'Despachado'),
+        ('En traslado', 'En Traslado'),
+        ('Interrumpido', 'Interrumpido'),
+        ('Cancelado', 'Cancelado'),
+        ('Cumplido', 'Cumplido'),
     ]
-    estado = models.CharField(max_length=50, choices=ESTADO_CHOICES, default="opcion1")
+    estado = models.CharField(max_length=50, choices=ESTADO_CHOICES, default="")
     valor = models.FloatField()
     transportista = models.ManyToManyField(User, related_name='Transportistas', blank=True)
 
@@ -64,7 +65,25 @@ class OrdenDeServicio(models.Model):
     
     def get_transportistas(self):
         return self.transportista.filter(groups__name='Transportistas').exclude(is_superuser=True)
-    
+   
+    def generar_numero_seguimiento(self):
+        numero_seguimiento = random.randint(10000, 99999)
+        
+        while OrdenDeServicio.objects.filter(numeroSeguimiento=numero_seguimiento).exists():
+            numero_seguimiento = random.randint(10000, 99999)
+        
+        self.numeroSeguimiento = numero_seguimiento
+
+    def save(self, *args, **kwargs):
+        if not self.numeroSeguimiento:
+            while True:
+                numero_seguimiento = random.randint(10000, 99999)
+                if not OrdenDeServicio.objects.filter(numeroSeguimiento=numero_seguimiento).exists():
+                    break
+            self.numeroSeguimiento = numero_seguimiento
+        
+        super().save(*args, **kwargs)
+
     class Meta:
         verbose_name_plural = "Orden de servicio"
 

@@ -60,6 +60,21 @@ class OrdenDeServicioAdmin(admin.ModelAdmin):
         })
         bitacora_create_url += '?' + bitacora_data
         return HttpResponseRedirect(bitacora_create_url)
+    
+   
+    def generar_numero_seguimiento(self):
+        numero_seguimiento = random.randint(1000, 9999)
+        
+        while OrdenDeServicio.objects.filter(numeroSeguimiento=numero_seguimiento).exists():
+            numero_seguimiento = random.randint(1000, 9999)
+        
+        self.numeroSeguimiento = numero_seguimiento
+
+    def save(self, *args, **kwargs):
+        if not self.numeroSeguimiento:
+            self.generar_numero_seguimiento()
+        
+        super().save(*args, **kwargs) 
 
 class GroupAdmin(admin.ModelAdmin):
     list_display = ('name', 'empleados')
@@ -74,7 +89,7 @@ class CotizacionAdmin(admin.ModelAdmin):
 
 class BitacoraAdmin(admin.ModelAdmin):
     list_display = ('Orden_de_servicio_id', 'cliente_nombre', 'numero_seguimiento')
-    search_fields = ['Orden_de_servicio__id']
+    search_fields = ['Orden_de_servicio__id',]
 
     def cliente_nombre(self, obj):
         return obj.Orden_de_servicio.cliente.nombre
