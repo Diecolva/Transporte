@@ -1,0 +1,66 @@
+<html lang="en">
+  {% load static %}
+
+<head>
+  <title>Seguimiento</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="icon" type="image/x-icon" href="{% static 'img/image-tda.png' %}">
+</head>
+
+
+<style>
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 2em;
+    }
+    .error-message {
+        color: red;
+        margin-top: 10px;
+    }
+</style>
+
+<body style="background-image: url(static/img/background.jpg);">
+    <div class="container">
+        <div class="contaniner" style="background-color: white; padding: 5em; border: 1px solid black">
+        <h1>Seguimiento de Orden de Servicio</h1>
+        <form method="post" enctype="multipart/form-data" style="justify-content: center;">
+            {% csrf_token %}
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Ingrese su número de seguimiento" aria-label="Recipient's username" aria-describedby="button-addon2" type="text" name="numero_seguimiento" id="numero_seguimiento">
+                <button class="btn btn-outline-secondary" type="submit">Buscar</button>
+              </div>
+
+            {% if not numero_seguimiento and request.method == 'POST' %}
+                <p class="error-message">Por favor, ingrese un número de seguimiento.</p>
+            {% endif %}
+        </form>
+    
+        {% if estado %}
+            <p>Estado: {{ estado }}</p>
+        {% elif numero_seguimiento  %}
+            <p>No se encontró una orden asociada al número proporcionado.</p>
+        {% endif %}
+    
+        {% if bitacora and bitacora.imagen %}
+            <img src="{{ bitacora.imagen.url }}" alt="Imagen de la bitácora" style="max-width: 500%; max-height: 500px; display: block;
+            margin-left: auto;
+            margin-right: auto;">
+        {% endif %}
+        </div>
+    <div>
+        <a href="/" class="btn btn-info" style="margin: 3em;">Volver a la Página principal</a>
+</body>
+
+</html>
