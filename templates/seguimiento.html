@@ -38,19 +38,19 @@
         <form method="post" enctype="multipart/form-data" style="justify-content: center;">
             {% csrf_token %}
             <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Ingrese su número de seguimiento" aria-label="Recipient's username" aria-describedby="button-addon2" type="text" name="numero_seguimiento" id="numero_seguimiento">
+		<input class="form-control" placeholder="Ingrese su número de seguimiento" aria-label="Recipient's username" aria-describedby="button-addon2" type="text" name="numero_seguimiento" id="numero_seguimiento">
                 <button class="btn btn-outline-secondary" type="submit">Buscar</button>
               </div>
 
             {% if not numero_seguimiento and request.method == 'POST' %}
-                <p class="error-message">Por favor, ingrese un número de seguimiento.</p>
+		<p class="error-message">Por favor, ingrese un número de seguimiento.</p>
             {% endif %}
         </form>
     
-        {% if estado %}
+	{% if estado %}
             <p>Estado: {{ estado }}</p>
-        {% elif numero_seguimiento  %}
-            <p>No se encontró una orden asociada al número proporcionado.</p>
+        {% elif mensaje_error %}
+            <p>{{ mensaje_error }}</p>
         {% endif %}
     
         {% if bitacora and bitacora.imagen %}

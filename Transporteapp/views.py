@@ -3,7 +3,7 @@ from .forms import CotizacionForm
 from django.http import HttpResponseRedirect
 from Transporteapp.models import OrdenDeServicio, Bitacora
 from django.core.mail import send_mail
-
+import re
 
 def index(request):
     if request.method == 'POST':
@@ -21,10 +21,10 @@ def seguimiento(request):
     if request.method == 'POST':
         numero_seguimiento = request.POST.get('numero_seguimiento')
         
-        if not numero_seguimiento:
+        if not re.match(r'^\d+$', numero_seguimiento):
             estado = None
             bitacora = None
-            mensaje_error = 'Por favor, ingrese un número de seguimiento válido.'
+            mensaje_error = 'El número de seguimiento debe contener solo dígitos.'
             context = {
                 'numero_seguimiento': numero_seguimiento,
                 'estado': estado,
@@ -32,7 +32,7 @@ def seguimiento(request):
                 'mensaje_error': mensaje_error
             }
             return render(request, 'seguimiento.html', context)
-        
+
         try:
             orden_servicio = OrdenDeServicio.objects.get(numeroSeguimiento=numero_seguimiento)
             bitacora = Bitacora.objects.filter(Orden_de_servicio=orden_servicio).first()
@@ -40,7 +40,15 @@ def seguimiento(request):
         except OrdenDeServicio.DoesNotExist:
             estado = None
             bitacora = None
-        
+            mensaje_error = 'El número de seguimiento no existe.'
+            context = {
+                'numero_seguimiento': numero_seguimiento,
+                'estado': estado,
+                'bitacora': bitacora,
+                'mensaje_error': mensaje_error
+            }
+            return render(request, 'seguimiento.html', context)
+
         context = {
             'numero_seguimiento': numero_seguimiento,
             'estado': estado,
