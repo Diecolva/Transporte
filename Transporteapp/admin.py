@@ -25,7 +25,7 @@ class OrdenDeServicioAdminForm(forms.ModelForm):
     transportista = forms.ModelMultipleChoiceField(
         queryset=User.objects.filter(groups__name='Transportistas').exclude(is_superuser=True)
     )
-
+        
     class Meta:
         model = OrdenDeServicio
         fields = '__all__'
@@ -39,8 +39,8 @@ class ClienteAdmin(admin.ModelAdmin):
 
 class OrdenDeServicioAdmin(admin.ModelAdmin):
     form = OrdenDeServicioAdminForm
-    list_display = ('id','cliente', 'fecha', 'numeroSeguimiento', 'comentario', 'valor', 'display_transportistas', 'add_to_bitacora')
-    search_fields = ['cliente__nombre', 'numeroSeguimiento']
+    list_display = ('id','cotizacion', 'fecha', 'numeroSeguimiento', 'comentario', 'valor', 'display_transportistas', 'add_to_bitacora')
+    search_fields = ['numeroSeguimiento', 'cotizacion__cliente__nombre']
 
     def display_transportistas(self, obj):
         return ", ".join([transportista.username for transportista in obj.transportista.all()])
@@ -71,6 +71,7 @@ class OrdenDeServicioAdmin(admin.ModelAdmin):
         
         self.numeroSeguimiento = numero_seguimiento
 
+    
     def save(self, *args, **kwargs):
         if not self.numeroSeguimiento:
             self.generar_numero_seguimiento()
@@ -88,23 +89,28 @@ class CotizacionAdmin(admin.ModelAdmin):
     search_fields = ['id', 'cliente__nombre']
     list_display = ('id', 'cliente', 'servicio', 'fechaSolicitud', 'peso', 'dimensiones', 'fechaInicio', 'lugarOrigen', 'lugarDestino')
 
-class BitacoraAdmin(admin.ModelAdmin):
-    list_display = ('Orden_de_servicio_id', 'cliente_nombre', 'numero_seguimiento')
-    search_fields = ['Orden_de_servicio__id',]
 
-    def cliente_nombre(self, obj):
-        return obj.Orden_de_servicio.cliente.nombre
+class VehiculoAdmin(admin.ModelAdmin):
+     search_fields = ['modelo', 'patente']
+     list_display = ('modelo', 'patente', 'año')
+
+class BitacoraAdmin(admin.ModelAdmin):
+    list_display = ('Orden_de_servicio_id', 'cotizacion', 'numero_seguimiento')
+    search_fields = ['Orden_de_servicio__id', 'Orden_de_servicio__cotizacion__cliente__nombre']
+
+    def cotizacion(self, obj):
+        return obj.Orden_de_servicio.cotizacion.cliente.nombre
 
     def numero_seguimiento(self, obj):
         return obj.Orden_de_servicio.numeroSeguimiento
 
-    cliente_nombre.short_description = 'Nombre del cliente'
+    cotizacion.short_description = 'Cotización'
     numero_seguimiento.short_description = 'Número de seguimiento'
 
 admin.site.unregister(Group)
 admin.site.register(Group, GroupAdmin)
 admin.site.register(OrdenDeServicio, OrdenDeServicioAdmin)
-admin.site.register(Vehículo)
+admin.site.register(Vehículo, VehiculoAdmin)
 admin.site.register(Cliente, ClienteAdmin)
 admin.site.register(Cotización, CotizacionAdmin)
 admin.site.register(Bitacora, BitacoraAdmin)

@@ -15,7 +15,7 @@ class Cliente(models.Model):
         return self.nombre
 
 class Cotización(models.Model):
-    cliente = models.ForeignKey(Cliente, on_delete=models.CASCADE)
+    cliente = models.ForeignKey(Cliente, on_delete=models.CASCADE, related_name='cotizacion')
     servicio = models.CharField(max_length=50)
     fechaSolicitud = models.DateField()
     peso = models.PositiveIntegerField()
@@ -41,7 +41,7 @@ class Vehículo(models.Model):
     
 
 class OrdenDeServicio(models.Model):
-    cliente = models.ForeignKey(Cliente, on_delete=models.CASCADE)
+    cotizacion = models.ForeignKey(Cotización, on_delete=models.CASCADE)
     fecha = models.DateField()
     numeroSeguimiento = models.PositiveIntegerField(unique=True, blank=True)
     comentario = models.CharField(max_length=100)
@@ -55,13 +55,11 @@ class OrdenDeServicio(models.Model):
     ]
     estado = models.CharField(max_length=50, choices=ESTADO_CHOICES, default="")
     valor = models.FloatField()
+    vehiculo = models.ForeignKey(Vehículo, on_delete=models.CASCADE, default=None)
     transportista = models.ManyToManyField(User, related_name='Transportistas', blank=True)
 
     def __str__(self):
-        return self.estado
-
-    def __str__(self):
-        return self.cliente.nombre
+        return str(self.cotizacion)
     
     def get_transportistas(self):
         return self.transportista.filter(groups__name='Transportistas').exclude(is_superuser=True)
@@ -91,9 +89,11 @@ class Bitacora(models.Model):
     
     Orden_de_servicio = models.ForeignKey(OrdenDeServicio, on_delete=models.CASCADE, null=True)
     imagen = models.ImageField(upload_to='bitacora_imagenes/', blank=True)
+    imagen2 = models.ImageField(upload_to='bitacora_imagenes/', blank=True)
+    imagen3 = models.ImageField(upload_to='bitacora_imagenes/', blank=True)
 
     def obtener_ordendeservicio_por_seguimiento(self):
         return self.Orden_de_servicio
-
+    
     def __str__(self):
         return f"Bitacora {self.id}"

@@ -65,12 +65,27 @@
                         <p style="margin-top: 1em;">{{ mensaje_error }}</p>
                     {% endif %}
                 </form>
+		<div class="container-fluid">
+                  {% if bitacora and bitacora.imagen %}
+                      <img src="{{ bitacora.imagen.url }}" alt="Imagen de la bitácora" style="max-width: 500%; max-height: 500px; display: block;
+                      margin-left: auto;
+                      margin-right: auto;
+                      margin-bottom: 1em;">
+                  {% endif %}
+                  {% if bitacora and bitacora.imagen %}
+                      <img src="{{ bitacora.imagen2.url }}" alt="Imagen de la bitácora" style="max-width: 500%; max-height: 500px; display: block;
+                      margin-left: auto;
+                      margin-right: auto;
+                      margin-bottom: 1em;">
+                  {% endif %}
+                  {% if bitacora and bitacora.imagen %}
+                      <img src="{{ bitacora.imagen3.url }}" alt="Imagen de la bitácora" style="max-width: 500%; max-height: 500px; display: block;
+                      margin-left: auto;
+                      margin-right: auto;
+                      margin-bottom: 1em;">
+                  {% endif %}
+                <div>
             
-                {% if bitacora and bitacora.imagen %}
-                    <img src="{{ bitacora.imagen.url }}" alt="Imagen de la bitácora" style="max-width: 500%; max-height: 500px; display: block;
-                    margin-left: auto;
-                    margin-right: auto;">
-                {% endif %}
             </div>
 
                 <script>

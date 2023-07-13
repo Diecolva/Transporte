@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 07-06-2023 a las 23:33:15
+-- Tiempo de generación: 13-07-2023 a las 00:56:33
 -- Versión del servidor: 10.4.22-MariaDB
 -- Versión de PHP: 8.0.13
 
@@ -93,30 +93,30 @@ INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALU
 (22, 'Can change session', 6, 'change_session'),
 (23, 'Can delete session', 6, 'delete_session'),
 (24, 'Can view session', 6, 'view_session'),
-(25, 'Can add vehículo', 7, 'add_vehículo'),
-(26, 'Can change vehículo', 7, 'change_vehículo'),
-(27, 'Can delete vehículo', 7, 'delete_vehículo'),
-(28, 'Can view vehículo', 7, 'view_vehículo'),
-(29, 'Can add cliente', 8, 'add_cliente'),
-(30, 'Can change cliente', 8, 'change_cliente'),
-(31, 'Can delete cliente', 8, 'delete_cliente'),
-(32, 'Can view cliente', 8, 'view_cliente'),
-(33, 'Can add bitacora', 9, 'add_bitacora'),
-(34, 'Can change bitacora', 9, 'change_bitacora'),
-(35, 'Can delete bitacora', 9, 'delete_bitacora'),
-(36, 'Can view bitacora', 9, 'view_bitacora'),
+(25, 'Can add cliente', 7, 'add_cliente'),
+(26, 'Can change cliente', 7, 'change_cliente'),
+(27, 'Can delete cliente', 7, 'delete_cliente'),
+(28, 'Can view cliente', 7, 'view_cliente'),
+(29, 'Can add vehículo', 8, 'add_vehículo'),
+(30, 'Can change vehículo', 8, 'change_vehículo'),
+(31, 'Can delete vehículo', 8, 'delete_vehículo'),
+(32, 'Can view vehículo', 8, 'view_vehículo'),
+(33, 'Can add orden de servicio', 9, 'add_ordendeservicio'),
+(34, 'Can change orden de servicio', 9, 'change_ordendeservicio'),
+(35, 'Can delete orden de servicio', 9, 'delete_ordendeservicio'),
+(36, 'Can view orden de servicio', 9, 'view_ordendeservicio'),
 (37, 'Can add cotización', 10, 'add_cotización'),
 (38, 'Can change cotización', 10, 'change_cotización'),
 (39, 'Can delete cotización', 10, 'delete_cotización'),
 (40, 'Can view cotización', 10, 'view_cotización'),
-(41, 'Can add orden de servicio', 9, 'add_ordendeservicio'),
-(42, 'Can change orden de servicio', 9, 'change_ordendeservicio'),
-(43, 'Can delete orden de servicio', 9, 'delete_ordendeservicio'),
-(44, 'Can view orden de servicio', 9, 'view_ordendeservicio'),
-(45, 'Can add bitacora', 11, 'add_bitacora'),
-(46, 'Can change bitacora', 11, 'change_bitacora'),
-(47, 'Can delete bitacora', 11, 'delete_bitacora'),
-(48, 'Can view bitacora', 11, 'view_bitacora');
+(41, 'Can add bitacora', 11, 'add_bitacora'),
+(42, 'Can change bitacora', 11, 'change_bitacora'),
+(43, 'Can delete bitacora', 11, 'delete_bitacora'),
+(44, 'Can view bitacora', 11, 'view_bitacora'),
+(45, 'Can add imagen', 12, 'add_imagen'),
+(46, 'Can change imagen', 12, 'change_imagen'),
+(47, 'Can delete imagen', 12, 'delete_imagen'),
+(48, 'Can view imagen', 12, 'view_imagen');
 
 -- --------------------------------------------------------
 
@@ -143,8 +143,8 @@ CREATE TABLE `auth_user` (
 --
 
 INSERT INTO `auth_user` (`id`, `password`, `last_login`, `is_superuser`, `username`, `first_name`, `last_name`, `email`, `is_staff`, `is_active`, `date_joined`) VALUES
-(1, 'pbkdf2_sha256$600000$8vo6x2pzXTqKSUbVwe0uzD$0+meLRFECMfEYketic1OKX6TRSSTSqzT0d/r+OHR2bg=', '2023-06-07 18:54:26.617062', 1, 'tda', '', '', 'transportestda2012@gmail.com', 1, 1, '2023-05-01 21:48:23.119127'),
-(2, 'pbkdf2_sha256$600000$RnHhEdNUstBBP2ZC8SJk0m$ykk2yCKQzRE0X3gbhEUuwwhgCTMUXystpk4F6hbrOq0=', NULL, 0, 'Douglas', '', '', '', 1, 1, '2023-05-01 21:49:09.000000');
+(1, 'pbkdf2_sha256$600000$trMVqdhgizIv5ysJHj5UgF$7WrTR5JsI14HRCM6YY3JWANSF0nbNIx8LRXCeSjvHVY=', '2023-07-11 02:09:11.375949', 1, 'admin', '', '', 'transportestdad2012@gmail.com', 1, 1, '2023-07-05 23:05:44.830926'),
+(2, 'pbkdf2_sha256$600000$3okRcvdoLYgw6kUgCbEb7a$o2DEXe74UC2TR4pzlnVzYCz0juNDlB1+47hCGgeAbRg=', NULL, 0, 'Douglas', '', '', '', 0, 1, '2023-07-05 23:17:39.000000');
 
 -- --------------------------------------------------------
 
@@ -199,22 +199,28 @@ CREATE TABLE `django_admin_log` (
 --
 
 INSERT INTO `django_admin_log` (`id`, `action_time`, `object_id`, `object_repr`, `action_flag`, `change_message`, `content_type_id`, `user_id`) VALUES
-(1, '2023-05-01 21:48:44.071756', '1', 'Transportistas', 1, '[{\"added\": {}}]', 3, 1),
-(2, '2023-05-01 21:49:09.502499', '2', 'Douglas', 1, '[{\"added\": {}}]', 4, 1),
-(3, '2023-05-01 21:49:14.180295', '2', 'Douglas', 2, '[{\"changed\": {\"fields\": [\"Groups\"]}}]', 4, 1),
-(4, '2023-05-01 21:49:19.033695', '2', 'Douglas', 2, '[{\"changed\": {\"fields\": [\"Staff status\"]}}]', 4, 1),
-(5, '2023-05-08 21:26:38.288765', '2', 'Administradores', 1, '[{\"added\": {}}]', 3, 1),
-(6, '2023-05-08 21:26:58.967618', '2', 'Administradores', 3, '', 3, 1),
-(7, '2023-06-07 19:20:21.788747', '1', 'Diego', 1, '[{\"added\": {}}]', 8, 1),
-(8, '2023-06-07 19:21:32.603258', '1', 'Diego', 1, '[{\"added\": {}}]', 10, 1),
-(9, '2023-06-07 19:25:46.483948', '1', 'Diego', 2, '[{\"changed\": {\"fields\": [\"NumeroSeguimiento\"]}}]', 10, 1),
-(10, '2023-06-07 19:28:10.193384', '1', 'Diego', 1, '[{\"added\": {}}]', 9, 1),
-(11, '2023-06-07 21:02:22.880653', '1', 'Hyundai', 1, '[{\"added\": {}}]', 7, 1),
-(12, '2023-06-07 21:02:27.517590', '1', 'Hyundai', 3, '', 7, 1),
-(13, '2023-06-07 21:05:01.476577', '1', 'Diego', 1, '[{\"added\": {}}]', 8, 1),
-(14, '2023-06-07 21:05:23.559524', '1', 'Diego', 1, '[{\"added\": {}}]', 9, 1),
-(15, '2023-06-07 21:10:19.709952', '1', 'Diego', 2, '[{\"changed\": {\"fields\": [\"Estado\"]}}]', 9, 1),
-(16, '2023-06-07 21:10:20.582257', '1', 'Bitacora object (1)', 1, '[{\"added\": {}}]', 11, 1);
+(1, '2023-07-05 23:08:25.231311', '2', 'Diego', 1, '[{\"added\": {}}]', 10, 1),
+(2, '2023-07-05 23:08:32.481774', '2', 'Diego', 3, '', 10, 1),
+(3, '2023-07-05 23:17:39.744785', '2', 'Douglas', 1, '[{\"added\": {}}]', 4, 1),
+(4, '2023-07-05 23:17:41.220920', '2', 'Douglas', 2, '[]', 4, 1),
+(5, '2023-07-05 23:17:50.288731', '1', 'Transportistas', 1, '[{\"added\": {}}]', 3, 1),
+(6, '2023-07-05 23:17:59.248099', '2', 'Douglas', 2, '[{\"changed\": {\"fields\": [\"Groups\"]}}]', 4, 1),
+(7, '2023-07-05 23:18:27.957017', '1', 'Diego', 1, '[{\"added\": {}}]', 9, 1),
+(8, '2023-07-05 23:18:36.602010', '1', 'Bitacora object (1)', 1, '[{\"added\": {}}]', 11, 1),
+(9, '2023-07-05 23:18:51.685984', '1', 'SCANIA R500 AZUL', 1, '[{\"added\": {}}]', 8, 1),
+(10, '2023-07-06 00:22:36.339525', '1', 'Bitacora object (1)', 2, '[{\"changed\": {\"fields\": [\"Imagen\"]}}]', 11, 1),
+(11, '2023-07-06 00:57:30.357823', '1', 'Bitacora object (1)', 2, '[{\"changed\": {\"fields\": [\"Imagen\"]}}]', 11, 1),
+(12, '2023-07-07 01:36:52.590642', '4', 'Diego', 1, '[{\"added\": {}}]', 10, 1),
+(13, '2023-07-07 02:06:46.457231', '3', 'David', 2, '[]', 10, 1),
+(14, '2023-07-11 21:00:51.636812', '1', 'Bitacora 1', 2, '[{\"changed\": {\"fields\": [\"Imagen\"]}}]', 11, 1),
+(15, '2023-07-11 21:01:26.981220', '1', 'Bitacora 1', 2, '[{\"changed\": {\"fields\": [\"Imagen\"]}}]', 11, 1),
+(16, '2023-07-12 19:22:53.180966', '1', 'Diego', 2, '[]', 10, 1),
+(17, '2023-07-12 19:23:08.201659', '1', 'Diego', 2, '[{\"changed\": {\"fields\": [\"Direcci\\u00f3n\"]}}]', 7, 1),
+(18, '2023-07-12 19:27:31.381163', '1', 'SCANIA R500 AZUL', 1, '[{\"added\": {}}]', 8, 1),
+(19, '2023-07-12 21:54:28.795962', '1', 'SCANIA R500 AZUL', 1, '[{\"added\": {}}]', 8, 1),
+(20, '2023-07-12 21:55:01.020160', '2', 'En evaluación', 1, '[{\"added\": {}}]', 9, 1),
+(21, '2023-07-12 22:06:58.595849', '3', 'Diego', 1, '[{\"added\": {}}]', 9, 1),
+(22, '2023-07-12 22:18:32.018449', '1', 'Bitacora 1', 1, '[{\"added\": {}}]', 11, 1);
 
 -- --------------------------------------------------------
 
@@ -240,10 +246,11 @@ INSERT INTO `django_content_type` (`id`, `app_label`, `model`) VALUES
 (5, 'contenttypes', 'contenttype'),
 (6, 'sessions', 'session'),
 (11, 'Transporteapp', 'bitacora'),
-(8, 'Transporteapp', 'cliente'),
+(7, 'Transporteapp', 'cliente'),
 (10, 'Transporteapp', 'cotización'),
+(12, 'Transporteapp', 'imagen'),
 (9, 'Transporteapp', 'ordendeservicio'),
-(7, 'Transporteapp', 'vehículo');
+(8, 'Transporteapp', 'vehículo');
 
 -- --------------------------------------------------------
 
@@ -263,33 +270,36 @@ CREATE TABLE `django_migrations` (
 --
 
 INSERT INTO `django_migrations` (`id`, `app`, `name`, `applied`) VALUES
-(1, 'contenttypes', '0001_initial', '2023-05-01 21:47:40.712080'),
-(2, 'auth', '0001_initial', '2023-05-01 21:47:40.992352'),
-(3, 'admin', '0001_initial', '2023-05-01 21:47:41.140610'),
-(4, 'admin', '0002_logentry_remove_auto_add', '2023-05-01 21:47:41.145611'),
-(5, 'admin', '0003_logentry_add_action_flag_choices', '2023-05-01 21:47:41.149612'),
-(6, 'contenttypes', '0002_remove_content_type_name', '2023-05-01 21:47:41.179468'),
-(7, 'auth', '0002_alter_permission_name_max_length', '2023-05-01 21:47:41.207535'),
-(8, 'auth', '0003_alter_user_email_max_length', '2023-05-01 21:47:41.217537'),
-(9, 'auth', '0004_alter_user_username_opts', '2023-05-01 21:47:41.221537'),
-(10, 'auth', '0005_alter_user_last_login_null', '2023-05-01 21:47:41.256534'),
-(11, 'auth', '0006_require_contenttypes_0002', '2023-05-01 21:47:41.257535'),
-(12, 'auth', '0007_alter_validators_add_error_messages', '2023-05-01 21:47:41.261537'),
-(13, 'auth', '0008_alter_user_username_max_length', '2023-05-01 21:47:41.270538'),
-(14, 'auth', '0009_alter_user_last_name_max_length', '2023-05-01 21:47:41.279117'),
-(15, 'auth', '0010_alter_group_name_max_length', '2023-05-01 21:47:41.287277'),
-(16, 'auth', '0011_update_proxy_permissions', '2023-05-01 21:47:41.290929'),
-(17, 'auth', '0012_alter_user_first_name_max_length', '2023-05-01 21:47:41.300133'),
-(18, 'sessions', '0001_initial', '2023-05-01 21:47:41.316038'),
-(22, 'Transporteapp', '0002_alter_bitacora_table', '2023-06-07 18:47:31.015078'),
-(23, 'Transporteapp', '0003_rename_bitacora_ordendeservicio_and_more', '2023-06-07 19:00:17.690026'),
-(24, 'Transporteapp', '0004_alter_ordendeservicio_options', '2023-06-07 19:03:28.461003'),
-(25, 'Transporteapp', '0005_remove_cotización_estado_and_more', '2023-06-07 20:06:23.771935'),
-(26, 'Transporteapp', '0006_ordendeservicio_estado', '2023-06-07 20:10:03.211928'),
-(27, 'Transporteapp', '0001_initial', '2023-06-07 21:00:27.830013'),
-(28, 'Transporteapp', '0002_remove_cotización_numeroseguimiento_bitacora', '2023-06-07 21:03:17.831364'),
-(29, 'Transporteapp', '0003_rename_ordendeservicio_bitacora_orden_de_servicio', '2023-06-07 21:09:45.801293'),
-(30, 'Transporteapp', '0004_bitacora_imagen', '2023-06-07 21:25:30.944951');
+(1, 'contenttypes', '0001_initial', '2023-07-05 23:04:58.424463'),
+(2, 'auth', '0001_initial', '2023-07-05 23:04:58.713049'),
+(4, 'Transporteapp', '0002_remove_bitacora_orden_de_servicio_and_more', '2023-07-05 23:04:59.352457'),
+(5, 'Transporteapp', '0003_alter_cliente_correo_alter_cliente_dirección_and_more', '2023-07-05 23:04:59.479330'),
+(6, 'admin', '0001_initial', '2023-07-05 23:04:59.580981'),
+(7, 'admin', '0002_logentry_remove_auto_add', '2023-07-05 23:04:59.585982'),
+(8, 'admin', '0003_logentry_add_action_flag_choices', '2023-07-05 23:04:59.589983'),
+(9, 'contenttypes', '0002_remove_content_type_name', '2023-07-05 23:04:59.624648'),
+(10, 'auth', '0002_alter_permission_name_max_length', '2023-07-05 23:04:59.653617'),
+(11, 'auth', '0003_alter_user_email_max_length', '2023-07-05 23:04:59.666622'),
+(12, 'auth', '0004_alter_user_username_opts', '2023-07-05 23:04:59.671623'),
+(13, 'auth', '0005_alter_user_last_login_null', '2023-07-05 23:04:59.727506'),
+(14, 'auth', '0006_require_contenttypes_0002', '2023-07-05 23:04:59.730507'),
+(15, 'auth', '0007_alter_validators_add_error_messages', '2023-07-05 23:04:59.735509'),
+(16, 'auth', '0008_alter_user_username_max_length', '2023-07-05 23:04:59.749257'),
+(17, 'auth', '0009_alter_user_last_name_max_length', '2023-07-05 23:04:59.762259'),
+(18, 'auth', '0010_alter_group_name_max_length', '2023-07-05 23:04:59.774201'),
+(19, 'auth', '0011_update_proxy_permissions', '2023-07-05 23:04:59.779263'),
+(20, 'auth', '0012_alter_user_first_name_max_length', '2023-07-05 23:04:59.794270'),
+(21, 'sessions', '0001_initial', '2023-07-05 23:04:59.816275'),
+(29, 'Transporteapp', '0001_initial', '2023-07-12 21:25:00.890736'),
+(30, 'Transporteapp', '0002_ordendeservicio_cotizacion', '2023-07-12 21:25:00.923332'),
+(31, 'Transporteapp', '0003_alter_cotización_cliente_and_more', '2023-07-12 21:25:01.116378'),
+(32, 'Transporteapp', '0004_alter_ordendeservicio_cotizacion', '2023-07-12 21:25:01.123378'),
+(33, 'Transporteapp', '0005_remove_ordendeservicio_cliente', '2023-07-12 21:25:01.174356'),
+(34, 'Transporteapp', '0006_imagen_remove_bitacora_imagen_and_more', '2023-07-12 22:04:21.270107'),
+(35, 'Transporteapp', '0007_alter_imagen_imagen', '2023-07-12 22:05:58.131084'),
+(36, 'Transporteapp', '0008_remove_imagen_imagen_imagen_archivo', '2023-07-12 22:08:48.966814'),
+(37, 'Transporteapp', '0009_remove_bitacora_imagenes_bitacora_imagen_and_more', '2023-07-12 22:17:38.548728'),
+(38, 'Transporteapp', '0010_bitacora_imagen2_bitacora_imagen3', '2023-07-12 22:18:07.164819');
 
 -- --------------------------------------------------------
 
@@ -308,10 +318,7 @@ CREATE TABLE `django_session` (
 --
 
 INSERT INTO `django_session` (`session_key`, `session_data`, `expire_date`) VALUES
-('80kb786ksrykr8jk9200a2u98u1o0342', '.eJxVjMsOwiAQRf-FtSEwPMq4dO83kCkMUjU0Ke3K-O_apAvd3nPOfYlI21rj1nmJUxZnocXpdxspPbjtIN-p3WaZ5rYu0yh3RR60y-uc-Xk53L-DSr1-a2-chYJBEzGHQgUdFlKkwIHWzqKiga0qBcibZLwiNhazw0GHHADE-wPYyDdD:1pykDA:P1SWz7I4Te2rDwq83jqx6fqs7ZtKMUXCKHKR1OxYg2A', '2023-05-30 02:14:48.716778'),
-('v94dwxbzbhw8k9s330y4dwt4ukuj8pl5', '.eJxVjMsOwiAQRf-FtSEwPMq4dO83kCkMUjU0Ke3K-O_apAvd3nPOfYlI21rj1nmJUxZnocXpdxspPbjtIN-p3WaZ5rYu0yh3RR60y-uc-Xk53L-DSr1-a2-chYJBEzGHQgUdFlKkwIHWzqKiga0qBcibZLwiNhazw0GHHADE-wPYyDdD:1ptbyP:8JNYHTCnIzVoLvhFEriZm7ItnUzIqDWL39ktX7ytD6I', '2023-05-15 22:26:21.538970'),
-('wg857n1p8wejylc4hfixiazv4ej61vhe', '.eJxVjMsOwiAQRf-FtSEwPMq4dO83kCkMUjU0Ke3K-O_apAvd3nPOfYlI21rj1nmJUxZnocXpdxspPbjtIN-p3WaZ5rYu0yh3RR60y-uc-Xk53L-DSr1-a2-chYJBEzGHQgUdFlKkwIHWzqKiga0qBcibZLwiNhazw0GHHADE-wPYyDdD:1q6yCD:lEkl7n4802GWg9b6bV13NroZ92S47xUqGvY0mu07t_U', '2023-06-21 18:47:49.326945'),
-('xep5njfn01thhwsh7myik6usaqeswms5', '.eJxVjMsOwiAQRf-FtSEwPMq4dO83kCkMUjU0Ke3K-O_apAvd3nPOfYlI21rj1nmJUxZnocXpdxspPbjtIN-p3WaZ5rYu0yh3RR60y-uc-Xk53L-DSr1-a2-chYJBEzGHQgUdFlKkwIHWzqKiga0qBcibZLwiNhazw0GHHADE-wPYyDdD:1ptbsz:eb3JO9Xbwm7LWHtYtPKuzMV5DXXnUz515WFRHahlRTM', '2023-05-15 22:20:45.260987');
+('m3tcsralgqiz9f43s1fpnly6p762oe4x', '.eJxVjEEOwiAQRe_C2hCgQNGl-56BDDODVA0kpV0Z765NutDtf-_9l4iwrSVunZc4k7gILU6_WwJ8cN0B3aHemsRW12VOclfkQbucGvHzerh_BwV6-daMSqHP2hjFybAdrQJwiZxFSyoggPYBmULQzvtBDTacs6YRMjtnBi3eH-sqN7o:1qJ2oR:3LkcHRhKWVmu83Oh9Fh_CLD-RzoXdzjhCdLkDuB6gmQ', '2023-07-25 02:09:11.379949');
 
 -- --------------------------------------------------------
 
@@ -321,16 +328,18 @@ INSERT INTO `django_session` (`session_key`, `session_data`, `expire_date`) VALU
 
 CREATE TABLE `transporteapp_bitacora` (
   `id` bigint(20) NOT NULL,
-  `Orden_de_servicio_id` bigint(20) NOT NULL,
-  `imagen` varchar(100) NOT NULL
+  `Orden_de_servicio_id` bigint(20) DEFAULT NULL,
+  `imagen` varchar(100) NOT NULL,
+  `imagen2` varchar(100) NOT NULL,
+  `imagen3` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Volcado de datos para la tabla `transporteapp_bitacora`
 --
 
-INSERT INTO `transporteapp_bitacora` (`id`, `Orden_de_servicio_id`, `imagen`) VALUES
-(1, 1, '');
+INSERT INTO `transporteapp_bitacora` (`id`, `Orden_de_servicio_id`, `imagen`, `imagen2`, `imagen3`) VALUES
+(1, 2, 'bitacora_imagenes/donniedarko_sHX7PpA.jpg', 'bitacora_imagenes/dsad.png', 'bitacora_imagenes/efectomariposa.jpg');
 
 -- --------------------------------------------------------
 
@@ -351,7 +360,7 @@ CREATE TABLE `transporteapp_cliente` (
 --
 
 INSERT INTO `transporteapp_cliente` (`id`, `nombre`, `dirección`, `correo`, `teléfono`) VALUES
-(1, 'Diego', 'Volcán Licancabur #9487', 'diecolva95@gmail.com', 979614931);
+(1, 'Diego', '', 'diecolva95@gmail.com', 979614931);
 
 -- --------------------------------------------------------
 
@@ -364,12 +373,19 @@ CREATE TABLE `transporteapp_cotización` (
   `servicio` varchar(50) NOT NULL,
   `fechaSolicitud` date NOT NULL,
   `peso` int(10) UNSIGNED NOT NULL CHECK (`peso` >= 0),
-  `dimensiones` int(11) NOT NULL,
+  `dimensiones` varchar(50) DEFAULT NULL,
   `fechaInicio` date NOT NULL,
   `lugarOrigen` varchar(50) NOT NULL,
   `lugarDestino` varchar(50) NOT NULL,
   `cliente_id` bigint(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Volcado de datos para la tabla `transporteapp_cotización`
+--
+
+INSERT INTO `transporteapp_cotización` (`id`, `servicio`, `fechaSolicitud`, `peso`, `dimensiones`, `fechaInicio`, `lugarOrigen`, `lugarDestino`, `cliente_id`) VALUES
+(1, 'Mudanza', '2023-07-12', 10000, '', '2023-07-16', 'Antofagasta', 'Valdivia', 1);
 
 -- --------------------------------------------------------
 
@@ -384,15 +400,17 @@ CREATE TABLE `transporteapp_ordendeservicio` (
   `comentario` varchar(100) NOT NULL,
   `estado` varchar(50) NOT NULL,
   `valor` double NOT NULL,
-  `cliente_id` bigint(20) NOT NULL
+  `vehiculo_id` bigint(20) NOT NULL,
+  `cotizacion_id` bigint(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Volcado de datos para la tabla `transporteapp_ordendeservicio`
 --
 
-INSERT INTO `transporteapp_ordendeservicio` (`id`, `fecha`, `numeroSeguimiento`, `comentario`, `estado`, `valor`, `cliente_id`) VALUES
-(1, '2023-06-07', 4634, '12', 'opcion3', 35, 1);
+INSERT INTO `transporteapp_ordendeservicio` (`id`, `fecha`, `numeroSeguimiento`, `comentario`, `estado`, `valor`, `vehiculo_id`, `cotizacion_id`) VALUES
+(2, '2023-07-12', 51068, 'Prueba', 'En evaluación', 500000, 1, 1),
+(3, '2023-07-12', 58081, 'Prueba', 'En evaluación', 465444, 1, 1);
 
 -- --------------------------------------------------------
 
@@ -411,7 +429,8 @@ CREATE TABLE `transporteapp_ordendeservicio_transportista` (
 --
 
 INSERT INTO `transporteapp_ordendeservicio_transportista` (`id`, `ordendeservicio_id`, `user_id`) VALUES
-(1, 1, 2);
+(2, 2, 2),
+(3, 3, 2);
 
 -- --------------------------------------------------------
 
@@ -425,6 +444,13 @@ CREATE TABLE `transporteapp_vehículo` (
   `año` int(11) NOT NULL,
   `patente` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Volcado de datos para la tabla `transporteapp_vehículo`
+--
+
+INSERT INTO `transporteapp_vehículo` (`id`, `modelo`, `año`, `patente`) VALUES
+(1, 'SCANIA R500 AZUL', 2023, 'SC - RV - 90');
 
 --
 -- Índices para tablas volcadas
@@ -528,7 +554,9 @@ ALTER TABLE `transporteapp_cotización`
 --
 ALTER TABLE `transporteapp_ordendeservicio`
   ADD PRIMARY KEY (`id`),
-  ADD KEY `Transporteapp_ordend_cliente_id_0cef24c3_fk_Transport` (`cliente_id`);
+  ADD UNIQUE KEY `numeroSeguimiento` (`numeroSeguimiento`),
+  ADD KEY `Transporteapp_ordend_vehiculo_id_341b6193_fk_Transport` (`vehiculo_id`),
+  ADD KEY `Transporteapp_ordendeservicio_cotizacion_id_9fe401e8` (`cotizacion_id`);
 
 --
 -- Indices de la tabla `transporteapp_ordendeservicio_transportista`
@@ -552,7 +580,7 @@ ALTER TABLE `transporteapp_vehículo`
 -- AUTO_INCREMENT de la tabla `auth_group`
 --
 ALTER TABLE `auth_group`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT de la tabla `auth_group_permissions`
@@ -588,19 +616,19 @@ ALTER TABLE `auth_user_user_permissions`
 -- AUTO_INCREMENT de la tabla `django_admin_log`
 --
 ALTER TABLE `django_admin_log`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
 
 --
 -- AUTO_INCREMENT de la tabla `django_content_type`
 --
 ALTER TABLE `django_content_type`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
 -- AUTO_INCREMENT de la tabla `django_migrations`
 --
 ALTER TABLE `django_migrations`
-  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
+  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=39;
 
 --
 -- AUTO_INCREMENT de la tabla `transporteapp_bitacora`
@@ -618,19 +646,19 @@ ALTER TABLE `transporteapp_cliente`
 -- AUTO_INCREMENT de la tabla `transporteapp_cotización`
 --
 ALTER TABLE `transporteapp_cotización`
-  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT de la tabla `transporteapp_ordendeservicio`
 --
 ALTER TABLE `transporteapp_ordendeservicio`
-  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT de la tabla `transporteapp_ordendeservicio_transportista`
 --
 ALTER TABLE `transporteapp_ordendeservicio_transportista`
-  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT de la tabla `transporteapp_vehículo`
@@ -692,7 +720,8 @@ ALTER TABLE `transporteapp_cotización`
 -- Filtros para la tabla `transporteapp_ordendeservicio`
 --
 ALTER TABLE `transporteapp_ordendeservicio`
-  ADD CONSTRAINT `Transporteapp_ordend_cliente_id_0cef24c3_fk_Transport` FOREIGN KEY (`cliente_id`) REFERENCES `transporteapp_cliente` (`id`);
+  ADD CONSTRAINT `Transporteapp_ordend_cotizacion_id_9fe401e8_fk_Transport` FOREIGN KEY (`cotizacion_id`) REFERENCES `transporteapp_cotización` (`id`),
+  ADD CONSTRAINT `Transporteapp_ordend_vehiculo_id_341b6193_fk_Transport` FOREIGN KEY (`vehiculo_id`) REFERENCES `transporteapp_vehículo` (`id`);
 
 --
 -- Filtros para la tabla `transporteapp_ordendeservicio_transportista`
