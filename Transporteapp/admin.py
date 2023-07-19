@@ -19,6 +19,7 @@ class TransportistasSelect(forms.Select):
         attrs = super().build_attrs(*args, **kwargs)
         attrs.update({'class': 'select2'})
         return attrs
+    
 
 
 class OrdenDeServicioAdminForm(forms.ModelForm):
@@ -30,7 +31,8 @@ class OrdenDeServicioAdminForm(forms.ModelForm):
         model = OrdenDeServicio
         fields = '__all__'
         widgets = {
-            'transportistas': TransportistasSelect()
+            'transportistas': TransportistasSelect(),
+            'numeroSeguimiento': forms.TextInput(attrs={'readonly': 'readonly'})
         }
 
 class ClienteAdmin(admin.ModelAdmin):
