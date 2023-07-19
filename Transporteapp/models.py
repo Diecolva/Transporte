@@ -94,6 +94,11 @@ class Bitacora(models.Model):
 
     def obtener_ordendeservicio_por_seguimiento(self):
         return self.Orden_de_servicio
+
+    def obtener_comentario_ordendeservicio(self):
+        if self.Orden_de_servicio:
+            return self.Orden_de_servicio.comentario
+        return None
     
     def __str__(self):
         return f"Bitacora {self.id}"

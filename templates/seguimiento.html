@@ -65,45 +65,56 @@
                         <p style="margin-top: 1em;">{{ mensaje_error }}</p>
                     {% endif %}
                 </form>
-                  <div class="container text-center">
-                    <!-- Resto del código -->
-                    <div class="row">
-                      {% if bitacora and bitacora.imagen %}
-                        <div class="col-sm-4">
-                          <div class="card">
-                            <img src="{{ bitacora.imagen.url }}" class="card-img-top" alt="Imagen de la bitácora" style="max-height: 300px; max-width: 100%; object-fit: contain;">
-                            <div class="card-body">
-			      <br>
-                              <a href="{{ bitacora.imagen.url }}" target="_blank" class="btn btn-primary">Ver imagen</a>
-                            </div>
+                <style>
+                  .card {
+                    max-width: 500px;
+                  }
+                  .card-img-top {
+                    max-height: 200px; 
+                    object-fit: contain;
+                  }
+                </style>
+                
+                <div class="container-fluid text-center">
+                  <div class="row justify-content-center">
+                    {% if bitacora and bitacora.imagen %}
+                      <div class="col-sm-4">
+                        <div class="card">
+                          <img src="{{ bitacora.imagen.url }}" class="card-img-top img-fluid" alt="Imagen de la bitácora">
+                          <div class="card-body">
+                            <br>
+                            <a href="{{ bitacora.imagen.url }}" target="_blank" class="btn btn-primary">Ver imagen</a>
                           </div>
                         </div>
-                      {% endif %}
-                      {% if bitacora and bitacora.imagen2 %}
-                        <div class="col-sm-4">
-                          <div class="card">
-                            <img src="{{ bitacora.imagen2.url }}" class="card-img-top" alt="Imagen de la bitácora" style="max-height: 300px; max-width: 100%; object-fit: contain;">
-                            <div class="card-body">
-			      <br>
-                              <a href="{{ bitacora.imagen2.url }}" target="_blank" class="btn btn-primary">Ver imagen</a>
-                            </div>
+                      </div>
+                    {% endif %}
+                    {% if bitacora and bitacora.imagen2 %}
+                      <div class="col-sm-4">
+                        <div class="card">
+                          <img src="{{ bitacora.imagen2.url }}" class="card-img-top img-fluid" alt="Imagen de la bitácora">
+                          <div class="card-body">
+                            <br>
+                            <a href="{{ bitacora.imagen2.url }}" target="_blank" class="btn btn-primary">Ver imagen</a>
                           </div>
                         </div>
-                      {% endif %}
-                      {% if bitacora and bitacora.imagen3 %}
-                        <div class="col-sm-4">
-                          <div class="card">
-                            <img src="{{ bitacora.imagen3.url }}" class="card-img-top" alt="Imagen de la bitácora" style="max-height: 300px; max-width: 100%; object-fit: contain;">
-                            <div class="card-body">
-			      <br>
-                              <a href="{{ bitacora.imagen3.url }}" target="_blank" class="btn btn-primary">Ver imagen</a>
-                            </div>
+                      </div>
+                    {% endif %}
+                    {% if bitacora and bitacora.imagen3 %}
+                      <div class="col-sm-4">
+                        <div class="card">
+                          <img src="{{ bitacora.imagen3.url }}" class="card-img-top img-fluid" alt="Imagen de la bitácora">
+                          <div class="card-body">
+                            <br>
+                            <a href="{{ bitacora.imagen3.url }}" target="_blank" class="btn btn-primary">Ver imagen</a>
                           </div>
                         </div>
-                      {% endif %}
-                    </div>
+                      </div>
+                    {% endif %}
+                  </div>
+                  {% if comentario %}
+                    <div class="container-fluid" style="margin-top: 1em; border: 1px solid black;">{{ comentario }}</div>
+                  {% endif %}
                 </div>
-
                 <script>
 
                     $(document).ready(function(){

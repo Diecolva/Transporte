@@ -37,6 +37,7 @@ def seguimiento(request):
             orden_servicio = OrdenDeServicio.objects.get(numeroSeguimiento=numero_seguimiento)
             bitacora = Bitacora.objects.filter(Orden_de_servicio=orden_servicio).first()
             estado = orden_servicio.estado
+            comentario = orden_servicio.comentario
         except OrdenDeServicio.DoesNotExist:
             estado = None
             bitacora = None
@@ -52,7 +53,8 @@ def seguimiento(request):
         context = {
             'numero_seguimiento': numero_seguimiento,
             'estado': estado,
-            'bitacora': bitacora
+            'bitacora': bitacora,
+	    'comentario': comentario,
         }
 
         return render(request, 'seguimiento.html', context)
