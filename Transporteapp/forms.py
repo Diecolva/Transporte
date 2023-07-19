@@ -20,12 +20,12 @@ class CotizacionForm(forms.ModelForm):
     fechaInicio = forms.DateField(label='Fecha de inicio', widget=forms.DateInput(attrs={'class': 'form-control', 'type': 'date'}))
     lugarOrigen = forms.CharField(label='Lugar de origen', widget=forms.TextInput(attrs={'class': 'form-control'}))
     lugarDestino = forms.CharField(label='Lugar de destino', widget=forms.TextInput(attrs={'class': 'form-control'}))
-    
+    observacion = forms.CharField(label='Obsevación', widget=forms.TextInput(attrs={'class': 'form-control'}))    
 
     class Meta:
         model = Cotización
         exclude = ['cliente']
-        fields = ['nombre_cliente', 'correo', 'telefono', 'servicio', 'fechaSolicitud', 'peso', 'dimensiones', 'fechaInicio', 'lugarOrigen', 'lugarDestino']
+        fields = ['nombre_cliente', 'correo', 'telefono', 'servicio', 'fechaSolicitud', 'peso', 'dimensiones', 'fechaInicio', 'lugarOrigen', 'lugarDestino', 'observacion']
 
 
     def save(self, commit=True):

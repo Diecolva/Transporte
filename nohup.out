@@ -44791,3 +44791,80 @@ Quit the server with CONTROL-C.
 [19/Jul/2023 20:36:22] "GET /static/jazzmin/js/change_list.js HTTP/1.1" 304 0
 [19/Jul/2023 20:36:22] "GET /static/jazzmin/js/main.js HTTP/1.1" 304 0
 [19/Jul/2023 20:36:22] "GET /static/img/image-tda.png HTTP/1.1" 304 0
+[19/Jul/2023 20:38:07] "GET / HTTP/1.1" 200 11314
+[19/Jul/2023 20:38:07] "GET /static/css/main.css HTTP/1.1" 304 0
+[19/Jul/2023 20:38:07] "GET /static/img/image-tda.png HTTP/1.1" 304 0
+[19/Jul/2023 20:38:08] "GET /static/img/camion-1.jpeg HTTP/1.1" 304 0
+[19/Jul/2023 20:38:08] "GET /static/img/camion-2.jpg HTTP/1.1" 304 0
+[19/Jul/2023 20:38:08] "GET /static/img/background.jpg HTTP/1.1" 304 0
+[19/Jul/2023 20:38:08] "GET /static/img/banner.jpg HTTP/1.1" 304 0
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 19, 2023 - 20:39:03
+Django version 4.2.1, using settings 'proyecto.settings'
+Starting development server at http://147.182.184.6:80/
+Quit the server with CONTROL-C.
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 19, 2023 - 20:39:37
+Django version 4.2.1, using settings 'proyecto.settings'
+Starting development server at http://147.182.184.6:80/
+Quit the server with CONTROL-C.
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 19, 2023 - 20:40:10
+Django version 4.2.1, using settings 'proyecto.settings'
+Starting development server at http://147.182.184.6:80/
+Quit the server with CONTROL-C.
+
+[19/Jul/2023 20:40:33] "GET / HTTP/1.1" 200 11487
+[19/Jul/2023 20:40:33] "GET /static/css/main.css HTTP/1.1" 304 0
+[19/Jul/2023 20:40:33] "GET /static/img/image-tda.png HTTP/1.1" 304 0
+[19/Jul/2023 20:40:33] "GET /static/img/camion-1.jpeg HTTP/1.1" 304 0
+[19/Jul/2023 20:40:33] "GET /static/img/camion-2.jpg HTTP/1.1" 304 0
+[19/Jul/2023 20:40:33] "GET /static/img/background.jpg HTTP/1.1" 304 0
+[19/Jul/2023 20:40:33] "GET /static/img/banner.jpg HTTP/1.1" 304 0
+[19/Jul/2023 20:41:48] "POST / HTTP/1.1" 302 0
+[19/Jul/2023 20:41:48] "GET /confirmacion HTTP/1.1" 200 2017
+[19/Jul/2023 20:41:51] "GET /admin/ HTTP/1.1" 200 27939
+[19/Jul/2023 20:41:51] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+[19/Jul/2023 20:41:51] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+[19/Jul/2023 20:41:51] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.1" 304 0
+[19/Jul/2023 20:41:52] "GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+[19/Jul/2023 20:41:52] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[19/Jul/2023 20:41:52] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[19/Jul/2023 20:41:52] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+[19/Jul/2023 20:41:52] "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+[19/Jul/2023 20:41:52] "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+[19/Jul/2023 20:41:52] "GET /static/jazzmin/js/main.js HTTP/1.1" 304 0
+[19/Jul/2023 20:41:52] "GET /static/img/image-tda.png HTTP/1.1" 304 0
+[19/Jul/2023 20:41:53] "GET /admin/Transporteapp/bitacora/ HTTP/1.1" 200 17602
+[19/Jul/2023 20:41:53] "GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+[19/Jul/2023 20:41:53] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[19/Jul/2023 20:41:53] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[19/Jul/2023 20:41:53] "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 304 0
+[19/Jul/2023 20:41:53] "GET /admin/jsi18n/ HTTP/1.1" 200 8006
+[19/Jul/2023 20:41:53] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[19/Jul/2023 20:41:54] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[19/Jul/2023 20:41:54] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[19/Jul/2023 20:41:54] "GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 304 0
+[19/Jul/2023 20:41:54] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[19/Jul/2023 20:41:54] "GET /static/jazzmin/js/change_list.js HTTP/1.1" 304 0
+[19/Jul/2023 20:41:54] "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 304 0
+[19/Jul/2023 20:41:56] "GET /admin/Transporteapp/cotizaci%C3%B3n/ HTTP/1.1" 200 21167
+[19/Jul/2023 20:41:56] "GET /admin/jsi18n/ HTTP/1.1" 200 8006
+[19/Jul/2023 20:41:58] "GET /admin/Transporteapp/cotizaci%C3%B3n/3/change/ HTTP/1.1" 200 24231
+[19/Jul/2023 20:41:58] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+[19/Jul/2023 20:41:58] "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+[19/Jul/2023 20:41:58] "GET /admin/jsi18n/ HTTP/1.1" 200 8006
+[19/Jul/2023 20:41:58] "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+[19/Jul/2023 20:41:58] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+[19/Jul/2023 20:41:58] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[19/Jul/2023 20:41:58] "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+[19/Jul/2023 20:41:58] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[19/Jul/2023 20:41:58] "GET /static/jazzmin/js/change_form.js HTTP/1.1" 304 0

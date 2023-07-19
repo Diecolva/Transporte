@@ -23,7 +23,7 @@ class Cotización(models.Model):
     fechaInicio = models.DateField()
     lugarOrigen = models.CharField(max_length=50)
     lugarDestino = models.CharField(max_length=50)
-
+    observacion = models.CharField(max_length=550, null=True, blank=True, default='')
     def __str__(self):
         return self.cliente.nombre
     
