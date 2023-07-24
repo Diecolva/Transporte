@@ -4,6 +4,7 @@ from django.http import HttpResponseRedirect
 from Transporteapp.models import OrdenDeServicio, Bitacora
 from django.core.mail import send_mail
 import re
+from django.contrib.auth.models import User
 
 def index(request):
     if request.method == 'POST':
@@ -16,6 +17,13 @@ def index(request):
 
     context = {'form': form}
     return render(request, 'index.html', context)
+
+def get_fake_user():
+    try:
+        fake_user = User.objects.get(username='fakeuser')
+    except User.DoesNotExist:
+        fake_user = User.objects.create_user(username='fakeuser')
+    return fake_user
 
 def seguimiento(request):
     if request.method == 'POST':
@@ -54,13 +62,14 @@ def seguimiento(request):
             'numero_seguimiento': numero_seguimiento,
             'estado': estado,
             'bitacora': bitacora,
-	    'comentario': comentario,
+            'comentario': comentario,
         }
 
         return render(request, 'seguimiento.html', context)
     else:
         return render(request, 'seguimiento.html')
 
+    
 def confirmacion(request):
     data = {}
     return render(request, 'confirmacion.html', data)

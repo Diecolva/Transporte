@@ -11,6 +11,7 @@ from django.utils.html import format_html
 from django.http import HttpResponseRedirect
 from urllib.parse import urlencode
 
+
 class TransportistasSelect(forms.Select):
     def get_queryset(self):
         return User.objects.filter(groups__name='Transportistas').exclude(is_superuser=True)
@@ -38,6 +39,12 @@ class OrdenDeServicioAdminForm(forms.ModelForm):
 class ClienteAdmin(admin.ModelAdmin):
     search_fields = ['id', 'nombre']
     list_display = ('id', 'nombre', 'dirección', 'correo', 'teléfono')
+
+    def log_addition(self, request, object, message):
+        return super().log_addition(request, object, "Se añadió un Cliente: {}".format(object))
+
+    def log_change(self, request, object, message):
+        return super().log_change(request, object, "Se modificó un Cliente: {}".format(object))
 
 class OrdenDeServicioAdmin(admin.ModelAdmin):
     form = OrdenDeServicioAdminForm
@@ -87,14 +94,26 @@ class GroupAdmin(admin.ModelAdmin):
         empleados = obj.user_set.all()
         return ", ".join([user.username for user in empleados])
 
+
 class CotizacionAdmin(admin.ModelAdmin):
     search_fields = ['id', 'cliente__nombre']
     list_display = ('id', 'cliente', 'servicio', 'fechaSolicitud', 'peso', 'dimensiones', 'fechaInicio', 'lugarOrigen', 'lugarDestino')
 
+    def log_addition(self, request, object, message):
+        return super().log_addition(request, object, "Se añadió una nueva Cotización: {}".format(object))
+
+    def log_change(self, request, object, message):
+        return super().log_change(request, object, "Se modificó una Cotización: {}".format(object))
 
 class VehiculoAdmin(admin.ModelAdmin):
      search_fields = ['modelo', 'patente']
      list_display = ('modelo', 'patente', 'año')
+
+     def log_addition(self, request, object, message):
+        return super().log_addition(request, object, "Se añadió una nuevo Vehículo: {}".format(object))
+
+     def log_change(self, request, object, message):
+        return super().log_change(request, object, "Se modificó un Vehículo: {}".format(object))
 
 class BitacoraAdmin(admin.ModelAdmin):
     list_display = ('Orden_de_servicio_id', 'cotizacion', 'numero_seguimiento')
@@ -108,6 +127,12 @@ class BitacoraAdmin(admin.ModelAdmin):
 
     cotizacion.short_description = 'Cotización'
     numero_seguimiento.short_description = 'Número de seguimiento'
+
+    def log_addition(self, request, object, message):
+        return super().log_addition(request, object, "Se añadió una nuevo Bitácora: {}".format(object))
+
+    def log_change(self, request, object, message):
+        return super().log_change(request, object, "Se modificó una Bitácora: {}".format(object))
 
 admin.site.unregister(Group)
 admin.site.register(Group, GroupAdmin)
