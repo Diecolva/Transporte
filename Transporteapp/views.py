@@ -4,19 +4,21 @@ from django.http import HttpResponseRedirect
 from Transporteapp.models import OrdenDeServicio, Bitacora
 from django.core.mail import send_mail
 import re
-from django.contrib.auth.models import User
+from django.contrib import messages
 
 def index(request):
     if request.method == 'POST':
         form = CotizacionForm(request.POST)
         if form.is_valid():
             form.save(commit=True)
+            messages.success(request, 'Ha llegado una o más cotizaciones. Por favor revise en la sección')
             return redirect('confirmacion')
     else:
         form = CotizacionForm()
 
     context = {'form': form}
     return render(request, 'index.html', context)
+
 
 def get_fake_user():
     try:
