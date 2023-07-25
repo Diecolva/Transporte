@@ -1,6 +1,9 @@
+from django.shortcuts import render, redirect
 from datetime import date
 from django import forms
 from .models import Cotización, Cliente
+from django.contrib import messages
+from django.contrib.messages import get_messages
 
 class CotizacionForm(forms.ModelForm):
     nombre_cliente = forms.CharField(label='Nombre del cliente', widget=forms.TextInput(attrs={'class': 'form-control'}))
@@ -14,13 +17,14 @@ class CotizacionForm(forms.ModelForm):
     ('Mudanza', 'Mudanza'),
     ('Otros', 'Otros'),
 ])
-    fechaSolicitud = forms.DateField(label='Fecha de solicitud', widget=forms.DateInput(attrs={'class': 'form-control', 'type': 'date'}), initial=date.today() )
+    fechaSolicitud = forms.DateField(label='Fecha de solicitud', widget=forms.DateInput(attrs={'class': 'form-control', 'type': 'date', 'value': date.today().strftime('%Y-%m-%d'), 'readonly': 'true'}))
     peso = forms.IntegerField(label='Peso en kg', widget=forms.NumberInput(attrs={'class': 'form-control'}))
     dimensiones = forms.CharField(label='Dimensiones', required=False, widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'En caso que quiera especificar'}))
     fechaInicio = forms.DateField(label='Fecha de inicio', widget=forms.DateInput(attrs={'class': 'form-control', 'type': 'date'}))
     lugarOrigen = forms.CharField(label='Lugar de origen', widget=forms.TextInput(attrs={'class': 'form-control'}))
     lugarDestino = forms.CharField(label='Lugar de destino', widget=forms.TextInput(attrs={'class': 'form-control'}))
-    observacion = forms.CharField(label='Obsevación', widget=forms.TextInput(attrs={'class': 'form-control'}))    
+    observacion = forms.CharField(label='Obsevación', widget=forms.TextInput(attrs={'class': 'form-control'}))
+    
 
     class Meta:
         model = Cotización
@@ -28,7 +32,20 @@ class CotizacionForm(forms.ModelForm):
         fields = ['nombre_cliente', 'correo', 'telefono', 'servicio', 'fechaSolicitud', 'peso', 'dimensiones', 'fechaInicio', 'lugarOrigen', 'lugarDestino', 'observacion']
 
 
-    def save(self, commit=True):
+    def clean_nombre_cliente(self):
+        nombre_cliente = self.cleaned_data['nombre_cliente']
+        if ' ' not in nombre_cliente:
+            raise forms.ValidationError('Ingrese el nombre y apellido')
+        return nombre_cliente
+
+
+    def clean_peso(self):
+        peso = self.cleaned_data['peso']
+        if peso > 25000:
+            raise forms.ValidationError('El peso debe ser menor o igual a 25000 kg.')
+        return peso
+
+    def save(self, commit=True, user=None):
         nombre_cliente = self.cleaned_data['nombre_cliente']
         correo = self.cleaned_data['correo']
         teléfono = self.cleaned_data['telefono']
@@ -41,3 +58,4 @@ class CotizacionForm(forms.ModelForm):
         cotizacion.cliente = cliente
         if commit:
             cotizacion.save()
+        return cotizacion
