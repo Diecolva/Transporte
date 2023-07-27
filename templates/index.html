@@ -232,6 +232,19 @@ $(document).ready(function(){
       });
     } // End if
   });
+
+    var fechaSolicitud = document.querySelector('#fecha-solicitud');
+
+    fechaSolicitud.value = obtenerFechaActual();
+
+    function obtenerFechaActual() {
+      var fecha = new Date();
+      var dia = fecha.getDate();
+      var mes = fecha.getMonth() + 1;
+      var anio = fecha.getFullYear();
+
+      return anio + '-' + (mes < 10 ? '0' : '') + mes + '-' + (dia < 10 ? '0' : '') + dia;
+    }
   
   $(window).scroll(function() {
     $(".slideanim").each(function(){

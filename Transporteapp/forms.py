@@ -17,7 +17,7 @@ class CotizacionForm(forms.ModelForm):
     ('Mudanza', 'Mudanza'),
     ('Otros', 'Otros'),
 ])
-    fechaSolicitud = forms.DateField(label='Fecha de solicitud', widget=forms.DateInput(attrs={'class': 'form-control', 'type': 'date', 'value': date.today().strftime('%Y-%m-%d'), 'readonly': 'true'}))
+    fechaSolicitud = forms.DateField(label='Fecha de solicitud', widget=forms.DateInput(attrs={'class': 'form-control', 'type': 'date', 'id': 'fecha-solicitud', 'readonly' : 'true',}))
     peso = forms.IntegerField(label='Peso en kg', widget=forms.NumberInput(attrs={'class': 'form-control'}))
     dimensiones = forms.CharField(label='Dimensiones', required=False, widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'En caso que quiera especificar'}))
     fechaInicio = forms.DateField(label='Fecha de inicio', widget=forms.DateInput(attrs={'class': 'form-control', 'type': 'date'}))
