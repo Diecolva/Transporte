@@ -55165,3 +55165,111 @@ Quit the server with CONTROL-C.
 [01/Aug/2023 23:17:40] "GET /admin/Transporteapp/cliente/ HTTP/1.1" 200 28002
 [01/Aug/2023 23:17:40] "GET /admin/jsi18n/ HTTP/1.1" 200 8006
 [01/Aug/2023 23:17:46] "GET /admin/logout/ HTTP/1.1" 200 2194
+[01/Aug/2023 23:21:27] "POST / HTTP/1.1" 403 1444
+[01/Aug/2023 23:21:27] "GET /.env HTTP/1.1" 404 179
+[01/Aug/2023 23:22:22] "GET / HTTP/1.1" 200 11874
+[01/Aug/2023 23:33:29] "POST / HTTP/1.1" 403 1444
+[01/Aug/2023 23:33:29] "GET /.env HTTP/1.1" 404 179
+[01/Aug/2023 23:40:29] "GET /hudson HTTP/1.1" 404 179
+[02/Aug/2023 00:03:36] code 400, message Bad request version ('¸\x91,\x8c6B¾Zè\x8c>\x04Ï·à"U\x05H\x9bQ§ö\x04ÿ\x87\x8b\'\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À\'\x00gÀ')
+[02/Aug/2023 00:03:36] You're accessing the development server over HTTPS, but it only supports HTTP.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/django/core/management/base.py", line 412, in run_from_argv
+    self.execute(*args, **cmd_options)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/management/commands/runserver.py", line 74, in execute
+    super().execute(*args, **options)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/management/base.py", line 458, in execute
+    output = self.handle(*args, **options)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/management/commands/runserver.py", line 81, in handle
+    if not settings.DEBUG and not settings.ALLOWED_HOSTS:
+  File "/usr/local/lib/python3.10/dist-packages/django/conf/__init__.py", line 102, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python3.10/dist-packages/django/conf/__init__.py", line 89, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python3.10/dist-packages/django/conf/__init__.py", line 217, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/root/Transporte/proyecto/settings.py", line 15, in <module>
+    from decouple import config
+ModuleNotFoundError: No module named 'decouple'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/Transporte/manage.py", line 22, in <module>
+    main()
+  File "/root/Transporte/manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/management/__init__.py", line 442, in execute_from_command_line
+    utility.execute()
+  File "/usr/local/lib/python3.10/dist-packages/django/core/management/__init__.py", line 436, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+  File "/usr/local/lib/python3.10/dist-packages/django/core/management/base.py", line 425, in run_from_argv
+    connections.close_all()
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/connection.py", line 84, in close_all
+    for conn in self.all(initialized_only=True):
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/connection.py", line 76, in all
+    return [
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/connection.py", line 73, in __iter__
+    return iter(self.settings)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/connection.py", line 45, in settings
+    self._settings = self.configure_settings(self._settings)
+  File "/usr/local/lib/python3.10/dist-packages/django/db/utils.py", line 148, in configure_settings
+    databases = super().configure_settings(databases)
+  File "/usr/local/lib/python3.10/dist-packages/django/utils/connection.py", line 50, in configure_settings
+    settings = getattr(django_settings, self.settings_name)
+  File "/usr/local/lib/python3.10/dist-packages/django/conf/__init__.py", line 102, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python3.10/dist-packages/django/conf/__init__.py", line 89, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python3.10/dist-packages/django/conf/__init__.py", line 217, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/root/Transporte/proyecto/settings.py", line 15, in <module>
+    from decouple import config
+ModuleNotFoundError: No module named 'decouple'
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 02, 2023 - 00:16:03
+Django version 4.2.1, using settings 'proyecto.settings'
+Starting development server at http://147.182.184.6:80/
+Quit the server with CONTROL-C.
+
+[02/Aug/2023 00:16:07] "GET / HTTP/1.1" 200 11874
+[02/Aug/2023 00:16:07] "GET /static/css/main.css HTTP/1.1" 304 0
+[02/Aug/2023 00:16:07] "GET /static/img/image-tda.png HTTP/1.1" 304 0
+[02/Aug/2023 00:16:07] "GET /static/img/camion-1.jpeg HTTP/1.1" 304 0
+[02/Aug/2023 00:16:07] "GET /static/img/camion-2.jpg HTTP/1.1" 304 0
+[02/Aug/2023 00:16:07] "GET /static/img/background.jpg HTTP/1.1" 304 0
+[02/Aug/2023 00:16:08] "GET /static/img/banner.jpg HTTP/1.1" 304 0
+[02/Aug/2023 00:16:12] "GET / HTTP/1.1" 200 11874
+[02/Aug/2023 00:16:17] "GET /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[02/Aug/2023 00:16:17] "GET /admin/ HTTP/1.1" 200 25007
+[02/Aug/2023 00:16:17] "GET /static/vendor/adminlte/css/adminlte.min.css HTTP/1.1" 304 0
+[02/Aug/2023 00:16:17] "GET /static/vendor/fontawesome-free/css/all.min.css HTTP/1.1" 304 0
+[02/Aug/2023 00:16:17] "GET /static/vendor/bootswatch/simplex/bootstrap.min.css HTTP/1.1" 304 0
+[02/Aug/2023 00:16:17] "GET /static/jazzmin/css/main.css HTTP/1.1" 304 0
+[02/Aug/2023 00:16:17] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[02/Aug/2023 00:16:17] "GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+[02/Aug/2023 00:16:17] "GET /static/vendor/adminlte/js/adminlte.min.js HTTP/1.1" 304 0
+[02/Aug/2023 00:16:17] "GET /static/jazzmin/js/main.js HTTP/1.1" 304 0
+[02/Aug/2023 00:16:18] "GET /static/vendor/fontawesome-free/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0
+[02/Aug/2023 00:16:18] "GET /static/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0
+[02/Aug/2023 00:16:22] "GET /admin/logout/ HTTP/1.1" 200 2194
